@@ -5,7 +5,8 @@ title: 컴퓨터 과학 언플러그드
 
 > ## 컴퓨터 과학 번역 목적 {.prereq}
 >
-> **정보 불평등(Digital Divide)**을 기회(Opportunites)로 만드는 전화위복의 계기가 대한민국 누구에게나 공평(Fair)한 주여져야 합니다. - [xwMOOC](http://www.xwmooc.net) -
+> **정보 불평등(Digital Divide)**을 기회(Opportunites)로 만드는 전화위복의 계기가 대한민국 누구에게나 공평(Fair)한 주여져야 합니다.  
+> - [xwMOOC](http://www.xwmooc.net) -
 > 
 
 정보 불평등 해소를 위한 정보 소프트웨어 교육 [xwmooc](http://wiki.xwmooc.net/) 프로젝트 중의 하나이며, 일부 G-창업 프로젝트 [경기중소기업종합지원센터](http://www.egbiz.or.kr/) 지원금을
@@ -13,7 +14,7 @@ title: 컴퓨터 과학 언플러그드
 
 컴퓨터 과학 언플러그드는 [Computer Science Unplugged](http://csunplugged.org/) 책에 기반하고 있으며, 한국적인 상황을 최대한 반영하여 내용 및 삽화를 일부 수정하였습니다.
 
-또한, 컴퓨터 과학 언플러그드 공유 및 협업을 위해 [GitHub](https://github.com/statkclee/website-unplugged)도 그동안 일년 동안의 작업을 정리하였습니다.
+또한, 컴퓨터 과학 언플러그드 공유 및 협업을 위해 [GitHub](https://github.com/statkclee/website-csunplugged)에 그동안 작업결과가 정리되어 있다.
 
 한국어 번역 및 삽화 작업에 도움을 주신 분들은 다음과 같다.
 
