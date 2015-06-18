@@ -6,7 +6,12 @@ SRC_RMD = $(wildcard ??-*.Rmd)
 DST_RMD = $(patsubst %.Rmd,%.md,$(SRC_RMD))
 
 # All Markdown files (hand-written and generated).
-ALL_MD = $(wildcard *.md) $(DST_RMD)
+# ALL_MD = $(wildcard *.md) $(DST_RMD)
+ALL_MD = \
+	 00-acknowledgements.md \
+	 00-intro.md \
+	 00-korean-translation.md \
+	 01-part/intro.md $(sort $(wildcard 01-part/??-*.md))
 EXCLUDE_MD = README.md LAYOUT.md FAQ.md DESIGN.md CONTRIBUTING.md CONDUCT.md
 SRC_MD = $(filter-out $(EXCLUDE_MD),$(ALL_MD))
 DST_HTML = $(patsubst %.md,%.html,$(SRC_MD))
