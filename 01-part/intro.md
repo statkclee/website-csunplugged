@@ -1,6 +1,6 @@
 ---
 layout: lesson
-root: ../..
+root: ..
 title: 제 1 부
 ---
 
