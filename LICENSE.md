@@ -1,81 +1,57 @@
 ---
 layout: page
-title: Licenses
+title: 라이센스 (Licenses)
 ---
-## Instructional Material
+### 컴퓨터 과학 언플러그드 번역서
 
-All Software Carpentry instructional material is made available under
-the [Creative Commons Attribution license][cc-by-human]. The following
-is a human-readable summary of (and not a substitute for) the [full
-legal text of the CC BY 4.0 license][cc-by-legal].
+컴퓨터 과학 언플러그드 한글 번역서는 뉴질랜드 교수님이 중심이 되어 1990년대 작업한 영어 교재를 가능하면 원문에 가깝게 충실히 번역한 결과물로 제 아들을 비롯한 한국어를 이해할 수 있는 많은 아이들이 혜택을 보아 앞으로 50년을 슬기롭게 살아가는데 도움이 되었으면 합니다.  
 
-You are free:
+>
+> Bell, Timothy C., Ian H. Witten, and Mike Fellows.  Computer Science Unplugged: Off-line activities and games for all ages. Computer Science Unplugged, 1998.
+>
 
-* to **Share**---copy and redistribute the material in any medium or format
-* to **Adapt**---remix, transform, and build upon the material
+영어 원문과 동일한 라이센스가 한국어 번역 저작물에도 [크리에이티브 커먼즈 라이선스 CC-BY-NC-SA][cc-by-nc-sa-human] 적용됩니다.
+자세한 사항은 [CC-BY-NC-SA 4.0 전체 법률][cc-by-legal]를 참조한다.
 
-for any purpose, even commercially.
 
-The licensor cannot revoke these freedoms as long as you follow the
-license terms.
+#### 한국어 이용자는 다음의 권리를 갖습니다:
 
-Under the following terms:
+* **공유**---복제, 배포, 전시, 공연 및 공중송신 (포맷 변경도 포함)
+* **변경**---리믹스, 변형, 2차적 저작물의 작성
 
-* **Attribution**---You must give appropriate credit (mentioning that
-  your work is derived from work that is Copyright © Software
-  Carpentry and, where practical, linking to
-  http://software-carpentry.org/), provide a [link to the
-  license][cc-by-human], and indicate if changes were made. You may do
-  so in any reasonable manner, but not in any way that suggests the
-  licensor endorses you or your use.
+아래 조건을 준수하는 한 이 라이선스는 취소되거나 실효되지 않습니다.
 
-**No additional restrictions**---You may not apply legal terms or
-technological measures that legally restrict others from doing
-anything the license permits.  With the understanding that:
+#### 다음과 같은 조건을 따라야 합니다:
 
-Notices:
+* **저작권자표시**---적절한 출처"xwMOOC"와, 해당 라이센스 링크를 표시하고, 변경이 있는 경우 공지해야 합니다. 실무적으로 xwMOOC 링크 http://www.xwmooc.net를 포함해야 한다. 합리적인 방식으로 적용하면 되지만, 이용 허락권자가 귀하에게 권리를 부여한다거나 귀하의 사용을 허가한다는 내용을 나타내서는 안 됩니다.
 
-* You do not have to comply with the license for elements of the
-  material in the public domain or where your use is permitted by an
-  applicable exception or limitation.
-* No warranties are given. The license may not give you all of the
-  permissions necessary for your intended use. For example, other
-  rights such as publicity, privacy, or moral rights may limit how you
-  use the material.
+* **비영리**---이 저작물은 영리 목적으로 이용할 수 없습니다.
 
-## Software
+* **동일조건변경허락**---이 저작물을 리믹스, 변형하거나 2차적 저작물을 작성하고 그 결과물을 공유할 경우에는 원 저작물과 *동일한 조건의 CCL*을 적용하여야 합니다.
 
-Except where otherwise noted, the example programs and other software
-provided by Software Carpentry are made available under the
-[OSI][osi]-approved
-[MIT license][mit-license].
+**추가제한금지** 이용자는 이 라이선스로 허용된 행위를 제한하는 법적 조건이나 기술적 조치를 
+부가해서는 안 됩니다.
 
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
+#### 주의:
+퍼블릭 도메인에 해당하는 저작물의 이용 또는 저작재산권의 제한사유에 해당하는 이용의 경우에는 이 라이선스를 따르지 않아도 됩니다.
+이 라이선스는 아무런 보증을 하지 않습니다. 또한 저작물의 이용에 필요한 모든 허락이 포함되어 있지 않을 수도 있습니다. 
+예를 들어 퍼블리시티권, 프라이버시, 인격권 등 다른 권리에 따른 제한이 있을 수 있습니다.
 
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
+#### 영어 원저작물은 다음과 같은 저작권을 갖습니다:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+This book is available as a free download thanks to a generous grant by Google, Inc. It is distributed under a Creative Commons AttributionNonCommercial-ShareAlike
+licence, which means that you are free to share (copy, distribute, and transmit) the book. It also allows you to remix the book. These are only available under the following conditions: you include attribution to the authors, you do not use this book for commercial purposes, and if you alter, transform or build upon this
+work, you share under the same or similar license. More details of this license can be found online by searching: **CC BY-NC-SA 3.0**.  
 
-## Trademark
+We encourage the use of this material in educational settings, and you are welcome to print your own copy of the book and distribute worksheets from it to students. We welcome enquiries and suggestions, which should be directed to the authors (see [csunplugged.org](http://csunplugged.org)).
 
-"Software Carpentry" and the Software Carpentry logo are registered
-trademarks of [NumFOCUS][numfocus].
+### 웹사이트 및 콘텐츠 저작 템플릿
 
-[cc-by-human]: https://creativecommons.org/licenses/by/4.0/
-[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode
-[mit-license]: http://opensource.org/licenses/mit-license.html
-[numfocus]: http://numfocus.org/
-[osi]: http://opensource.org
+비영리 단체 [Software Carpentry](http://software-carpentry.org)에서 커뮤니티 노력으로 만든 웹사이트 및 콘텐츠 저작 소프트웨어가 사용되었습니다.
+
+### 상표권(Trademark)
+
+"xwMOOC"와 xwMOOC로고는 엑스더블유무크 등록 상표입니다.
+
+[cc-by-nc-sa-human]: https://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-legal]: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
