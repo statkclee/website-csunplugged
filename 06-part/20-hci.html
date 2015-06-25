@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="pandoc">
+    <title>Software Carpentry: 쵸코릿 공장 — 휴먼 인터페이스 디자인 (Human interface design)</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://statkclee.github.io/website-csunplugged/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/swc.css" />
+    <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/>
+    <meta charset="UTF-8" />
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body class="lesson">
+    <div class="container card">
+      <div class="banner">
+        <a href="http://software-carpentry.org" title="Software Carpentry">
+          <img alt="Software Carpentry banner" src="https://statkclee.github.io/website-csunplugged/img/software-carpentry-banner.png" />
+        </a>
+      </div>
+      <article>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+                    <h1 class="title">쵸코릿 공장 — 휴먼 인터페이스 디자인 (Human interface design)</h1>
+          <div class="objectives" markdown="1">
+<h4 id="개요">개요</h4>
+<p>이번 활동의 목적은 휴먼 인터페이스 디자인 이슈에 대한 인식을 고취시키는 것이다. 잘못된 디자인이 만연된 세상에 살고 있어서, 상호작용하는 인공물이 초래한 문제를 참고 지내는데 익숙해져서, 오류가 있는 디자인 문제 탓을 하기보다는 우리 자신(“휴먼 오류”, “부적잘한 훈련”, “나에게는 너무 복잡한”)에게 비난의 화살을 돌린다. 컴퓨터로 인해서 이런 이슈가 크게 부각된다. 왜냐하면, 컴퓨터는 명백한 목적이 없다— 사실 컴퓨터는 완전히 범용이다. 컴퓨터 외양은 무엇을 위한 것이며, 어떻게 동작하는지에 대해서 아무런 단서도 제시하지 않는다.</p>
+<h4 id="교과학습-연계">교과학습 연계</h4>
+<ul>
+<li>기술: 기술 성과가 사람이 개발한 제품 혹은 시스템인지 이해한다. 또한 기술 성과가 물리적 특성과 기능적 특성을 갖는다는 것을 이해한다.<br />
+</li>
+<li>기술: 기술이 디자인을 통한 의도적 개입이라는 것을 이해한다.</li>
+</ul>
+<h4 id="기술">기술</h4>
+<ul>
+<li>디자인 (Design).<br />
+</li>
+<li>추론 (Reasoning).</li>
+</ul>
+<h4 id="나이">나이</h4>
+<ul>
+<li>7세 이상</li>
+</ul>
+<h4 id="학습-교재">학습 교재</h4>
+<ul>
+<li>각 그룹 학생마다 필요한 것:<br />
+– <em>문을 어떻게 열지?</em>, <em>오븐(레인지) 윗면</em> 워크쉬트 사본.<br />
+– <em>아이콘</em> 워크쉬트에 있는 이미지 사본. 빔프로젝터 슬라이드로 보여주거나, 학급에 보여줄 수 있는 카드 형태.<br />
+– <em>아이콘 카드</em> 페이지에 있는 6장 카드 중 카드 하나 이상. 워크쉬트를 개별 카드로 자르고 그룹에 나눠준다.</li>
+</ul>
+</div>
+<h3 id="쵸콜릿-공장">쵸콜릿 공장</h3>
+<div class="row-fluid">
+<div class="span6">
+<table width="100%" class="table table-striped">
+<pre><code>&lt;tr&gt;
+    &lt;td width=&quot;50%&quot;&gt;&lt;h5&gt; &lt;center&gt;한글 동영상&lt;/center&gt; &lt;/h5&gt;&lt;/td&gt;
+    &lt;td width=&quot;50%&quot;&gt;&lt;h5&gt; &lt;center&gt;영문 동영상&lt;/center&gt; &lt;/h5&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;div class=&quot;youtube&quot;&gt;
+            
+        &lt;/div&gt;
+    &lt;/td&gt;
+    &lt;td&gt;
+        &lt;div class=&quot;youtube&quot;&gt;
+            &lt;iframe width=&quot;350&quot; height=&quot;260&quot; src=&quot;https://www.youtube.com/embed/4iHPgk2u9_s&quot; frameborder=&quot;0&quot; allowfullscreen&gt;
+            &lt;/iframe&gt;
+        &lt;/div&gt;    
+    &lt;/td&gt;
+&lt;/tr&gt;</code></pre>
+</table>
+</div>
+</div>
+<h5 id="들어가며">들어가며</h5>
+<p>움파-룸파(Oompa-Loompa)로 불리는 요정같은 종족이 거대한 쵸코릿 공장을 운영한다. 움파-루파 종족은 기억력이 매우 좋지 못할 뿐더러 문자 언어도 없다. 이런 연유로, 쵸콜릿 공장을 운영하는데 무엇을 할지 기억하는데 어려움이 많아서, 종종 상황이 좋지 않게 흘러간다. 이런 연유로, 움파-룸파 종족이 운영하기 매우 쉬운 새로운 공장이 디자인되고 있다.</p>
+<blockquote>
+<p><strong>움파-룸파(Oompa-Loompa)</strong>: Roald Dahl에 양해를 구한다. 동화 챨리와 쵸코릿 공장(Charlie and the Chocolate Factory)을 읽었다면 움파-룸파에 대해서 잘 알 것이다. 만약 읽지 않았다면 신경쓰지 않아도 된다: 이번 활동과 이야기는 관계가 없다.</p>
+</blockquote>
+<h5 id="토론">토론</h5>
+<ol style="list-style-type: decimal">
+<li><p>학생들에게 이야기를 서명하고 학생을 작은 그룹으로 나눠라.</p></li>
+<li><p>움파-룸파가 직변한 첫번째 문제는 김이 모락모락나는 액체 쵸콜릿 양동이를 지고 문을 통과하는 것이다. 움파-룸파는 문을 당겨서, 밀어서, 혹은 옆으로 미끄러뜨려 열었는지 기억할 수 없다. 결과적으로 문에 쾅하고 부딪쳐 끈적한 쵸코릿을 사방에 엎지르게 된다. 학생들은 <em>문을 어떻게 열지?</em> 워크쉬트에 “문(door)”을 채워야 한다. 각 경우에 하나이상이 적절하다. 문 몇개(첫번째 포함)는 어떻게 여는지 분명하지 않다. 이런 경우, 학생들은 먼저 시도한 것을 기록한다. 학생들이 본인 워크쉬트를 모두 채웠으면, 그룹 전체가 각 문 유형별로 상대적인 장점을 토의한다. 특히, 어떻게 동작하는지를 알수 있도록 얼마나 쉽게 되어있는지, 만약 뜨거운 쵸코릿 양동이를 옮긴다면 얼마나 적합한지가 주요한 토의 관점이 된다. 어떤 종류의 문 손잡이를 쵸코릿 공장에서 사용할지 결정해야 한다.</p></li>
+<li><p>활동을 이어서 학급 토의시간을 갖는다. 다음 표는 워크쉬트 각각에 대한 간략한 논평이다. 실제 문에는 문을 여는 방법에 대한 단초가 문틀과 경첩에 나와있다. 문을 안으로 혹은 밖으로 열지에 대한 사회적 관례도 있다. 여러분이 다니는 학교에 사용되는 문 손잡이가 어떤 유형인지 식별하고, 적합성에 대해서 토의하세요. (매우 <em>부적절</em>할지 모릅니다!) 혼란스럽게 하는 문을 생각해낼 수 있나요? 이유는? 복도에 있는 문은 안으로 혹은 밖으로 열리나요?— 이유는? (정답: 교실안으로 열린다. 학생이 문열고 나올 때, 복도를 걷고 있는 사람을 문으로 강타하지 못하게 한다. 하지만, 몇가지 상황, 응급상황에서 탈출이 용이하도록, 문을 밖으로 열게 되어있다.)</p></li>
+<li><p>여기서 핵심 개념은 물체에 대한 <strong>행동유도성(affordance)</strong>이다. 눈에 보이는 기능— 기본적이고 인지된—으로 이런 외양을 통해서 물체가 어떻게 사용되어지는지 나타낸다. 행동유도성은 물체가 허용하거나 “수용할 수 있는(afford)” 일종의 동작이다. 예를 들어, (거의) 외양으로부터 의자는 앉기에 적합하게, 탁자는 뭔가 놓기 좋게, 손잡이는 돌리기 좋게, (책)꽂이는 뭔가(책) 끼워 넣기 좋게, 버튼은 누루는게 좋다고 알 수 있다. 컴퓨터 인터페이스에서 행동유도성은 버튼 모양, 텍스트 박스, 메뉴 등이 있다. 사용자에게 어떻게 사용되어야 하는지 단서를 준다. 만약 버튼이 뭔가 다르게 생겼다면, 사용자는 버튼을 누르는 것이라고 깨닫지 못할 것이다. 이것이 명백하게 보일지 모르지만, 이런 유형의 문제를 디지털 장치에서 찾기는 어렵지 않다.</p></li>
+</ol>
+<div class="row-fluid">
+<div class="span6">
+<pre><code>&lt;table class=&quot;table table-striped&quot;&gt;
+  &lt;tr&gt; &lt;td&gt;표시없는 문(plain)&lt;/td&gt; &lt;td&gt;문을 여는 방법을 알 수 없다. 이것외에도 손잡이가 없어서 당기기 보다 필어야 한다.&lt;/td&gt; &lt;/tr&gt;
+  &lt;tr&gt; &lt;td&gt;경첩 문(hinge)&lt;/td&gt; &lt;td&gt;최소 문을 여는 쪽이 어는 쪽이는지 알 수 있다.&lt;/td&gt; &lt;/tr&gt;
+  &lt;tr&gt; &lt;td&gt;손잡이 문(handle)&lt;/td&gt; &lt;td&gt;이와 같은 손잡이는 통상 당기거나 옆으로 밀어서 연다.&lt;/td&gt; &lt;/tr&gt;
+  &lt;tr&gt; &lt;td&gt;패널 문(panel)&lt;/td&gt; &lt;td&gt;밀어서 연다는 것이 명확하다. 그밖에 무엇을 할 수 있을까?&lt;/td&gt; &lt;/tr&gt;
+  &lt;tr&gt; &lt;td&gt;미닫이 문(sliding)&lt;/td&gt; &lt;td&gt;이문은 옆으로 밀어서만 열수 있다.&lt;/td&gt; &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+</div>
+<div class="span6">
+<pre><code>&lt;table class=&quot;table table-striped&quot;&gt;
+  &lt;tr&gt; &lt;td&gt;라벨 문(labeled)&lt;/td&gt; &lt;td&gt;라벨이 매우 작은 사용자 매뉴얼 같다. 왜 문에 사용자 매뉴얼이 필요할까? 그리고, 움파 룸파는 읽을 수 없다.&lt;/td&gt; &lt;/tr&gt;
+  &lt;tr&gt; &lt;td&gt;빗장 문(bar)&lt;/td&gt; &lt;td&gt;이와 같은 손잡이는 통상 당기거나 옆으로 밀어서 연다.&lt;/td&gt; &lt;/tr&gt;
+  &lt;tr&gt; &lt;td&gt;알손잡이 문(knob)&lt;/td&gt; &lt;td&gt;알손잡이(knob)가 어떻게 잡는지는 보여주지만, 당길지 밀지는 알수 없다. 아마도 옆으로 밀어서는 아닐 것이다.&lt;/td&gt; &lt;/tr&gt;
+  &lt;tr&gt; &lt;td&gt;유리 문(glass)&lt;/td&gt; &lt;td&gt;옆쪽 작은 수평 막대는 &quot;당긴다는&quot; 신호; 또다른 긴 수평 막대는 &quot;민다는&quot; 신호&lt;/td&gt; &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+</div>
+</div>
+<p>문은 매우 단순한 물체다. 복잡한 물체는 설명이 필요할지 모른다. 하지만, 단순한 것은 설명이 없어야 한다. 단순한 물체에 그림, 표식, 혹은 설명서가 필요하다면, 디자인이 실패했다.</p>
+<ol start="5" style="list-style-type: decimal">
+<li>다른 유형 쵸코릿을 담고 있는 냄비는 다른 온도에서 요리되어야 한다. 예전 쵸코릿 공장에서 <em>스토프(레인지) 윗면</em> 워크쉬트에 나와있듯이 스토브(레인지)가 배치되어 있다. 왼편 손잡이가 왼편 뒷쪽 발열체를, 다음 손잡이가 왼편 앞쪽 발열체를, 다음 손잡이가 오른편 앞쪽 발열체를, 다음 손잡이가 오른편 뒷쪽 발열체를 각각 제어한다. 움파-룸파는 항상 실수를 해서 잘못된 온도로 쵸코릿을 조리하고, 온도제어를 하려고 발열체 너머로 손을 내밀다 소매를 태우기도 한다. 학생들이 집에 있는 조리기구에 제어기구가 어떻게 배치되어 있는지 상기하고, 새로운 공장에 좀더 나은 배치도를 제시한다.</li>
+</ol>
+<p>활동을 이어서 학급 토론시간을 갖자. 다음 그림은 흔한 몇개 스토브(레인지) 배치다. 발열체를 가로지르지 못하도록, 왼쪽 하단에 하나를 제외하고 모두 앞쪽에 제어기가 있다. 상단 왼편 디자인에 제어기에서 가열기구까지 너무나 많은 조합이 있다.(사실 24가지 조합) 단어 8개 라벨도 필요하다. 상단 중앙에 짝지어 배치한 것이 더 낫다. 단지 4가지 가능한 매핑(왼쪽 무리에 2개, 오른쪽 무리에 두개)이 있다; 단지 4단어만 라벨이 필요하다. 상단 오른쪽 디자인은 제어기-가열기구 관계를 문자보다는 도식적으로 저정한다.(이 방법이 움파-룸파에게는 좋다.) 하단 디자인 세개는 라벨이 필요없다. 하단 왼편 디자인에는 각 발열기구마다 제어기가 붙어 있다. 위험하고 어색하다. 다른 두 디자인은 살짝 가열기구를 재배치했다. 하지만 이유는 매우 다르다. 하단 중간 디자에서 제어기를 위한 공간을 만들려고 발열기구가 이동되었다. 반면에 하단 오른편에서 대응관계를 명확히 하려 발열기구를 재배치했다.</p>
+<p><img src="img/ch19-hci/19-hci-02-stove.png" alt="stove" /></p>
+<p>여기서 핵심개념은 현실에서 제어와 결과의 <em>매핑(mapping)</em>이 된다. 물리적 비유와 문화 표준을 이용한 자연스러운 매핑이 되면 즉시 이해하게 된다. 하단 그림에서 공간적 대응관계가 좋은 사례가 된다— 쉽게 학습되고 항상 기억된다. 상단 배치된 임의 매핑은 라벨, 설명이 필요하거나, 혹은 기억해야 한다.</p>
+<ol start="6" style="list-style-type: decimal">
+<li>쵸콜릿 공장은 다양한 단계에서 반제품 형태 쵸코릿을 실어 나르는 컨베이어 벨트로 가득차 있다. 중앙 통제소에서 나오는 작업지시에 따라 옴파-룸파가 컨베이어 벨트를 수작업으로 제어한다. 통제소에 있는 사람이 움파-룸파에게 컨베이어 벨트를 정지시키거나, 늦추거나, 다시 재가동하게 지시할 필요가 있다.</li>
+</ol>
+<p>이전 쵸콜릿 공장에서 이 작업이 음성 시스템으로 수행되었다: 제어실에 있는 사람 음성이 스피커에서 나와 컨베이어 벨트 제어로 이어졌다. 하지만 공장이 너무 소음이 심해서 듣기가 매우 어려웠다. 설계 그룹은 시각 신호를 사용하는 기법을 디자인해야 한다.</p>
+<p>가능성 중 하나는 <em>정지!</em>, <em>천천히</em>, <em>재시작</em> 신호를 조명에 넣는 것이다. 학생들은 아마도 신호등 관례 (빨간색은 <em>정지</em>, 노란색은 <em>천천히</em>, 녹색은 <em>재시작</em>)를 따라 작업할 것이다. (서양)신호등처럼 배치해서, 빨간색이 위쪽, 녹색이 밑에 위치한다.</p>
+<p>하지만, 움파-룸파 왕국에서는 신호등이 인간세계와는 다르게 동작한다고 학생들에게 진실을 알려준다: 노란색이 <em>정지</em>, 빨간색이 <em>출발</em>, 녹색으로 바뀌면 곧 정지 신호등으로 바뀐다는 경고가 된다. 이러한 사실이 어떻게 영향을 미칠까요? (정답: 쵸콜릿 공장은 움파-룸파 신호등 관례를 따라야 한다— 인간 세계의 관례를 강제해서는 않된다.)</p>
+<p>여기서 핵심 개념은 <em>전이 효과(transfer effect)</em>와 <em>집단 고정관념(population stereotypes)</em>이다. 전이 효과를 통해서 사람들이 이전 물체의 학습과 기대를 새로운 하지만 비슷한 상황에 전이한다. 집단 고정관념을 통해서 다른 집단이 특정 행동을 학습해서 특정한 방식으로 동작할 것으로 기대한다. 신호등 시나리오는 억지로 갖다 댄 면이 있지만(사실 움파-룸파 왕국에는 절대로 억지로 갖다 것이 아니다.), 우리가 살고 있는 세상에 사례가 많다: 미국에서 스위치가 위로 가야 전등불이 켜지고, 스위치가 내려가야 불이 꺼진다. 하지만 영국에서는 반대로 동작한다. 계산기 숫자판과 터치톤 전화기도 다른 방식으로 배치되어 있다. 숫자 형식(소수점이 점 혹은 쉼표)과 날짜 형식(일/월/년 혹은 월/일/년)이 나라마다 다르다.</p>
+<ol start="7" style="list-style-type: decimal">
+<li>쵸콜릿 공장에서 움파-룸파가 교대근무를 끝마치면, 다음 교대근무를 위해서 냄비, 프라이팬, 주전자, 숟가락, 교반기를 깨끗이 하고 잘 보관해야 한다. 움파-룸파가 물건을 넣을 선반이 있는 찬장이 있다. 하지만 항상 다음 근무교대하면 물건이 어디에 보관되어 있는지 찾는데 어려움이 있다. 움파-룸파는 물건을 잘 기억하지 못하고, “항상 중간선반에 냄비를 보관한다”, “주전자는 왼쪽에 보관한다.” 같은 규칙을 지키는데 문제가 있다.</li>
+</ol>
+<p>학생 그룹이 더 나은 해결책을 제시해야 한다.</p>
+<p>다음 다이어그램은 좋은 배치 사례를 보여준다. 이것이 종종 요트 배위나 다른 장소에서 사용된다. 요트 배위에서는 다소 다른 이유로, 다른 장소에서는 물건이 굴러다니지 못하게 하는게 필요하다. 여기서 핵심 개념은 <em>시각적 제약(visual constraints)</em>을 사용해서, 모든 것이 위치해야 되는 것을 분명하게 만든다. 각 구멍의 크기와 모양으로부터 어느 조리 기구를 위한 것인지 명확해진다. 디자이너가 제약을 시각화하고, 물체의 물리적 특성을 사용해서 임의적인 규칙을 따른 요인을 제거한다.</p>
+<p><img src="img/ch19-hci/19-hci-03-cupboard.png" alt="cupborad" /></p>
+<ol start="8" style="list-style-type: decimal">
+<li>쵸콜릿 공장 중앙제어실에는 각 기계를 동작하는 버튼, 스위치, 레버가 많다. 라벨을 붙여 각각을 표식해야 하는데 움파-룸파가 읽을 수가 없기 때문에 라벨은 언어보다는 그림(아이콘)으로 표식되어야 한다.</li>
+</ol>
+<p>아이콘에 대한 느낌을 학생들에게 전달하기 위해서, <em>아이콘</em> 워크쉬트에 예제가 몇개 있다. 학생들은 각 아이콘이 무엇을 의미하는지 식별해야 한다.(예를 들어, 우편함 내부로 들어가는 문자는 메시지를 전송하는걸 표현한다.) 이번 실습에는 “정답”이 없다— 아이디어는 단순하게 가능한 의미를 식별하는 것이다.</p>
+<ol start="9" style="list-style-type: decimal">
+<li>이제 쵸콜릿 공장에 사용될 아이콘을 디자인해보자. <em>아이콘 카드</em> 워크쉬트에는 연관된 기능을 군집으로 묶은 카드가 있다. 각 그룹 학생들이 하나 이상의 카드를 받는데 다른 그룹 학생들은 무슨 카드를 받았는지 몰라야 한다. 제어부는 5~6개 동작에 대한 개별적인 아이콘을 포함하고 기능 군집으로 디자인되어야 한다. 그리고 나서 그룹으로 작업한 것을 다른 학생들에게 보여주는데, 개별적인 동작이 무엇인지 말하면 않되고, 학생들이 아이콘이 무엇을 의미하는지 추측하게하고 살펴본다. 상상력, 색깔, 단순함, 명확한 아이콘을 사용하도록 독려한다.</li>
+</ol>
+<div class="challenge" markdown="1">
+<h4 id="워크시트-활동-문을-어떻게-열지">워크시트 활동: 문을 어떻게 열지?</h4>
+<p>워크쉬트를 채워서 여러분이 생각하기에 각 유형의 문을 어떻게 여는지 보여준다.</p>
+<p><img src="img/ch19-hci/19-hci-04-open-doors.png" alt="open doors" /></p>
+</div>
+<div class="challenge" markdown="1">
+<h4 id="워크시트-활동-스토브레인지-윗면">워크시트 활동: 스토브(레인지) 윗면</h4>
+<p>스토브(레인지)를 다시 디자인해서 제어를 쉽게하도록 만든다. 원하는 경우, 디자인에 앞면 혹은 뒷면 패널을 추가할 수 있다.</p>
+<p><img src="img/ch19-hci/19-hci-05-stove.png" alt="stove" /></p>
+</div>
+<div class="challenge" markdown="1">
+<h4 id="워크시트-활동-아이콘-icons">워크시트 활동: 아이콘 (Icons)</h4>
+<p>여러분이 생각하기에 각 아이콘(상징)이 무엇을 의미하나요?</p>
+<p><img src="img/ch19-hci/19-hci-06-icons.png" alt="icons" /></p>
+</div>
+<div class="challenge" markdown="1">
+<h4 id="워크시트-활동-아이콘-카드-icons-cards">워크시트 활동: 아이콘 카드 (Icons cards)</h4>
+<p>카드를 잘라서 각 그룹에게 하나씩 나눠준다. 각 그룹이 아이콘(상징)을 디자인하는데 각 명령을 표현하는 제어부에 붙일 것이다.</p>
+<p><img src="img/ch19-hci/19-hci-07-icon-cards.png" alt="icons" /></p>
+</div>
+<h6 id="변형과-확장">변형과 확장</h6>
+<p>디지털 손목시계 혹은 전자레인지에 시간을 설정할 수 있을까? 스토프(레인지)를 배치하는 매핑은 단순한데 이유는 가열기구 4개에 제어기 4개가 있기 때문이다. 행위(action) 갯수가 제어(control) 갯수를 넘어설 때마다 좀더 어려운 상황이 발생한다. 손목시계 혹은 전자레인지 제어는 극단적으로 복잡한데, 이유는 버튼 갯수(몇개에 불과하다.) 때문이 아니라, 장치가 머무를 수 있는 상태 갯수 때문이다. (사용자 인터페이스 분야 최고 심리학자인 Don Norman이 새로 구입한 손목시계를 보고 누군가에게 “시계를 동작시키려면 MIT 공학 학위가 필요하겠네”라고 말했다. Don 교수는 MIT에서 공학 학위를 받았고, 몇시간 걸려서, 시계를 파악하게 되었다. 하지만, 왜 그렇게 오랜 시간이 걸릴까?)</p>
+<p>학생들이 핸드폰, 동영상 녹화기, 컴퓨터, 리모콘 같은 디지털 장치를 사용할 때 사람들이 혼란스러워하고, 좌절감을 느끼는 장소를 눈여겨 봐야한다. 이 모든 디지털 장치가 다양한 방법으로 사용자를 좌절시킨다. 학생들은 스스로에게 물어봐야한다. 디지털 장치에서 무엇이 사용자를 혼란하게 하는가? 좀더 좋은 디자인은 어떻게 하면 될까?</p>
+<div class="keypoints" markdown="1">
+<h4 id="컴퓨터-과학-핵심-개념">컴퓨터 과학 핵심 개념</h4>
+<p>휴먼-컴퓨터 상호작용(Human-Computer Interacion)은 컴퓨터 시스템 디자인, 평가, 구현에 관한 것이다. 컴퓨터 시스템은 사람이 생산적이고 안전하게 활동을 수행할 수 있게 한다. 과거에는 컴퓨터는 전문가를 위한 것이였고, 사용자는 컴퓨터를 사용하는데 있어 고등 교육도 받고, 전문적인 훈련도 받아야 했다. 나중에 컴퓨터 사용법을 배우기 위해서 “무작정 따라하기 (미국 Dummies)” 책을 사서 공부하는게 일반적이였다. 하지만, 지금 컴퓨터는 모든 사람이 사용하는 일상재가 되었다. 따라서, 휴먼 인터페이스에 훨씬 더 많은 관심을 가져야만 한다.</p>
+<p>일부는 인명과 관계된 많은 재해가 부적절한 인터페이스 때문에 일어난다: 비행기 추락와 심지어 민간 여객기 격추, 원격 고속도로 신호등 스위치 오류 때문에 발생하는 고속도로 연쇄 충돌 사고, 원자력 발전소 재난. 좀더 작은 규모로, 대부분의 사람들은 컴퓨터 혹은 작업장에서 매일 접하는 다른 하이테크 장치에 대한 좌절(경찰관이 컴퓨터 화면에 총을 난사하기도 했다.)을 경험했다. 컴퓨터만 그런 것이 아니다: 날카로운 발톱과 휘어진 부리만 있다면 열수 있는 수축포장된 상자, 나가려고 밀었을 때 손목을 다치게 하는 문, 우유 마시려고 열었을 때 쏱아지는 우유팩, 버튼 동작방법을 알 수 없는 엘리베이터, 모든 것을 다할 수 있다고 광고하는 가정 오락 시스템, 하지만, 어떤 것도 수행하는 것이 거의 불가능하다.</p>
+<p><code>휴먼 오류(human error)</code>와 우리 자신을 다소 부적합하다고 생각하는데 익숙해지고 있다; 뭔가 잘못되었을 때, 우리 자신을 비난한다. 하지만 많은 휴먼 오류라고 부른 것이 사실 디자인 오류다. 사람들 누구나 처리할 수 있는 정보량에는 한계가 있다. 디자이너는 이러한 점을 감안해야 한다; 상세하고 복잡한 사용자 매뉴얼과 집중적으로 공부하고 영원히 기억해서 사용가능한 것이 잘못된 디자인의 전형이다. 또한 인간은 실수를 저질를 수 있어서 디자인에 이러한 점도 고려해야한다.</p>
+<p><em>인터페이스 평가(Interface Evaluation)</em>은 디자인 과정에서 핵심적인 부분이다. 이번 활동에서 일부 인터페이스 평가가 포함되었는데 학생이 자신이 제작한 아이콘을 다른 학생들에게 시험하는 것이다. 좀더 철저한 평가는 (아이콘을 다르게 인식하는) 실제 옴파-룸파에게 신중하게 통제된 심리학-스타일 실험환경에서 디자인을 시험하는 것이다.</p>
+<p>설사 기술로 인한 문제가 실소를 금할 수 없는 많은 사례를 만들지만, 휴먼 인터페이스 디자인은 더이상 웃고 넘길 일이 아니다. 부적절한 인터페이스가 개인적으로 업무 만족도 저하부터 주식시장 붕괴까지, 자존감 상실부터 인명손실까지 다양한 문제를 만든다.</p>
+<h5 id="further-reading">Further reading</h5>
+<p>Don Norman이 저술한 <em>The design of everyday things</em> 책에는 일상 제품에 유쾌하고 자유분방한 수많은 디자인 문제가 있다. Jeff Johnson이 저술한 <em>Designing with the mind in mind</em>에는 있어 사람이 어떻게 생각하고, 휴먼 요소를 고려한 인터페이스는 어떻게 되어야 하는지에 대한 생각을 자극하는 통찰력이 있다.</p>
+</div>
+        </div>
+      </div>
+      </article>
+      <div class="footer">
+        <a class="label swc-blue-bg" href="http://software-carpentry.org">Software Carpentry</a>
+        <a class="label swc-blue-bg" href="https://github.com/swcarpentry/lesson-template">Source</a>
+        <a class="label swc-blue-bg" href="mailto:admin@software-carpentry.org">Contact</a>
+        <a class="label swc-blue-bg" href="LICENSE.html">License</a>
+      </div>
+    </div>
+    <!-- Javascript placed at the end of the document so the pages load faster -->
+    <script src="http://software-carpentry.org/v5/js/jquery-1.9.1.min.js"></script>
+    <script src="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-js/bootstrap.js"></script>
+  </body>
+</html>
