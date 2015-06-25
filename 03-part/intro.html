@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="pandoc">
+    <title>Software Carpentry: 제 3 부</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://statkclee.github.io/website-csunplugged/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/swc.css" />
+    <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/>
+    <meta charset="UTF-8" />
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body class="lesson">
+    <div class="container card">
+      <div class="banner">
+        <a href="http://software-carpentry.org" title="Software Carpentry">
+          <img alt="Software Carpentry banner" src="https://statkclee.github.io/website-csunplugged/img/software-carpentry-banner.png" />
+        </a>
+      </div>
+      <article>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+                    <h1 class="title">제 3 부</h1>
+          <h3 id="컴퓨터에-무엇을-수행할지-지시하기-절차의-표현">컴퓨터에 무엇을 수행할지 지시하기 — 절차의 표현</h3>
+<ul>
+<li><a href="12-fsm.html">보물 찾기—유한상태 오토마타</a><br />
+</li>
+<li><a href="13-language.html">진군 명령—프로그래밍 언어(Programming Languages)</a></li>
+</ul>
+<div class="objectives" markdown="1">
+<h4 id="컴퓨터에-무엇을-수행할지-지시하기">컴퓨터에 무엇을 수행할지 지시하기</h4>
+<p>컴퓨터는 초당 수백만번 명령에 따라 움직입니다. 컴퓨터에 무엇을 수행해야 할지 지시하기 위해서, 올바른 명령을 주면 좋겠지만, 말처럼 생각만큼 쉬운 일이 아닙니다.</p>
+<p>우리는 명령을 받았을 때, 명령의 의미를 해석하기 위해서 상식적으로 생각합니다. “문을 통해서 오세요”라고 누군가 말을 한다면, 실제로 문을 부수고 통과해서 들어오라는 뜻은 아닙니다. 필요하다면 문을 열고 통해서 들어오라는 의미입니다. 컴퓨터는 매우 다릅니다. 만약 모바일 로봇에 컴퓨터가 장착된다면, 명령을 글자 그대로 해석해서 문을 부수고 들어올 수 있는 위험이나 손상이 생길 수 있으니 주의할 필요가 있습니다. 생각 없이 명령을 정확하게 수행만 하는 컴퓨터를 다루는 것에 익술해질 필요가 있습니다.</p>
+<p>제 3 부에서는 활동 2개를 통해서 고정된 명령어 집합을 사용하여 문자 그대만 움직이는 기계(컴퓨터)와 상호작용하는 것이 어떤 의미인지를 학습하게 될 것입니다.</p>
+<p>첫번째 활동에서는 컴퓨터가 작업할 수 있는 기호, 즉 단어, 숫자, 기호 문자열을 인식하기 위해 컴퓨터가 사용하는 기계, “유한-상태 오토마타(finite-state automata)” 에 대해 배웁니다.</p>
+<p>두번째 활동은 인간이 어떻게 컴퓨터와 상호작용하는지 배웁니다. 좋은 프로그래머는 문자 그대로 해석되는 한정된 명령어 집합으로 컴퓨터가 무엇을 수행할지 전달하는 방식에 대해서 이해할 필요가 있습니다. 명령어 목록이 프로그램입니다. 이러한 명령어를 작성하는 프로그래밍 언어가 많이 있지만, 여기서는 컴퓨터 없이도 사용할 수 있는 매우 간단한 언어를 사용할 것입니다.</p>
+<p><img src="img/03-part-three.svg" alt="part III" /></p>
+</div>
+        </div>
+      </div>
+      </article>
+      <div class="footer">
+        <a class="label swc-blue-bg" href="http://software-carpentry.org">Software Carpentry</a>
+        <a class="label swc-blue-bg" href="https://github.com/swcarpentry/lesson-template">Source</a>
+        <a class="label swc-blue-bg" href="mailto:admin@software-carpentry.org">Contact</a>
+        <a class="label swc-blue-bg" href="LICENSE.html">License</a>
+      </div>
+    </div>
+    <!-- Javascript placed at the end of the document so the pages load faster -->
+    <script src="http://software-carpentry.org/v5/js/jquery-1.9.1.min.js"></script>
+    <script src="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-js/bootstrap.js"></script>
+  </body>
+</html>
