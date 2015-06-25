@@ -1,6 +1,5 @@
 ---
-layout: lesson
-root: ../..
+layout: page
 title: 다시 말할 수 있어요!&mdash;텍스트 압축
 ---
 <div class="objectives" markdown="1">

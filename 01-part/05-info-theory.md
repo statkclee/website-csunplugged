@@ -1,6 +1,5 @@
 ---
-layout: lesson
-root: ../..
+layout: page
 title: 질문 20 개 &mdash; 정보 이론
 ---
 <div class="objectives" markdown="1">

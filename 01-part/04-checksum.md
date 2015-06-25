@@ -1,6 +1,5 @@
 ---
-layout: lesson
-root: ../..
+layout: page
 title: 카드 뒤집기 마술 &mdash; 오류 탐지 및 수정 
 ---
 <div class="objectives" markdown="1">

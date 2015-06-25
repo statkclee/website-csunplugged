@@ -1,6 +1,5 @@
 ---
-layout: lesson
-root: ..
+layout: page
 title: 제 1 부
 ---
 

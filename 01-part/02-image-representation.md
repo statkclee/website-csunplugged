@@ -1,6 +1,5 @@
 ---
 layout: lesson
-root: ../..
 title: 숫자로 색깔 표현하기&mdash;이미지 표현
 ---
 <div class="objectives" markdown="1">
