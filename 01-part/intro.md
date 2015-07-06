@@ -11,7 +11,6 @@ title: 제 1 부
    - [카드 뒤집기 마술—오류 탐지 및 수정](04-checksum.html)  
    - [질문 20개—정보 이론](05-info-theory.html)  
 
-<div class="objectives" markdown="1">
 
 #### 데이터: 정보를 나타내는 원재료  
 
@@ -25,9 +24,8 @@ title: 제 1 부
 ##### 숫자, 글자, 단어, 그림이 어떻게 영(\'0\')과 일(\'1\')로 변환될까?  
 제 1부에서는 이진수(binary number)가 무엇인지, 컴퓨터가 어떻게 그림을 그리는지, 팩시밀리 송수신기가 어떻게 동작하고, 대량의 정보를 저장하는 효율적인 방법이 무엇인지, 오류가 생기는 것을 어떻게 막을 수 있는지, 그리고 저장하려는 정보의 양을 어떻게 측정되는지를 배울 것이다.  
 
-</div>
 
-<img src="img/01-part-one.png" alt="Part one" />
+<img src="../img/01-part-one.png" alt="Part one" width="60%"/>
 
 
 

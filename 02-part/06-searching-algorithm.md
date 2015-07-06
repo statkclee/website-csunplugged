@@ -1,7 +1,7 @@
 ---
-layout: lesson
-root: ../..
-title: 전함 &mdash; 검색 알고리즘
+layout: page
+title: 전함
+subtitle: 검색 알고리즘
 ---
 <div class="objectives" markdown="1">
 
