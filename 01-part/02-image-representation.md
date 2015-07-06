@@ -1,5 +1,5 @@
 ---
-layout: lesson
+layout: page
 title: 숫자로 색깔 표현하기
 subtitle: 이미지 표현
 ---
