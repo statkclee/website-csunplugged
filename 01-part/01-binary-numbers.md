@@ -3,6 +3,7 @@ layout: page
 title: 점의 개수를 세다
 subtitle: 이진수 (Binary Number)
 ---
+
 > #### 개요  {.getready}
 > 컴퓨터의 데이터는 일련의 영과 일로 저장되고 전송된다. 단지 이 두 표식을 통해서 어떻게 언어와 숫자를 표현할 수 있을까?  
 > 
