@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="generator" content="pandoc">
-    <title>Software Carpentry: 제 1 부</title>
+    <title>xwMOOC: 제 1 부</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://statkclee.github.io/website-csunplugged/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <<<<<<< HEAD
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/swc.css" />
+    <!-- <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/> -->
+    =======
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/swc.css" />
     <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/>
+    >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
     <meta charset="UTF-8" />
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -19,8 +26,13 @@
   <body class="lesson">
     <div class="container card">
       <div class="banner">
-        <a href="http://software-carpentry.org" title="Software Carpentry">
-          <img alt="Software Carpentry banner" src="https://statkclee.github.io/website-csunplugged/img/software-carpentry-banner.png" />
+      <<<<<<< HEAD
+        <a href="http://www.xwmooc.net" title="xwMOOC">
+          <img alt="xwMOOC banner" src="http://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      =======
+        <a href="http://www.xwmooc.net" title="xwMOOC 한글 컴퓨터 과학 언플러그드">
+          <img alt="xwMOOC banner" src="https://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         </a>
       </div>
       <article>
@@ -29,23 +41,19 @@
                     <h1 class="title">제 1 부</h1>
           <h3 id="정보를-나타내는-원재료-데이터">정보를 나타내는 원재료 — 데이터</h3>
 <ul>
-<li><a href="01-binary-numbers.html">점의 개수를 세다—이진수</a><br />
-</li>
-<li><a href="02-image-representation.html">숫자로 색깔 표현하기—이미지 표현</a><br />
-</li>
-<li><a href="03-text-compression.html">다시 말할 수 있어요!—텍스트 압축</a><br />
-</li>
-<li><a href="04-checksum.html">카드 뒤집기 마술—오류 탐지 및 수정</a><br />
-</li>
+<li><a href="01-binary-numbers.html">점의 개수를 세다—이진수</a><br /></li>
+<li><a href="02-image-representation.html">숫자로 색깔 표현하기—이미지 표현</a><br /></li>
+<li><a href="03-text-compression.html">다시 말할 수 있어요!—텍스트 압축</a><br /></li>
+<li><a href="04-checksum.html">카드 뒤집기 마술—오류 탐지 및 수정</a><br /></li>
 <li><a href="05-info-theory.html">질문 20개—정보 이론</a></li>
 </ul>
 <div class="objectives" markdown="1">
-<h4 id="데이터-정보를-나타내는-원재료">데이터: 정보를 나타내는 원재료</h4>
-<h5 id="컴퓨터로-정보를-어떻게-저장할까요">컴퓨터로 정보를 어떻게 저장할까요?</h5>
+<h4>데이터: 정보를 나타내는 원재료</h4>
+<h5>컴퓨터로 정보를 어떻게 저장할까요?</h5>
 <p>컴퓨터(Computer)라는 말은 라틴어 '<em>computare</em>'에 기원하는데 계산하고 더한다는 의미를 지니지만, 오늘날 컴퓨터는 거대한 계산기 이상이다. 컴퓨터는 도서관도 될 수 있으며, 컴퓨터로 글을 작성할 수 있으며, 정보를 찾고, 음악을 연주하고, 영화를 보기도 한다. 그런데 컴퓨터는 이렇게 많은 모든 정보를 어떻게 저장할까? 믿든 믿지 않든, 컴퓨터는 단지 두 가지만을 사용한다. 영('0')과 일('1')이다.</p>
-<h5 id="데이터와-정보의-차이는-무얼까">데이터와 정보의 차이는 무얼까?</h5>
+<h5>데이터와 정보의 차이는 무얼까?</h5>
 <p>데이터는 원재료, 즉 컴퓨터가 작업하는 숫자다. 컴퓨터는 여러분과 내가 이해할 수 있는 데이터를 정보(문자, 숫자, 그림)로 변환한다.</p>
-<h5 id="숫자-글자-단어-그림이-어떻게-영0과-일1로-변환될까">숫자, 글자, 단어, 그림이 어떻게 영('0')과 일('1')로 변환될까?</h5>
+<h5>숫자, 글자, 단어, 그림이 어떻게 영('0')과 일('1')로 변환될까?</h5>
 <p>제 1부에서는 이진수(binary number)가 무엇인지, 컴퓨터가 어떻게 그림을 그리는지, 팩시밀리 송수신기가 어떻게 동작하고, 대량의 정보를 저장하는 효율적인 방법이 무엇인지, 오류가 생기는 것을 어떻게 막을 수 있는지, 그리고 저장하려는 정보의 양을 어떻게 측정되는지를 배울 것이다.</p>
 </div>
 <p><img src="img/01-part-one.png" alt="Part one" /></p>
@@ -53,9 +61,14 @@
       </div>
       </article>
       <div class="footer">
-        <a class="label swc-blue-bg" href="http://software-carpentry.org">Software Carpentry</a>
-        <a class="label swc-blue-bg" href="https://github.com/swcarpentry/lesson-template">Source</a>
-        <a class="label swc-blue-bg" href="mailto:admin@software-carpentry.org">Contact</a>
+        <a class="label swc-blue-bg" href="http://www.xwmooc.net">xwMOOC</a>
+      <<<<<<< HEAD
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">Source</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">Contact</a>
+      =======
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">원본 소스</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">연락처</a>
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         <a class="label swc-blue-bg" href="LICENSE.html">License</a>
       </div>
     </div>

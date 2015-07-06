@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="generator" content="pandoc">
-    <title>Software Carpentry: 오렌지 게임 — 네트워크 라우팅(Routing)과 교착상태(Deadlock)</title>
+    <title>xwMOOC: 오렌지 게임 — 네트워크 라우팅(Routing)과 교착상태(Deadlock)</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://statkclee.github.io/website-csunplugged/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <<<<<<< HEAD
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/swc.css" />
+    <!-- <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/> -->
+    =======
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/swc.css" />
     <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/>
+    >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
     <meta charset="UTF-8" />
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -19,8 +26,13 @@
   <body class="lesson">
     <div class="container card">
       <div class="banner">
-        <a href="http://software-carpentry.org" title="Software Carpentry">
-          <img alt="Software Carpentry banner" src="https://statkclee.github.io/website-csunplugged/img/software-carpentry-banner.png" />
+      <<<<<<< HEAD
+        <a href="http://www.xwmooc.net" title="xwMOOC">
+          <img alt="xwMOOC banner" src="http://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      =======
+        <a href="http://www.xwmooc.net" title="xwMOOC 한글 컴퓨터 과학 언플러그드">
+          <img alt="xwMOOC banner" src="https://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         </a>
       </div>
       <article>
@@ -29,26 +41,24 @@
                     <h1 class="title">오렌지 게임 — 네트워크 라우팅(Routing)과 교착상태(Deadlock)</h1>
           <div class="objectives" markdown="1">
 <p><img src="img/ch10-network/10-network-01-orange-game.png" alt="orange game" /></p>
-<h4 id="개요">개요</h4>
+<h4>개요</h4>
 <p>자동차가 다니는 도로나 메시지가 지나가는 인터넷 같이 하나의 자원을 많은 사람이 공유하여 사용할 때, 교착상태(deadlock) 발생 가능성이 있다. 교착상태가 발생하는 것을 피하는 방법은 협력하는 것이다.</p>
-<h4 id="교과학습-연계">교과학습 연계</h4>
+<h4>교과학습 연계</h4>
 <ul>
 <li>수학 : 논리와 추론 개발하기</li>
 </ul>
-<h4 id="기술">기술</h4>
+<h4>기술</h4>
 <ul>
 <li>협력하여 문제 해결하기</li>
 <li>논리적 추론하기</li>
 </ul>
-<h4 id="나이">나이</h4>
+<h4>나이</h4>
 <ul>
 <li>9세 이상</li>
 </ul>
-<h4 id="학습-교재">학습 교재</h4>
+<h4>학습 교재</h4>
 <ul>
-<li>각 아이들에게 필요한 것<br />
-– 오렌지 두 개 혹은 테니스 공<br />
-– 부착이 가능한 이름표 또는 이름 스티커</li>
+<li>각 아이들에게 필요한 것<br />– 오렌지 두 개 혹은 테니스 공<br />– 부착이 가능한 이름표 또는 이름 스티커</li>
 </ul>
 </div>
 <h3 id="오렌지-게임">오렌지 게임</h3>
@@ -95,15 +105,13 @@
 <h5 id="확장-활동">확장 활동</h5>
 <p>좀더 작거나 큰 원을 그려 활동을 확대해 보자</p>
 <ul>
-<li>아이들이 새로운 규칙을 제시하도록 하자<br />
-</li>
-<li>어떤 말을 하지 말고 활동을 진행해 보자<br />
-</li>
+<li>아이들이 새로운 규칙을 제시하도록 하자<br /></li>
+<li>어떤 말을 하지 말고 활동을 진행해 보자<br /></li>
 <li>아이들이 한 줄로 앉던가, 두명 이상의 아이가 옆에 앉도록 형태를 바꿔서 진행해 보자. 몇가지 확장활동 제안 예시가 다음에 있다.</li>
 </ul>
 <p><img src="img/ch10-network/10-network-02-activity.png" alt="extension activity" /></p>
 <div class="keypoints" markdown="1">
-<h4 id="컴퓨터-과학-핵심-개념">컴퓨터 과학 핵심 개념</h4>
+<h4>컴퓨터 과학 핵심 개념</h4>
 <p>도로, 전화, 컴퓨터 시스템 같이 많은 네트워크에서 라우팅(Routing)과 교착상태(Deadlock)는 흔한 문제다. 엔지니어들은 이런 문제를 어떻게 해결할 것인가, 문제를 풀기 쉬운 네트워크를 어떻게 설계할지에 대해서 많은 연구를 한다.</p>
 <p>라우팅, 정체, 교착상태는 많은 네트워크에서 좌절감을 안겨줄 정도의 문제를 제시한다. 출퇴근 혼잡 시간대에 교통상황을 상상해 보세요. 뉴욕이나 서울 도로에 너무나 많은 자동차가 흘러나와 혼잡한 상황이 되어서 어떤 자동차도 움직일 수 없는 교착상태가 되는 경우가 종종 있습니다. 때때로, 은행 같은 금융업무용 컴퓨터가 다운이 될 때는 통신 네트워크에 교착상태가 원인입니다. 라우팅이 쉽고, 효율적이며, 정체가 최소화되는 네트워크를 설계하는 것이 많은 엔지니어들이 직면한 어려운 문제입니다.</p>
 <p>여러 사람이 동일 시간대에 동일한 데이터를 요구하는 것은 자주 있는 일입니다. 고객의 예금 잔고와 같은 데이터를 갱신할 때, 그 찰라의 시간에 “잠금(lock)”을 걸어 타인에게 보이지 않도록 하는 것이 중요합니다. 만약 잠겨 있지 않으면, 다른 누군가가 데이터를 동시에 갱신해서, 잘못된 예금 잔고가 기록되어 버릴 수도 있기 때문입니다. 그러나, 이러한 잠금 설정이 다른 항목의 잠금 설정에 의해 충돌나거나 간섭이 발생하는 상황이 되면 교착 상태가 발생할지 모릅니다.</p>
@@ -113,9 +121,14 @@
       </div>
       </article>
       <div class="footer">
-        <a class="label swc-blue-bg" href="http://software-carpentry.org">Software Carpentry</a>
-        <a class="label swc-blue-bg" href="https://github.com/swcarpentry/lesson-template">Source</a>
-        <a class="label swc-blue-bg" href="mailto:admin@software-carpentry.org">Contact</a>
+        <a class="label swc-blue-bg" href="http://www.xwmooc.net">xwMOOC</a>
+      <<<<<<< HEAD
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">Source</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">Contact</a>
+      =======
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">원본 소스</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">연락처</a>
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         <a class="label swc-blue-bg" href="LICENSE.html">License</a>
       </div>
     </div>

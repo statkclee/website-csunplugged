@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="generator" content="pandoc">
-    <title>Software Carpentry: 점의 개수를 세다—이진수</title>
+    <title>xwMOOC: 점의 개수를 세다—이진수</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://statkclee.github.io/website-csunplugged/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <<<<<<< HEAD
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/swc.css" />
+    <!-- <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/> -->
+    =======
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/swc.css" />
     <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/>
+    >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
     <meta charset="UTF-8" />
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -19,8 +26,13 @@
   <body class="lesson">
     <div class="container card">
       <div class="banner">
-        <a href="http://software-carpentry.org" title="Software Carpentry">
-          <img alt="Software Carpentry banner" src="https://statkclee.github.io/website-csunplugged/img/software-carpentry-banner.png" />
+      <<<<<<< HEAD
+        <a href="http://www.xwmooc.net" title="xwMOOC">
+          <img alt="xwMOOC banner" src="http://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      =======
+        <a href="http://www.xwmooc.net" title="xwMOOC 한글 컴퓨터 과학 언플러그드">
+          <img alt="xwMOOC banner" src="https://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         </a>
       </div>
       <article>
@@ -46,25 +58,18 @@
 </ul>
 <h4 id="학습-교재">학습 교재</h4>
 <ul>
-<li>이진 카드 5개가 데모용(<a href="../ref/01-shell.html">6 페이지 참조</a>)으로 필요합니다. 특히, A4 크기의 웃는 얼굴의 점 스티커 카드가 좋습니다.<br />
-</li>
+<li>이진 카드 5개가 데모용(<a href="../ref/01-shell.html">6 페이지 참조</a>)으로 필요합니다. 특히, A4 크기의 웃는 얼굴의 점 스티커 카드가 좋습니다.<br /></li>
 <li>아이마다 필요한 것
 <ul>
-<li>카드 5벌. 마스터 복사본: 카드에 이진수 표시된 자른 것(6페이지)<br />
-</li>
-<li>워크시트 학습: 이진수 (<a href="../ref/01-shell.html">5 페이지</a>)<br />
-</li>
+<li>카드 5벌. 마스터 복사본: 카드에 이진수 표시된 자른 것(6페이지)<br /></li>
+<li>워크시트 학습: 이진수 (<a href="../ref/01-shell.html">5 페이지</a>)<br /></li>
 </ul></li>
 <li>필요에 따라 추가학습에 아이마다 필요한 것
 <ul>
-<li>워크시트 활동: 이진수 작업하기 (<a href="../ref/01-shell.html">7 페이지</a>)<br />
-</li>
-<li>워크시트 활동: 비밀 메시지 보내기 (<a href="../ref/01-shell.html">8 페이지</a>)<br />
-</li>
-<li>워크시트 활동: 팩스 기계와 모뎀 (<a href="../ref/01-shell.html">9 페이지</a>)<br />
-</li>
-<li>워크시트 활동: 31보다 큰 수 세기 (<a href="../ref/01-shell.html">10 페이지</a>)<br />
-</li>
+<li>워크시트 활동: 이진수 작업하기 (<a href="../ref/01-shell.html">7 페이지</a>)<br /></li>
+<li>워크시트 활동: 비밀 메시지 보내기 (<a href="../ref/01-shell.html">8 페이지</a>)<br /></li>
+<li>워크시트 활동: 팩스 기계와 모뎀 (<a href="../ref/01-shell.html">9 페이지</a>)<br /></li>
+<li>워크시트 활동: 31보다 큰 수 세기 (<a href="../ref/01-shell.html">10 페이지</a>)<br /></li>
 <li>워크시트 활동: 이진수 심화 (<a href="../ref/01-shell.html">11 페이지</a>)</li>
 </ul></li>
 </ul>
@@ -121,12 +126,12 @@
 <p><img src="img/ch01-binary/01-binary-04-instruction_02.png" alt="Instruction #2" /></p>
 <p>3, 12, 19를 어떻게 만드는지 알아보자. 이들 숫자를 만들기 위한 하나 이상의 방법이 있을까요? 만들 수 있는 가장 큰 수는 무얼까요? 가장 작은 숫자는 무엇일까요? 가장 큰 수와 가장 작은 수 중에 만들 수 없는 숫자가 있나요?</p>
 <blockquote>
-<p><strong>응용문제</strong>: 1,2,3,4 숫자를 순서대로 만드세요. 숫자를 하나씩 증가시키기 위해 카드를 뒤집는 논리적인 믿을만한 방법을 찾을 수 있나요?</p>
-</blockquote>
+<strong>응용문제</strong>: 1,2,3,4 숫자를 순서대로 만드세요. 숫자를 하나씩 증가시키기 위해 카드를 뒤집는 논리적인 믿을만한 방법을 찾을 수 있나요?
 </div>
+</blockquote>
 <div class="challenge" markdown="1">
-<h4 id="복사-마스터-이진수">복사 마스터: 이진수</h4>
-<p><img src="img/ch01-binary/01-binary-04-photocopy-master.png" alt="Photocopy Master: Binary Numbers" /></p>
+<h4>복사 마스터: 이진수</h4>
+<img src="img/ch01-binary/01-binary-04-photocopy-master.png" alt="Photocopy Master: Binary Numbers" />
 </div>
 <div class="challenge" markdown="1">
 <h4 id="워크시트-활동-이진수-계산">워크시트 활동: 이진수 계산</h4>
@@ -137,26 +142,26 @@
 <h6 id="아래-기호를-숫자로-풀어보세요">아래 기호를 숫자로 풀어보세요:</h6>
 <p><img src="img/ch01-binary/01-binary-05-working-with-binary_02.png" alt="Photocopy Master: Binary Numbers" /></p>
 <blockquote>
-<p>응용문제: 1,2,4,8,16 길이를 가진 줄(rope) 세트를 사용하여 31 단위까지 어떤 길이도 나타낼 수 있다는 것을 보여주세요. 서류가방이나 상자 같은 무거운 물건의 무게를 재기 위해서 균형저울과 무게추 몇개를 가지고 어떻게 무게를 잴 수 있는지 보이고 어른들을 놀래주세요.</p>
-</blockquote>
+응용문제: 1,2,4,8,16 길이를 가진 줄(rope) 세트를 사용하여 31 단위까지 어떤 길이도 나타낼 수 있다는 것을 보여주세요. 서류가방이나 상자 같은 무거운 물건의 무게를 재기 위해서 균형저울과 무게추 몇개를 가지고 어떻게 무게를 잴 수 있는지 보이고 어른들을 놀래주세요.
 </div>
+</blockquote>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-비밀-메시지-보내기">워크시트 활동: 비밀 메시지 보내기</h4>
+<h4>워크시트 활동: 비밀 메시지 보내기</h4>
 <p>정훈이가 땡돌 땡돌 놀다가 그만 백화점 최고층에 갇혔다. 크리스마스 전날이고 선물을 가지고 무사히 집에 가고 싶었다. 정훈이는 무엇을 할 수 있을까? 전화도 시도해보고, 소리도 질러봤으나 주변에는 아무도 없었다. 길거리 반대편에 어떤 사람이 밤 늦도록 컴퓨터로 작업하고 있는 것을 봤다. 어떻게 그 사람의 관심을 끌 수 있을까? 정훈이는 주위를 둘러보고 할 수 있는 것을 찾아봤다. 그리고, 놀라운 아이디어가 떠올랐다—그녀에게 메시지를 보내기 위해서 크리스마스 트리의 전구를 사용하는 것이다. 주변의 전구를 모두 찾아 연결해서 전구를 켜거나 끌 수 있었다. 간단한 이진코드를 사용하는데 길 건너 여성분이 이진수를 이해한다고 확신했기 때문이다. 여러분도 할 수 있겠습니까?</p>
 <p><img src="img/ch01-binary/01-binary-06-sending-secret-messages.png" alt="Sending Secret Messages" /></p>
 </div>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-전자우편과-모뎀">워크시트 활동: 전자우편과 모뎀</h4>
+<h4>워크시트 활동: 전자우편과 모뎀</h4>
 <p>모뎀으로 인터넷에 연결된 컴퓨터는 메시지를 보내기 위해서 이진수 체계를 사용합니다. 유일한 차이점은 비프음(beep)을 사용하는 것이다. 높은 비프음은 1, 낮은 비프음은 0이다. 이런 음조(tone)는 엄청 빨리 날아간다. 너무나 빨라서 우리가 듣게 되는 것은 끔찍하게 연속된 끼익 소리다. 만약 들은 적이 없다면, 인터넷에 연결된 모뎀소리에 귀 기울여 들어보세요. 혹은 팩시밀리의 신호음을 들어보세요—정보를 보내기 위해서 팩시밀리 기계도 모뎀을 사용합니다.</p>
 <p><img src="img/ch01-binary/01-binary-07-email-and-modems_01.png" alt="E-mail and Modems #1" /></p>
 <p>정훈이가 백화점에서 사용한 동일 신호를 사용해서, 친구에게 전자우편을 보내보세요. 친구와 여러분 모두 편안하게 해보세요—여러분이 모뎀처럼 빠를 필요는 없어요.</p>
-<p><img src="img/ch01-binary/01-binary-07-email-and-modems_02.png" alt="E-mail and Modems #2" /></p>
+<img src="img/ch01-binary/01-binary-07-email-and-modems_02.png" alt="E-mail and Modems #2" />
 </div>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-31보다-큰-수-세기">워크시트 활동: 31보다 큰 수 세기</h4>
+<h4>워크시트 활동: 31보다 큰 수 세기</h4>
 <p>이진 카드를 다시 보세요. 다음 카드를 나열된 순서(sequence)에서 만들려면, 얼마나 많은 점이 필요할까요? 그 다음 카드는 얼마나 많은 점이 필요할까요? 새로운 카드를 만들 때마다 여러분이 지켜야 하는 규칙은 무엇일까요? 보시다시피, 다음 큰 숫자를 만들기 위해서 단지 몇 장의 카드만 필요합니다.</p>
 <p>주의 깊이 순서(sequence)를 살펴보면, 매우 흥미로운 관계를 발견하실 수 있습니다.</p>
-<h4 id="section">1, 2, 4, 8, 16, …</h4>
+<h4>1, 2, 4, 8, 16, …</h4>
 <p>1, 2, 4를 더하면 1 + 2 + 4 = ? 얼마일까요?</p>
 <p>1, 2, 4, 8을 더하면 1 + 2 + 4 + 8 = ?</p>
 <p>처음부터 이들 숫자를 다 더하면 무슨 일이 생길까요?</p>
@@ -164,10 +169,10 @@
 <p>손가락을 사용해서 순서대로 수를 세보세요. 손가락을 치켜 세우면, 1을 나타내고, 손가락을 내리면 0을 나타냅니다.</p>
 <p>만약 양쪽 손 모두 사용하면 0~1023까지 셀 수 있어요. 즉, 1024개의 숫자입니다.</p>
 <p>여러분이 만약 잘 구부릴 수 있는 발가락을 가지고 있으면(이번에는 외계인이 되셔야 합니다.^^;) 더 많은 숫자를 셀 수 있어요. 한쪽 손이 32까지 셀 수 있고, 두 손으로 32*32=1024까지 셀 수 있어요. 플렉시양(Miss Flexi)의 발가락으로는 얼마나 큰 수를 셀 수 있나요?</p>
-<p><img src="img/ch01-binary/01-binary-08-Miss-Flexi-Toes.png" alt="E-mail and Modems #2" /></p>
+<img src="img/ch01-binary/01-binary-08-Miss-Flexi-Toes.png" alt="E-mail and Modems #2" />
 </div>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-이진수-더-알아보기">워크시트 활동: 이진수 더 알아보기</h4>
+<h4>워크시트 활동: 이진수 더 알아보기</h4>
 <ol style="list-style-type: decimal">
 <li>이진수의 또 다른 흥미로운 특성은 <strong>0</strong>이 오른쪽 끝에 붙게 될 때 생긴다. 십진수의 경우, 0을 오른쪽 끝에 붙이게 되면 10을 곱한 결과가 된다. 예를 들어 9에 0을 붙이면 90이 되고, 30은 300이 된다.</li>
 </ol>
@@ -179,10 +184,10 @@
 </ol>
 <p>직접 눈으로 키보드를 살펴보고 컴퓨터가 얼마나 많은 문자를 표현해야 하는지를 살펴보세요. 모든 문자를 저장하기 위해서 컴퓨터는 얼마나 많은 비트를 필요로 할까요?</p>
 <p>대부분의 컴퓨터는 아스키(ASCII, American Standard Code for Information Interchange, 정보교환 미국 표준 코드체계) 코드를 사용합니다. 아스키는 문자마다 별도의 비트를 사용하는 것을 기준으로 하고 있지만 비영어권 국가에서는 더 많은 코드를 사용합니다.</p>
-<p><img src="img/ch01-binary/01-binary-09-more-on-binary_02.png" alt="More on Binary Numbers" /></p>
+<img src="img/ch01-binary/01-binary-09-more-on-binary_02.png" alt="More on Binary Numbers" />
 </div>
 <div class="keypoints" markdown="1">
-<h4 id="컴퓨터-과학-핵심-개념">컴퓨터 과학 핵심 개념</h4>
+<h4>컴퓨터 과학 핵심 개념</h4>
 <p>오늘날 컴퓨터는 정보를 표현하기 위해서 이진수 체계를 사용합니다. 단지 숫자가 두개만 사용되기 때문에 이진수 체계라고 불립니다. 사람은 일반적으로 십진법(base 10)을 사용한데 반해 이진법(base 2)으로 알려져 있습니다. 0 과 1 각각은 비트(bit, <strong>b</strong>inary dig<strong>it</strong>)로 불립니다. 비트는 컴퓨터 주기억장치에 스위치가 온오프 상태의 트랜지스터나 충방전된 캐패시터로 표현됩니다.</p>
 <p><img src="img/ch01-binary/01-binary-10-what-is-it-all-about-01.png" alt="Core concept 1" /></p>
 <p>전화선이나 무선 라디오를 통해서 데이터가 전송될 때, 고음과 저음 음조(tone)가 1과 0을 표현하기 위해서 사용됩니다. 자기 디스크(하드디스크나 플로피 디스크)나 테이프에서는 비트가 코팅된 표면에 자기력장 방향(북-남, 남-북)으로 표현됩니다.</p>
@@ -195,22 +200,19 @@
 <p><img src="img/ch01-binary/01-binary-10-what-is-it-all-about-04.png" alt="Core concept 4" /></p>
 </div>
 <div class="challenge" markdown="1">
-<h4 id="해답과-힌트">해답과 힌트</h4>
-<h5 id="이진수-5-페이지">이진수 (5 페이지)</h5>
-<p><strong>3</strong> 은 카드 2, 1<br />
-<strong>12</strong> 는 카드 8, 4<br />
-<strong>19</strong> 는 카드 16, 2, 1</p>
+<h4>해답과 힌트</h4>
+<h5>이진수 (5 페이지)</h5>
+<p><strong>3</strong> 은 카드 2, 1<br /><strong>12</strong> 는 카드 8, 4<br /><strong>19</strong> 는 카드 16, 2, 1</p>
 <p>어떤 숫자를 만들기 위해서 단 하나의 방법만 있다.</p>
 <p>만들 수 있는 가장 큰 수는 31. 가장 작은 숫자는 0. 그 사이 모든 숫자를 만들 수 있고, 각 숫자를 표현하는 방법은 유일하다.</p>
 <p><strong>응용문제</strong>: 하나씩 숫자를 증가시키려면, 모든 카드가 윗면이 될 때까지 오른쪽부터 왼쪽까지 모든 카드를 뒤집는 것이다.</p>
-<h5 id="이진수-계산-7-페이지">이진수 계산 (7 페이지)</h5>
+<h5>이진수 계산 (7 페이지)</h5>
 <p>10101 = 21, 11111 = 31</p>
-<h5 id="비밀-메시지-보내기-8-페이지">비밀 메시지 보내기 (8 페이지)</h5>
+<h5>비밀 메시지 보내기 (8 페이지)</h5>
 <p>해독된 메시지: HELP IM TRAPPED</p>
-<h5 id="보다-큰-수-세기-10-페이지">31보다 큰 수 세기 (10 페이지)</h5>
-<p>처음부터 숫자를 더한다면, 합계는 항상 급수열의 다음 숫자보다 1 이 작은 수가 된다.<br />
-플레시 양의 발가락은 1024 × 1024 = 1,048,576, 즉 0 부터 1,048,575 까지</p>
-<h5 id="이진수-더-알아보기-11페이지">이진수 더 알아보기 (11페이지)</h5>
+<h5>31보다 큰 수 세기 (10 페이지)</h5>
+<p>처음부터 숫자를 더한다면, 합계는 항상 급수열의 다음 숫자보다 1 이 작은 수가 된다.<br />플레시 양의 발가락은 1024 × 1024 = 1,048,576, 즉 0 부터 1,048,575 까지</p>
+<h5>이진수 더 알아보기 (11페이지)</h5>
 <p>오른쪽 끝에 0을 놓게 되면, 숫자는 항상 배수가 된다.</p>
 <p>1을 포함하는 모든 장소는 이전 값의 배수가 된다. 그래서 총수는 배수가 된다. (10진수의 경우 0을 오른쪽 끝에 놓게 되면 10을 곱한 결과가 된다.)</p>
 <p>컴퓨터는 모든 문자를 저장하기 위해서 7 비트가 필요하다. 128 문자까지 가능하다. 일반적으로 1 바이트 8비트에 7 비트가 저장되고 1 비트는 버려진다.</p>
@@ -219,9 +221,14 @@
       </div>
       </article>
       <div class="footer">
-        <a class="label swc-blue-bg" href="http://software-carpentry.org">Software Carpentry</a>
-        <a class="label swc-blue-bg" href="https://github.com/swcarpentry/lesson-template">Source</a>
-        <a class="label swc-blue-bg" href="mailto:admin@software-carpentry.org">Contact</a>
+        <a class="label swc-blue-bg" href="http://www.xwmooc.net">xwMOOC</a>
+      <<<<<<< HEAD
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">Source</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">Contact</a>
+      =======
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">원본 소스</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">연락처</a>
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         <a class="label swc-blue-bg" href="LICENSE.html">License</a>
       </div>
     </div>

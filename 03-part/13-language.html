@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="generator" content="pandoc">
-    <title>Software Carpentry: 진군 명령 — 프로그래밍 언어(Programming Languages)</title>
+    <title>xwMOOC: 진군 명령 — 프로그래밍 언어(Programming Languages)</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://statkclee.github.io/website-csunplugged/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <<<<<<< HEAD
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/swc.css" />
+    <!-- <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/> -->
+    =======
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/swc.css" />
     <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/>
+    >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
     <meta charset="UTF-8" />
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -19,8 +26,13 @@
   <body class="lesson">
     <div class="container card">
       <div class="banner">
-        <a href="http://software-carpentry.org" title="Software Carpentry">
-          <img alt="Software Carpentry banner" src="https://statkclee.github.io/website-csunplugged/img/software-carpentry-banner.png" />
+      <<<<<<< HEAD
+        <a href="http://www.xwmooc.net" title="xwMOOC">
+          <img alt="xwMOOC banner" src="http://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      =======
+        <a href="http://www.xwmooc.net" title="xwMOOC 한글 컴퓨터 과학 언플러그드">
+          <img alt="xwMOOC banner" src="https://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         </a>
       </div>
       <article>
@@ -28,27 +40,24 @@
         <div class="col-md-10 col-md-offset-1">
                     <h1 class="title">진군 명령 — 프로그래밍 언어(Programming Languages)</h1>
           <div class="objectives" markdown="1">
-<h4 id="개요">개요</h4>
+<h4>개요</h4>
 <p>대체로 컴퓨터는 제한된 명령어 어휘로 구성된 “언어”로 프로그래밍됩니다. 프로그래밍에 대한 가장 힘든 부분 중의 하나는 컴퓨터가 말도 안되는 결과를 생성하더라도, 지시사항을 글자 한자까지도 지키다는 것입니다. 이번 활동을 통해서 아이들은 프로그래밍의 이러한 점을 경험할 것입니다.</p>
-<h4 id="교과학습-연계">교과학습 연계</h4>
+<h4>교과학습 연계</h4>
 <ul>
 <li>영어 : 대인 관계 듣기 레벨 3</li>
 </ul>
-<h4 id="기술">기술</h4>
+<h4>기술</h4>
 <ul>
 <li>지침을 주고 받는 것을 이해하기</li>
 </ul>
-<h4 id="나이">나이</h4>
+<h4>나이</h4>
 <ul>
 <li>7세 이상</li>
 </ul>
-<h4 id="학습-교재">학습 교재</h4>
+<h4>학습 교재</h4>
 <ul>
-<li>선생님이 필요한 것<br />
-– 다음에 그려진 것 같은 그림 카드<br />
-</li>
-<li>아아마다 필요한 것<br />
-– 연필, 종이, 자</li>
+<li>선생님이 필요한 것<br />– 다음에 그려진 것 같은 그림 카드<br /></li>
+<li>아아마다 필요한 것<br />– 연필, 종이, 자</li>
 </ul>
 <p><img src="img/ch12-language/12-language-01-picture.png" alt="picture" /></p>
 </div>
@@ -122,12 +131,11 @@
 <h5 id="변형">변형</h5>
 <ol style="list-style-type: decimal">
 <li><p>종이 비행기를 만드는 명령문을 적어보세요.</p></li>
-<li><p>“앞으로 x 미터 전진하세요”, “90도 왼쪽으로 도세요”, “90도 오른쪽으로 도세요” 같은 명령문을 사용하여 학교 비밀장소에 도착하는 명령문을 작성해 보세요.<br />
-아이들은 자신들이 생각한 결과를 얻을 때까지 명령문을 시험하고 가다듬어야 합니다.</p></li>
+<li><p>“앞으로 x 미터 전진하세요”, “90도 왼쪽으로 도세요”, “90도 오른쪽으로 도세요” 같은 명령문을 사용하여 학교 비밀장소에 도착하는 명령문을 작성해 보세요.<br />아이들은 자신들이 생각한 결과를 얻을 때까지 명령문을 시험하고 가다듬어야 합니다.</p></li>
 <li><p>눈가리개 게임. 아이 한명의 눈을 눈가리개로 가리고, 지시 명령문에 따라 교실 여기저기를 돌아다니게 해 보세요.</p></li>
 </ol>
 <div class="keypoints" markdown="1">
-<h4 id="컴퓨터-과학-핵심-개념">컴퓨터 과학 핵심 개념</h4>
+<h4>컴퓨터 과학 핵심 개념</h4>
 <p>컴퓨터는 프로그램(Program)이라고 불리는 명령 목록에 따라 동작합니다. 프로그램은 특별한 작업을 수행하도록 작성되었습니다. 프로그램은 한정된 명령문의 집합으로 특별히 설계된 언어로 작성되었습니다. 프로그램은 컴퓨터가 무엇을 수행해야 하는지를 담고 있습니다. 특정 언어는 다른 언어보다 특정 목적을 수행하는데 더 적합합니다.</p>
 <p>어떤 언어를 사용하든지, 프로그래머는 컴퓨터에 실행시키고자 하는 것을 정확하게 전달하는데 능숙해야 합니다. 인간과 달리, 컴퓨터는 터무니 없는 것일지라도 지시명령문의 글자 그대로 수행합니다.</p>
 <p>프로그램이 올바르게 작성되었는지도 확인하는 것도 매우 중요합니다. 작은 오류가 아주 큰 문제를 일으킬 수 있습니다. 우주 왕복선 발사, 원자력 발전소, 철도 신호 등 컴퓨터 프로그램의 사소한 오류조차도 발생할 엄청난 결과를 상상해 보세요. 1940년대 초 전자계산기가 고장이 났을 때 내부 전기 릴레이에서 나방 한마리를 제거(“debugged”)해서 고장을 고쳤습니다. 이를 기념하여 오류를 버그(“bug”)라고 하며, 오류 제거하는 것을 “디버깅(debugging”, “벌레 잡기”)라고 부르게 되었습니다.</p>
@@ -138,9 +146,14 @@
       </div>
       </article>
       <div class="footer">
-        <a class="label swc-blue-bg" href="http://software-carpentry.org">Software Carpentry</a>
-        <a class="label swc-blue-bg" href="https://github.com/swcarpentry/lesson-template">Source</a>
-        <a class="label swc-blue-bg" href="mailto:admin@software-carpentry.org">Contact</a>
+        <a class="label swc-blue-bg" href="http://www.xwmooc.net">xwMOOC</a>
+      <<<<<<< HEAD
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">Source</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">Contact</a>
+      =======
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">원본 소스</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">연락처</a>
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         <a class="label swc-blue-bg" href="LICENSE.html">License</a>
       </div>
     </div>

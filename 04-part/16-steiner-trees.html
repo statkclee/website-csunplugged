@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="generator" content="pandoc">
-    <title>Software Carpentry: 얼음길 — 스타이너 트리(Steiner trees)</title>
+    <title>xwMOOC: 얼음길 — 스타이너 트리(Steiner trees)</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://statkclee.github.io/website-csunplugged/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <<<<<<< HEAD
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/swc.css" />
+    <!-- <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/> -->
+    =======
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/swc.css" />
     <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/>
+    >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
     <meta charset="UTF-8" />
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -19,8 +26,13 @@
   <body class="lesson">
     <div class="container card">
       <div class="banner">
-        <a href="http://software-carpentry.org" title="Software Carpentry">
-          <img alt="Software Carpentry banner" src="https://statkclee.github.io/website-csunplugged/img/software-carpentry-banner.png" />
+      <<<<<<< HEAD
+        <a href="http://www.xwmooc.net" title="xwMOOC">
+          <img alt="xwMOOC banner" src="http://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      =======
+        <a href="http://www.xwmooc.net" title="xwMOOC 한글 컴퓨터 과학 언플러그드">
+          <img alt="xwMOOC banner" src="https://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         </a>
       </div>
       <article>
@@ -28,22 +40,21 @@
         <div class="col-md-10 col-md-offset-1">
                     <h1 class="title">얼음길 — 스타이너 트리(Steiner trees)</h1>
           <div class="objectives" markdown="1">
-<h4 id="개요">개요</h4>
+<h4>개요</h4>
 <p>문제를 명세할 때 작고, 하찮아 보이는 변형이 커다란 차이를 가져와서 문제를 해결하기 매우 어렵게 한다. 진흙 도시 문제(활동 9)같은 활동은 네트워크를 통해서 짧은 경로를 찾는 것에 관한 것이다. 차이점은 경로를 줄이려고, 새로운 점을 네트워크에 넣는 것이 가능하다. 결과는 진흙도시와 연관되지 않은 훨씬 더 어려운 문제가 된다. 하지만, 알고리즘적으로 보면, 지도 제작자의 퍼즐(활동 13), 관광 마을(활동 14)와 동등하다.</p>
-<h4 id="기술">기술</h4>
+<h4>기술</h4>
 <ul>
 <li>공간 시각화.</li>
 <li>기하학적 추론.</li>
 <li>알고리즘 절차와 복잡성.</li>
 </ul>
-<h4 id="나이">나이</h4>
+<h4>나이</h4>
 <ul>
 <li>7세 이상</li>
 </ul>
-<h4 id="학습-교재">학습 교재</h4>
+<h4>학습 교재</h4>
 <ul>
-<li>각 그룹의 아이마다 필요한 것:<br />
-– 땅에 고정할 수 있는 못 5개 혹은 6개 (못 10개면 훌륭하다. 옷걸이를 잘라 몇개 조각으로 만든 뒤에 구부려 사용해도 좋다.) – 줄이나 고무줄 몇 미터. – 자 혹은 줄자 – 노트할 수 있는 펜과 종이</li>
+<li>각 그룹의 아이마다 필요한 것:<br />– 땅에 고정할 수 있는 못 5개 혹은 6개 (못 10개면 훌륭하다. 옷걸이를 잘라 몇개 조각으로 만든 뒤에 구부려 사용해도 좋다.) – 줄이나 고무줄 몇 미터. – 자 혹은 줄자 – 노트할 수 있는 펜과 종이</li>
 </ul>
 </div>
 <h3 id="얼음길">얼음길</h3>
@@ -66,12 +77,12 @@
 <li><p>학생들과 왜 이런 문제가 어려운지 토론하자. (왜냐하면, 스타이너점을 어디에 놓아야 하는지 모르기 때문에 어렵고, 시도해 볼 수 있는 경우의 수가 많다.)</p></li>
 </ol>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-스타이너-트리-예제-1">워크시트 활동: 스타이너 트리 예제 1</h4>
+<h4>워크시트 활동: 스타이너 트리 예제 1</h4>
 <p>가능한 가장 짧은 얼음길로 드릴 사이트를 연결하는 방법을 찾아라.</p>
 <p><img src="img/ch15-steiner/15-steiner-04-drill-sites.png" alt="drill sites" /></p>
 </div>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-스타이너-트리-예제-2">워크시트 활동: 스타이너 트리 예제 2</h4>
+<h4>워크시트 활동: 스타이너 트리 예제 2</h4>
 <p>가능한 가장 짧은 얼음길로 드릴 사이트를 연결하는 방법을 찾아라.</p>
 <p><img src="img/ch15-steiner/15-steiner-04-drill-sites-02.png" alt="drill sites 02" /></p>
 </div>
@@ -81,10 +92,7 @@
 <li><p>앞서 원래 활동을 끝마친 그룹에게 흥미로운 실험은 가로 2미터, 세로 1미터 직사각형을 가지고 노는 것이다. 학생들은 스타이너점을 하나 추가하면 더 악화되고, 스타이너점을 두개 추가하면 향상된 해결책이 되는 것을 알게될 것이다. ((b)에 경우 4미터다, (c)의 경우 2*sqrt(5)=4.47미터, (d)의 경우 2+sqrt(3)=3.73 미터가 된다.) 스타이너점을 하나 두는 배치조합이 정사각형일 때보다 직사각형일 때 나빠지는 이유를 학생들이 파악할 수 있는지 살펴보라. (정사각형이 직사각형으로 늘어날 때, (b)와 (d)는 늘어나는 양이 한번만 추가되는 반면에 (c)의 경우에는 양쪽 대각선에 증가하게 된다.)</p></li>
 <li><p>고학년 학생은 좀더 큰 문제를 다룰 수 있다. 장소를 얼음길로 연결하는 배치도 두개가 워크쉬트에 있다. 새로운 워크시트 사본, 혹은, 워크쉬트 위에 투명 슬라이드를 놓고 지울 수 있는 펜을 사용해서 다른 해결방안을 실험할 수도 있다. 다른 방식으로는, 야외 운동장에서 지도 표식을 따라 못을 박아 진행할 수도 있다. 새로운 최단 거리 기록을 세웠을 때 학생들이 학습에 알리도록 한다. (다음 첫번째 그림은 첫번째 예제에 대한 최단 거리 해결책을 보여주고, 두번째 예제에 대한 전체 거리가 거의 비슷한, 두가지 가능한 최단 거리 해결책을 보여준다.) 두개의 거이 비슷한 해결책이 있다는 사실이 역설적으로 왜 이런 유형의 문제가 그렇게 어려운지 반증한다— 스타이너점을 놓을 수 있는 선택지가 너무나도 많다!</p></li>
 </ol>
-<p><img src="img/ch15-steiner/15-steiner-06-first-example.png" alt="first example" /><br />
-첫번째 예제에 대한 최소 스타이너 트리<br />
-<img src="img/ch15-steiner/15-steiner-06-second-example.png" alt="second example" /><br />
-두번째 예제에 대한 두가지 가능한 스타이너 트리</p>
+<p><img src="img/ch15-steiner/15-steiner-06-first-example.png" alt="first example" /><br />첫번째 예제에 대한 최소 스타이너 트리<br /><img src="img/ch15-steiner/15-steiner-06-second-example.png" alt="second example" /><br />두번째 예제에 대한 두가지 가능한 스타이너 트리</p>
 <ol start="9" style="list-style-type: decimal">
 <li>다음과 같은 사다리 네트워크는 문제를 확장하는 또다른 방식을 제공한다.</li>
 </ol>
@@ -92,14 +100,13 @@
 <p>사다리 네트워크에 대한 최소 스타이너 트리가 몇개 다음에 있다. 가로대가 2개인 사다리는 정사각형과 동일하다. 하지만, 가로대가 3개인 사다리에 대해서, 해답이 상당히 다르다— 기억에서 다시 이끌어낼 수 있다면, 발견해내듯이. 가로대가 4개인 사다리의 해답은 가로대가 2개인 사다리 2개를 서로 연결한 것같다. 반면에 가로대가 5개인 사다리의 경우에는 사로대가 3개인 사다리를 좀더 확장한 것같다. 일반적으로, 사다리에 대한 최소 스타이너트리는 사다리의 가로대의 단수가 짝수냐 홀수냐에 달려있다. 만약 짝수라면, 가로대가 2단인 사다리 몇개가 서로 연결된 것처럼 보인다. 그렇지 않다면, 가로대가 3개인 사다리의 반복처럼 보인다. 하지만 엄격하게 증명하는 것은 쉽지 않다.</p>
 <p><img src="img/ch15-steiner/15-steiner-08-minimal-steiner.png" alt="minimal steiner tree" /></p>
 <ol start="10" style="list-style-type: decimal">
-<li>또다른 흥미로운 활동은 스타이너트리 비눗방울 모델을 구축하는 것이다. 다음에 보여주듯이, 두장의 투명한 플라스틱 판 사이에 장소를 나타내는 핀을 끼워넣는다. 비눗물 용액에 전체 구조물을 담군다. 비눗물에서 빼내게 되면, 아름다운 스타이너 네트워크로 핀이 연결된 비누막을 발견하게 된다. 하지만, 불행하게도 반듯이 <em>최소</em> 스타이터 트리가 되는 것은 아니다. 비누막이 전체 길이를 최소화하는 배치조합을 찾아내지만, 찾아진 배치조합은 단지 지역 최소(local minimum)이지, 전역 최소(global minimum)는 아니다. 좀더 전체 길이를 적게 하려고 전혀 다르게 스타이너점을 배치하게 될 수도 있다. 예를 들어, 처음으로 비눗물 용액에 담궈 빼냈을 때, 첫번째 비누막 배치조합을 확장활동에 나와있는 것처럼 상상할수도 있고, 두번째 비눗물 용액에 담궈 빼냈을 때 또다른 비누막 배치조합을 상상할 수도 있다.<br />
-<img src="img/ch15-steiner/15-steiner-09-soap-solution.png" alt="minimal steiner tree" /></li>
+<li>또다른 흥미로운 활동은 스타이너트리 비눗방울 모델을 구축하는 것이다. 다음에 보여주듯이, 두장의 투명한 플라스틱 판 사이에 장소를 나타내는 핀을 끼워넣는다. 비눗물 용액에 전체 구조물을 담군다. 비눗물에서 빼내게 되면, 아름다운 스타이너 네트워크로 핀이 연결된 비누막을 발견하게 된다. 하지만, 불행하게도 반듯이 <em>최소</em> 스타이터 트리가 되는 것은 아니다. 비누막이 전체 길이를 최소화하는 배치조합을 찾아내지만, 찾아진 배치조합은 단지 지역 최소(local minimum)이지, 전역 최소(global minimum)는 아니다. 좀더 전체 길이를 적게 하려고 전혀 다르게 스타이너점을 배치하게 될 수도 있다. 예를 들어, 처음으로 비눗물 용액에 담궈 빼냈을 때, 첫번째 비누막 배치조합을 확장활동에 나와있는 것처럼 상상할수도 있고, 두번째 비눗물 용액에 담궈 빼냈을 때 또다른 비누막 배치조합을 상상할 수도 있다.<br /><img src="img/ch15-steiner/15-steiner-09-soap-solution.png" alt="minimal steiner tree" /></li>
 </ol>
 <p><a href="http://www.youtube.com/watch?feature=player_embedded&v=dAyDi1aa40E
 " target="_blank"><img src="http://img.youtube.com/vi/dAyDi1aa40E/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a></p>
 <div class="keypoints" markdown="1">
-<h4 id="컴퓨터-과학-핵심-개념">컴퓨터 과학 핵심 개념</h4>
+<h4>컴퓨터 과학 핵심 개념</h4>
 <p>지금까지 다뤄온 네트워크는 <em>최소 스타이너 트리(minimal Steiner trees)</em>다. <code>트리(tree)</code>라고 불리는 이유는 순환(cycle)이 없기 때문이다. 마치 실제 나무 가지는 분기되면서 자라지만 합쳐지거나, 합쳐진 것이 다시 함께 자라 뻗어나가고 하지 않는다. “스타이너(steiner)” 트리라고 불리는 이유는 새로운 지점(스타이너점)이 나무가 연결할 원래 지점에 추가되기 때문이다. “최소”라고 불리는 이유는 모든 지점을 연결하는 최소 네트워크를 갖기 때문이다. 진흙도시(활동 9)에서 전체 길이가 최소가 되도록 지점을 연결하는 네트워크가 최소생성나무라고 학습했다. 스타이너 트리는 다른 것은 동일하고 새로운 점이 추가된다는 것만 차이점이 된다.</p>
 <p>활동 14에서 최소생성나무(minimal spanning tree)를 찾아내는 매우 효율적인 알고리즘—욕심쟁이 알고리즘으로 두개의 가장 가깝지만 아직 연결되지 않은 점을 반복적으로 연결해 나감—이 존재하지만, 최소 스타이너 트리 문제에는 일반적으로 효율적인 해답이 없다는게 흥미롭니다. 스타이너 트리는 좀더 어려운데 이유는 어디에 추가 지점을 추가할지 결정해야 하기 때문이다. 사실 다소 놀라운 점은 스타이너 트리 문제에서 가장 어려운 부분이 스타이너점이 위치할 정확한 장소를 결정하기 보다, <em>대략</em> 어느 지점에 스타이너점을 위치할 것인가 이것이 관건이다. 예를 들어, 두번째 사례에서 두가지 해답 사이의 차이가 된다. 새로운 점을 어디에 찍을 것인가를 알게된다면, 최적 지점을 찾으려고 미세 조정하는 것은 상대적으로 단순하다. 비누막 사례는 매우 효과적으로 작업을 수행하고, 컴퓨터도 마찬가지로 그렇게 할 수 있다.</p>
 <p>최소 스타이너 트리를 찾아내는 것이 전화 통신 산업에서 큰 비용절감과 연관된 이야기의 일부분이다. 1967년 이전, 미국 기업고객이 매우 큰 사설 전화 네트워크를 운영했을 때, 전화 회사에서 회선을 임대했다. 비용이 청구되는 금액은 얼마나 회선이 사용되었냐에 따라 과금이 결정되는 것이 아니라 최소 네트워크 기준으로 과금이 결정되었다. 전화 회사가 로터리 루트를 사용하기 때문에 고객은 추가 비용을 지불하지 말아야 하는 것이 이유다. 원래, 얼마를 청구금액을 계산하는 알고리즘은 최소신장트리를 결정하고 산출하었다. 하지만, 1967년경 주요 허브 3개를 소유한 항공기 회사 고객이 주목한 점이 하나 있다. 만약 중간 지점에 네번째 허브가 있다면, 전체 네트워크 길이를 줄일 수 있다는 점이다. 어쩔 수 없이 스타이너점을 전화 교환지점에 놓는다면, 길이가 짧아져서 전화 회사가 청구금액을 낮춰야 했다. 특정 배치조합에서 최소 스타이너 트리가 5% 혹은 10% 정도 최소신장나무보다 짧을 수 있지만, 금액이 매우 큰 경우 유의미한 절감금액이 된다. 스타이너 트리 문제는 종종 <code>최단 네트워크 문제(shortest network problem)</code>라고 불리는데 이유는 지점을 연결하는 최단 네트워크를 찾아내는 것과 관련되기 때문이다.</p>
@@ -109,7 +116,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a></p>
 <p><img src="img/ch15-steiner/15-steiner-10-comics.png" alt="comic" /></p>
 <p><strong>효유적인 알고리즘을 찾을 수 없을 때 무엇을 해야 할까요: 세가지 가능한 방법</strong></p>
 <p>직장 상사가 최적 솔류션을 가진 효율적인 알고리즘을 고안해 내라고 합니다. 하지만 효율적인 알고리즘을 찾을 수 없다면 여러줌은 무엇을 하실건가요? 스타이점을 도입해서 항공회사가 네트워크 비용을 절약한 사실이 있듯이 분명 그럴 수 있습니다. 만약 최적 솔류션을 도출하는 효율적인 알고리즘이 없다는 것을 <em>증명</em>할 수 있다면, 매우 좋을 것이다. 하지만, 컴퓨터과학에서 이와 같은 부정적인 결과를 증명하는 것은 매우 어렵다. 그리고 누가 알겠는가 좀더 똑똑한 프로그래머가 장래에 나와서 문제를 해결하는 아무도 생각하지 못한 기법을 생각해낼지 말이다. 그래서 불행하게도 어떤 효율적인 알고리즘도 가능하지 않다고 말할 수 있는 범주에 있을 것 같지는 않다. 사실 문제는 다룰 수 없는 것이 맞다. 하지만, 만약 다루는 문제가 NP-완전이라는 것을 보일 수만 있다면, 사실 연구소에서 수천명의 연구원들이 여러줌의 것에 상응하는 다른 문제를 풀기 위해서 작업중이고, 효과적인 해결책을 찾아내는데 실패했다. 이런 사실이 여러분에게 보너스가 되지는 않는다. 하지만, 여러분을 곤경에서 풀어줄 것이다. 물론, 실생활에서 여전히 이들 문제에 대한 답을 찾을 필요는 있다. 이런 경우 사람들은 보통 <em>휴리스틱(heuristics)</em>으로 관심을 돌린다. 휴리스틱 알고리즘은 최적해를 보장하지는 않지만, 최적해와 비교하여 약간 차이가 있는 해결책을 제시한다. 휴리스틱 알고리즘은 매우 빠르고, 최적해를 찾지 못하는데 드는 낭비가 매우 적다. 그래서 실무에서 적용하여 사용하는데 충분하다. 좀더 나은 시간표와 좀더 나은 네트워크나 도로 건설 배치가 있다는 것을 알게되면 약간 실망스러울 뿐이다.</p>
-<h5 id="추가-읽기">추가 읽기</h5>
+<h5>추가 읽기</h5>
 <p>만화는 Garey와 Johnson이 저술한 고전 “Computers and Intractability”에서 가져왔다.</p>
 <p>1984년 6월 과학 아메리카 “Computer recreations” 칼럼에 비눗방울을 사용하여 스타이너 트리를 어떻게 만드는지에 대한 간략한 기술이 있다. 정렬을 위한 스파게티 컴퓨터, 그래프에서 최단 경로를 찾는 고양이 요람, 소수인지 알려주는 빛과 거울 장치도 함께 실려있다. Dewdney가 저술한 Turing Omnibus 책에도 아날로그 컴퓨터에 관한 별도 장으로 실려있다.</p>
 </div>
@@ -117,9 +124,14 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a></p>
       </div>
       </article>
       <div class="footer">
-        <a class="label swc-blue-bg" href="http://software-carpentry.org">Software Carpentry</a>
-        <a class="label swc-blue-bg" href="https://github.com/swcarpentry/lesson-template">Source</a>
-        <a class="label swc-blue-bg" href="mailto:admin@software-carpentry.org">Contact</a>
+        <a class="label swc-blue-bg" href="http://www.xwmooc.net">xwMOOC</a>
+      <<<<<<< HEAD
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">Source</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">Contact</a>
+      =======
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">원본 소스</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">연락처</a>
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         <a class="label swc-blue-bg" href="LICENSE.html">License</a>
       </div>
     </div>

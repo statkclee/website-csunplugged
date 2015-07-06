@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="generator" content="pandoc">
-    <title>Software Carpentry: 가난한 지도 제작자 — 그래프 색칠하기</title>
+    <title>xwMOOC: 가난한 지도 제작자 — 그래프 색칠하기</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://statkclee.github.io/website-csunplugged/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <<<<<<< HEAD
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/swc.css" />
+    <!-- <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/> -->
+    =======
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/swc.css" />
     <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/>
+    >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
     <meta charset="UTF-8" />
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -19,8 +26,13 @@
   <body class="lesson">
     <div class="container card">
       <div class="banner">
-        <a href="http://software-carpentry.org" title="Software Carpentry">
-          <img alt="Software Carpentry banner" src="https://statkclee.github.io/website-csunplugged/img/software-carpentry-banner.png" />
+      <<<<<<< HEAD
+        <a href="http://www.xwmooc.net" title="xwMOOC">
+          <img alt="xwMOOC banner" src="http://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      =======
+        <a href="http://www.xwmooc.net" title="xwMOOC 한글 컴퓨터 과학 언플러그드">
+          <img alt="xwMOOC banner" src="https://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         </a>
       </div>
       <article>
@@ -28,30 +40,28 @@
         <div class="col-md-10 col-md-offset-1">
                     <h1 class="title">가난한 지도 제작자 — 그래프 색칠하기</h1>
           <div class="objectives" markdown="1">
-<h4 id="개요">개요</h4>
+<h4>개요</h4>
 <p>많은 최적화 문제는 특정 사건이 동일 시간에 발생할 수 없거나, 집합 객체에 소속된 구성원이 서로 인접할 수 없는 상황을 포함된다. 예를 들어, 수업 시간표나 회의 일정표를 작성하는 사람은 관련된 모든 사람의 제약조건을 만족시키는 문제에 맞닥드리게 된다. 이러한 어려움 중의 상당부분은 지도 색책 문제로 귀결된다. 이 문제에서 지도에 있는 국가들, 국경을 맞대고 있는 나라를 다른 색깔을 정해서 칠해야 한다. 이번 활동은 이 문제에 관한 것이다.</p>
-<h4 id="교과학습-연계">교과학습 연계</h4>
+<h4>교과학습 연계</h4>
 <ul>
-<li>수학: 숫자 2 레벨 이상. 다른 진법의 숫자 탐색. 이진수로 숫자 표현하기.<br />
-</li>
+<li>수학: 숫자 2 레벨 이상. 다른 진법의 숫자 탐색. 이진수로 숫자 표현하기.<br /></li>
 <li>수학: 대수 2 레벨 이상. 순차 패턴 계속하기. 패턴 규칙 기술하기. 이진 패턴과 관계</li>
 </ul>
-<h4 id="기술">기술</h4>
+<h4>기술</h4>
 <ul>
 <li>문제 해결 (Problem solving).</li>
 <li>논리적 추론 (Logical reasoning).</li>
 <li>알고리즘 절차와 복잡성 (Algorithmic procedures and complexity).</li>
 <li>직관을 의사소통하기 (Communication of insights).</li>
 </ul>
-<h4 id="나이">나이</h4>
+<h4>나이</h4>
 <ul>
 <li>7세 이상</li>
 </ul>
-<h4 id="학습-교재">학습 교재</h4>
+<h4>학습 교재</h4>
 <ul>
 <li>화이트보드/칠판 혹은 유사한 필기면.</li>
-<li>아이마다 필요한 것<br />
-– 워크쉬트 사본 한장 이상 – 이동 가능한 작은 컬러 마커 (예, 보드 게임 패, 포커칩(poker chips)) – 서로 다른 네가지색 크레용 (혹은 칼라연필, 싸인펜)</li>
+<li>아이마다 필요한 것<br />– 워크쉬트 사본 한장 이상 – 이동 가능한 작은 컬러 마커 (예, 보드 게임 패, 포커칩(poker chips)) – 서로 다른 네가지색 크레용 (혹은 칼라연필, 싸인펜)</li>
 </ul>
 </div>
 <h3 id="그래프-색칠하기">그래프 색칠하기</h3>
@@ -70,22 +80,22 @@
 <p>고학년 학생들에게, 찾은 색깔 숫자가 최소인지를 어떻게 알 수 있는지 설명하게 한다. 예를 들어, 이번 지도에는 최소 삼색이 필요한데 이유는 나라 세개 그룹이 있는데, 각각의 나라는 다른 두 나라와 국경을 맞대고 있기 때문이다.</p>
 <p>만약 학생이 모든 지도를 빨리 끝마치게 된다면, 다른 5가지 색이 필요한 지도를 제작하게 한다. 어떤 지도라도 단지 4가지 색으로 칠할 수 있다는 것이 증명되었다. 그래서 숙제로 준 작업은 한 동안 학생에게 시간이 걸릴 것이다. 경험상 학생이 믿기에 5가지 색이 필요한 지도를 빨리 제작할 수 있다. 하지만, 지도에서 4가지 색으로 색칠할 수 있는 방법은 항상 찾을 수 있다.</p>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-그래프-색칠하기-1">워크시트 활동: 그래프 색칠하기 1</h4>
+<h4>워크시트 활동: 그래프 색칠하기 1</h4>
 <p>가능하면 적은 수의 색을 사용하여 지도에 있는 나라들에 색을 칠하세요. 하지만, 국경을 맞대고 있는 인접한 어떠한 나라도 동일한 색깔이면 되지 않도록 확실히 하세요.</p>
 <p><img src="img/ch13-coloring/13-coloring-03-coloring-countries.png" alt="coloring countries" /></p>
 </div>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-그래프-색칠하기-2">워크시트 활동: 그래프 색칠하기 2</h4>
+<h4>워크시트 활동: 그래프 색칠하기 2</h4>
 <p>가능하면 적은 수의 색을 사용하여 지도에 있는 나라들에 색을 칠하세요. 하지만, 국경을 맞대고 있는 인접한 어떠한 나라도 동일한 색깔이면 되지 않도록 확실히 하세요.</p>
 <p><img src="img/ch13-coloring/13-coloring-04-coloring-countries.png" alt="coloring countries" /></p>
 </div>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-그래프-색칠하기-3">워크시트 활동: 그래프 색칠하기 3</h4>
+<h4>워크시트 활동: 그래프 색칠하기 3</h4>
 <p>가능하면 적은 수의 색을 사용하여 지도에 있는 나라들에 색을 칠하세요. 하지만, 국경을 맞대고 있는 인접한 어떠한 나라도 동일한 색깔이면 되지 않도록 확실히 하세요.</p>
 <p><img src="img/ch13-coloring/13-coloring-05-coloring-countries.png" alt="coloring countries" /></p>
 </div>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-그래프-색칠하기-4">워크시트 활동: 그래프 색칠하기 4</h4>
+<h4>워크시트 활동: 그래프 색칠하기 4</h4>
 <p>가능하면 적은 수의 색을 사용하여 지도에 있는 나라들에 색을 칠하세요. 하지만, 국경을 맞대고 있는 인접한 어떠한 나라도 동일한 색깔이면 되지 않도록 확실히 하세요.</p>
 <p><img src="img/ch13-coloring/13-coloring-06-coloring-countries.png" alt="coloring countries" /></p>
 </div>
@@ -96,10 +106,9 @@
 <p>지도 색칠 문제에는 흥미로운 많은 변형이 있어서 현재 알려지지 않은 방향으로 이끌 수도 있다. 예를 들어, 만일 내가 나만 종이위 지도에 색을 칠한다면, 내가 똑똑하게 작업하고나면 네가지 색깔이면 충분하다는 것을 안다. 하지만, 혼자서 작업하는 대신에, 무능한 (혹은 악의적인) 동료와 공동 작업을 하고, 교대로 나라마다 색을 칠한다고 가정하자. 나는 똑똑하게 작업하는 반면에 지도위에 나라마다 색을 칠하는 작업을 돌아가며서 진행하는데 동료는 “법이 허용하는” 한도내에서만 작업한다고 가정하자. 동료의 적합하지만 그다지 똑똑하지 못한 색칠 혹은 체제 전복적인 색칠을 추가 보상해서 제대로 만드는데 크레용이 얼마나 필요할까? 최대 색칠 숫자는 아직까지 알려지지 않았다! 1992년 크레용이 33개면 충분하다는 것이 증명되었다. 2008년 크레용이 17개면 충분할 것이다는 것이 증명되어 향상되었다. 하지만, 아직까지 이렇게 많이 필요한지 알지 못한다. (전문가는 10개보다 적은 색깔이면 충분하지 않을까 추측한다.) 학생들은 이러한 상황을 즐겁게 놀 수 있다. 두사람이 게임을 벌여 상대방이 필요한 색깔 숫자가 최대가 되도록 만드는 놀이를 한다.</p>
 <p><em>제국 채색(empire coloing)</em>으로 알려진 또 다른 지도 책색 변형이 있다. 동일한 나라 숫자를 가진 두장의 종이 위에 서로 다른 지도가 있다. 한장의 지도(예를 들어 지구) 위에 각 나라는 다른 지도 (달위에 식민지) 위에 한 나라와 정확하게 매핑되어 짝지어진다. (양쪽 지도에 대해) 국경을 맞대고 있는 나라마다 각기 다른 색을 채색하는 요구사항에 더해서 하나의 요구사항을 더 추가한다. 지구상의 각나라는 달에 있는 식민지와 동일한 색으로 채색되어야 한다. 이 문제에 대해서 얼마나 많은 색깔이 필요할까요? 현재 정답은 알려져 있지 않다.</p>
 <div class="keypoints" markdown="1">
-<h4 id="컴퓨터-과학-핵심-개념">컴퓨터 과학 핵심 개념</h4>
+<h4>컴퓨터 과학 핵심 개념</h4>
 <p>이번 활동에서 탐색한 지도 채색 문제는 본질적으로 특정한 지도를 채색하는데 필요한 최소색 숫자—2, 3, 4—를 찾는 것이다. 단지 4가지 색을 사용해서 어떤 지도도 채색될 수 있다는 추측은 1852년에 정립되었다. 하지만, 1976년이 되어서야 증명이 되었다. 컴퓨터 과학은 미해결된 문제로 가득차 있다. 네가지 색깔 정리가 연구자로부터 120년 이상 관심을 받을 후에야 증명되었다는 것을 알게되는 것은 수십년동안 해결책이 발견되지 않은 다른 문제에 학생들이 달려드는데 좋은 동기부여가 된다.</p>
-<p><img src="img/ch13-coloring/13-coloring-07-four-lands.png" alt="four lands" /><br />
-지도 책색은 <code>그래프 채색(graph coloring)</code>으로 알려진 일반적인 문제 분야에 속한다. 컴퓨터 과학에서 여기 보여지듯이 그래프는 관계의 추상적인 표현이다.</p>
+<p><img src="img/ch13-coloring/13-coloring-07-four-lands.png" alt="four lands" /><br />지도 책색은 <code>그래프 채색(graph coloring)</code>으로 알려진 일반적인 문제 분야에 속한다. 컴퓨터 과학에서 여기 보여지듯이 그래프는 관계의 추상적인 표현이다.</p>
 <p>진흙도시 활동 9 에서 언급되었듯이, 그래프라는 단어는 숫자 데이터를 표현하기 위한 막대그래프 같은 차트를 의미하는 수학에서 다른 의미로 사용된다. 컴퓨터 과학자가 사용하는 그래프는 이것과 연관되어 있지 않다. 컴퓨터 과학에서 그래프는 기술적으로 객체를 표현하는 <code>노드(node)</code>라고 불리는 원 혹은 큰 점을 사용해서 표현한다. 객체와 객체 사이에는 선을 그어서 객체간에 일종의 관계가 있다는 것을 표기한다. 상기 그래프는 활동 처음에 나온 지도를 그래프로 표현한 것이다. 노드는 나라를 두 노드 사이의 선은 두 나라가 국경음 맞대고 있음을 표기한다. 그래프에서 채색 규칙은 어떠한 연결된 노드도 동일한 색으로 채색될 수 없다는 것이다. 지도와 달리, 일반적인 그래프가 필요로 하는 색 수에는 한계가 없다. 왜냐하면, 많은 다른 제약이 연결된 선에 가해질 수 있는 반면에 지도의 이차원적인 특성이 가능한 방식을 제약한다. <code>그래프 채색 문제(graph coloing problem)</code>는 특정 그래프에 채색에 필요한 최소 색깔 숫자를 찾는 것이다.</p>
 <p><img src="img/ch13-coloring/13-coloring-07-school-subject.png" alt="school subject" /></p>
 <p>다음 그래프에서 노드는 학교 수업 과목에 대응된다. 두 수업 과목 사이의 선은 적어도 한 학생이 두 과목을 수강한다는 것을 나타낸다. 그래서 동일 시간 시간표에 두 과목이 동시에 올라가면 안된다. 이러한 표기법을 사용하여 최소 시간이 필요한 가능한 시간표 만들기 문제는 채색 문제와 동일하다. 다른 색깔은 다른 시간대에 상응한다. 그래프 채색 알고리즘은 컴퓨터 과학에서 매우 흥미로운 주제이며, 많은 실제 생활에서 사용된다. 가난한 지도 제작자는 단지 픽션(fiction)으로 절대로 지도를 채색하는데 그래프 채색 알고리즘을 사용하지는 않을 것이다.</p>
@@ -109,14 +118,13 @@
 <p>그래프 채색은 해답을 찾는 시간이 기하급수적으로 늘어나는 것을 보여주는 좋은 문제 사례다. 이번 활동에 사용된 작은 지도 같은 매우 간단한 문제 예제로, 최적의 해결책을 찾기는 매우 쉽다. 하지만, 나라의 숫자가 10개국을 넘게 되면, 최적해를 손으로 찾기는 매우 어렵게 된다. 100개 이상의 나라에 대해서 최적해를 찾기 위해서 컴퓨터를 사용하여 지도 채색을 시도하는 것도 수년이 소요될 수 있다.</p>
 <p>실생활의 많은 문제는 이와 같은 것이지만, 어쨌든 해결책을 찾아야만 한다. 컴퓨터 과학자는 완전하지는 않지만 훌륭한 답을 제시하는 방법을 사용한다. <em>휴리스틱(heuristic)</em> 기법은 최적해에 무척 가깝고, 계산하기 빠르고, 실무적인 목적에 가깝게 부합하는 해결책을 제시한다. 학교에서 완벽한 강의 시간표 보다는 한 학급 더 배정하는 정도는 참아낼만 하고, 가난한 지도 제작자도 엄밀하게 보면 필요하지 않더라도, 여분의 색을 사용하는 것을 용인한다.</p>
 <p>어느 누구도 전통적인 컴퓨터로 이런 종류의 문제를 해결하는 효율적인 방법이 있다는 것을 증명하지는 못했다. 하지만, 누구도 효율적인 방법이 존재한다는 것도 증명하지는 못했다. 그리고 컴퓨터 과학자는 효율적인 방법이 발견될 것이라는데 회의적이다. 다음 후속 두개의 활동을 통해서 이런 종류의 문제를 학습할 것이다.</p>
-<h5 id="추가-읽기">추가 읽기</h5>
+<h5>추가 읽기</h5>
 <p>Harel은 역사를 포함하여 네가지 색깔 정리를 “Algorithmics”에서 다루었다. 지도 채색문제의 다양한 측면은 Casey와 Fellows가 <em>This is MEGA-Mathematics</em>에서 다루었다. Kubale이 저술한 2004책에 그래프 채색(<em>Graph Colorings</em>)에는 문제의 역사가 포함되어 있다. 많은 웹사이트에서 이 주제를 다룬다.</p>
 </div>
 <div class="challenge" markdown="1">
-<h4 id="해답과-힌트">해답과 힌트</h4>
+<h4>해답과 힌트</h4>
 <p>워크쉬트 1 에 있는 지도에 대한 유일한 해답이다. (물론, 색깔을 선택하는 것은 학생에게 달려있지만, 두가지 다른 색만 필요하다.)</p>
-<p><img src="img/ch13-coloring/13-coloring-08-solution.png" alt="solution 01" /><br />
-워크쉬트 2 의 상단에 있는 지도는 세가지 색으로 채색될 수 있는 반면에 하단에 있는 지도는 네가지 색이 필요하다. 여기 두가지 가능한 해답이 있다.</p>
+<p><img src="img/ch13-coloring/13-coloring-08-solution.png" alt="solution 01" /><br />워크쉬트 2 의 상단에 있는 지도는 세가지 색으로 채색될 수 있는 반면에 하단에 있는 지도는 네가지 색이 필요하다. 여기 두가지 가능한 해답이 있다.</p>
 <p><img src="img/ch13-coloring/13-coloring-09-solution.png" alt="solution 02" /></p>
 <p>워크쉬트 3 에 있는 지도는 좀더 단순한 세가지 색깔지도가 되고 가능한 정답이 함께 있다.</p>
 <p><img src="img/ch13-coloring/13-coloring-10-solution.png" alt="solution 03" /></p>
@@ -125,9 +133,14 @@
       </div>
       </article>
       <div class="footer">
-        <a class="label swc-blue-bg" href="http://software-carpentry.org">Software Carpentry</a>
-        <a class="label swc-blue-bg" href="https://github.com/swcarpentry/lesson-template">Source</a>
-        <a class="label swc-blue-bg" href="mailto:admin@software-carpentry.org">Contact</a>
+        <a class="label swc-blue-bg" href="http://www.xwmooc.net">xwMOOC</a>
+      <<<<<<< HEAD
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">Source</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">Contact</a>
+      =======
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">원본 소스</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">연락처</a>
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         <a class="label swc-blue-bg" href="LICENSE.html">License</a>
       </div>
     </div>

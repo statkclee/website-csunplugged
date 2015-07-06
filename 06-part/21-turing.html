@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="generator" content="pandoc">
-    <title>Software Carpentry: 컴퓨터와 대화하기 — 튜링 테스트(Turing test)</title>
+    <title>xwMOOC: 컴퓨터와 대화하기 — 튜링 테스트(Turing test)</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://statkclee.github.io/website-csunplugged/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <<<<<<< HEAD
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/swc.css" />
+    <!-- <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/> -->
+    =======
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/swc.css" />
     <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/>
+    >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
     <meta charset="UTF-8" />
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -19,8 +26,13 @@
   <body class="lesson">
     <div class="container card">
       <div class="banner">
-        <a href="http://software-carpentry.org" title="Software Carpentry">
-          <img alt="Software Carpentry banner" src="https://statkclee.github.io/website-csunplugged/img/software-carpentry-banner.png" />
+      <<<<<<< HEAD
+        <a href="http://www.xwmooc.net" title="xwMOOC">
+          <img alt="xwMOOC banner" src="http://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      =======
+        <a href="http://www.xwmooc.net" title="xwMOOC 한글 컴퓨터 과학 언플러그드">
+          <img alt="xwMOOC banner" src="https://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         </a>
       </div>
       <article>
@@ -28,26 +40,24 @@
         <div class="col-md-10 col-md-offset-1">
                     <h1 class="title">컴퓨터와 대화하기 — 튜링 테스트(Turing test)</h1>
           <div class="objectives" markdown="1">
-<h4 id="개요">개요</h4>
+<h4>개요</h4>
 <p>이번 활동의 목표는 컴퓨터가 <code>지능(intelligence)</code>을 보이거나 장래에 지능을 보일 것 같다에 대한 궁금점에 대한 토론 단초를 만드는 것이다. 만약 인공지능이 출현한다면 사람들이 어떻게 인공지능을 인지할지에 대한 선구적인 컴퓨터 과학자 견해에 기초하여, 현재 가능한 것은 무엇이고, 신중하게 고안된 “지능”을 시연해서 얼마나 쉽게 현혹되는지도 함께 전달한다.</p>
-<h4 id="교과학습-연계">교과학습 연계</h4>
+<h4>교과학습 연계</h4>
 <ul>
 <li>기술 레벨 3: 기술 시스템. 기술 시스템이 기호 언어 도구로 표현된다는 것을 이해한다. 기술 시스템에서 블랙박스 역할을 이해한다.</li>
 </ul>
-<h4 id="기술">기술</h4>
+<h4>기술</h4>
 <ul>
-<li>인터뷰 (Interviewing).<br />
-</li>
+<li>인터뷰 (Interviewing).<br /></li>
 <li>추론 (Reasoning).</li>
 </ul>
-<h4 id="나이">나이</h4>
+<h4>나이</h4>
 <ul>
 <li>7세 이상</li>
 </ul>
-<h4 id="학습-교재">학습 교재</h4>
+<h4>학습 교재</h4>
 <ul>
-<li>각 학생이 볼 수 있는 <em>튜링 테스트 질문</em> 위크쉬트에 있는 질문 사본 한부.<br />
-</li>
+<li>각 학생이 볼 수 있는 <em>튜링 테스트 질문</em> 위크쉬트에 있는 질문 사본 한부.<br /></li>
 <li><em>튜링 테스트 대답</em> 워크쉬트에 있는 대답 사본 한부.</li>
 </ul>
 </div>
@@ -71,96 +81,49 @@
 <p>많은 대답은 특징없이 단조롭지만, 안전하다. 그래서 아마도 추가 질문을 통해서 컴퓨터가 정말 그 주제를 이해하지 못하고 있다는 것을 밝혀줄 것이다. “모르겠어요(I don’t know)” 대답은 컴퓨터에게 안전한 전략이 되고, 컴퓨터를 좀더 인간스럽게도 만든다— 사람이 제곱근 2 질문 같은 몇가지 질문에 “모르겠어요”라고 대답한다고 생각한다. 하지만, 만약 컴퓨터가 너무 자주 이런 답변을 하거나 혹은 매우 단순한 질문에 조차도 그렇게 답변한다면, 다시 정체가 탈로날 것이다.</p>
 <p>컴퓨터의 목적은 질문자가 사람을 다루고 있다고 착각하게 만드는 것이기 때문에, 질문중 일부는 의도적으로 오해를 불러일으키게 만들어졌다. 예를 들어, 연산 문제에 늦게 그리고 부정확한 대답한다. 질문과 대답이 충분한 토론재료가 되어야 한다.</p>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-튜링-테스트-질문">워크시트 활동: 튜링 테스트 질문</h4>
+<h4>워크시트 활동: 튜링 테스트 질문</h4>
 <p>다음 목록에서 숨은 인간과 “컴퓨터”에게 물어볼 질문을 선택하라.</p>
 <ol style="list-style-type: decimal">
-<li>바트 심슨의 여동생 이름은 무엇인가요?<br />
-</li>
-<li>로알드 달(Roald Dahl)을 어떻게 생각하세요?<br />
-</li>
-<li>당신은 컴퓨터인가요?<br />
-</li>
-<li>순열 3, 6, 9, 12, 15 다음 숫자는?<br />
-</li>
-<li>핵무기에 대해서 어떻게 생각하세요?<br />
-</li>
-<li>2 × 78 값은?<br />
-</li>
-<li>제곱근 2의 값은?<br />
-</li>
-<li>34957에 70764을 더하면?<br />
-</li>
-<li>학교 좋아해요?<br />
-</li>
-<li>댄싱 좋아해요?<br />
-</li>
-<li>오늘이 무슨 요일인가요?<br />
-</li>
-<li>지금이 몇시죠?<br />
-</li>
-<li>윤달이 있는 2월은 몇일이 있죠?<br />
-</li>
-<li>일주일은 몇일이 있나요?<br />
-</li>
-<li>어느 나라 국기가 흰 배경에 빨간 원이 있을까요?<br />
-</li>
-<li>독서 좋아해요?<br />
-</li>
+<li>바트 심슨의 여동생 이름은 무엇인가요?<br /></li>
+<li>로알드 달(Roald Dahl)을 어떻게 생각하세요?<br /></li>
+<li>당신은 컴퓨터인가요?<br /></li>
+<li>순열 3, 6, 9, 12, 15 다음 숫자는?<br /></li>
+<li>핵무기에 대해서 어떻게 생각하세요?<br /></li>
+<li>2 × 78 값은?<br /></li>
+<li>제곱근 2의 값은?<br /></li>
+<li>34957에 70764을 더하면?<br /></li>
+<li>학교 좋아해요?<br /></li>
+<li>댄싱 좋아해요?<br /></li>
+<li>오늘이 무슨 요일인가요?<br /></li>
+<li>지금이 몇시죠?<br /></li>
+<li>윤달이 있는 2월은 몇일이 있죠?<br /></li>
+<li>일주일은 몇일이 있나요?<br /></li>
+<li>어느 나라 국기가 흰 배경에 빨간 원이 있을까요?<br /></li>
+<li>독서 좋아해요?<br /></li>
 <li>좋아하는 음식은?</li>
 </ol>
 </div>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-튜링-테스트-대답">워크시트 활동: 튜링 테스트 대답</h4>
+<h4>워크시트 활동: 튜링 테스트 대답</h4>
 <p>다음 목록에서 숨은 인간과 “컴퓨터”에게 물어볼 질문을 선택하라.</p>
 <ol style="list-style-type: decimal">
-<li>바트 심슨의 여동생 이름은 무엇인가요?<br />
-<strong>기억할 수 없어요</strong><br />
-</li>
-<li>로알드 달(Roald Dahl)을 어떻게 생각하세요?<br />
-<strong>재미있는 책을 많이 썼어요</strong><br />
-</li>
-<li>당신은 컴퓨터인가요?<br />
-<strong>당신은 컴퓨터인가요?</strong><br />
-</li>
-<li>순열 3, 6, 9, 12, 15 다음 숫자는?<br />
-<strong>18</strong><br />
-</li>
-<li>핵무기에 대해서 어떻게 생각하세요?<br />
-<strong>핵무기는 매우 위함하고, 사용되지 말아야 합니다.</strong><br />
-</li>
-<li>2 × 78 값은?<br />
-<strong>166</strong> <em>(의도적으로 잘못된 답을 준다.)</em><br />
-</li>
-<li>제곱근 2의 값은?<br />
-<strong>1.41421356237309504878</strong><br />
-</li>
-<li>34957에 70764을 더하면?<br />
-<em>대답을 하기 전에 약 20초가량 기다린다.</em><br />
-<strong>…105621</strong><br />
-</li>
-<li>학교 좋아해요?<br />
-<strong>네, 학교 좋아해요</strong></li>
-<li>댄싱 좋아해요?<br />
-<strong>네, 댄싱 좋아해요</strong></li>
-<li>오늘이 무슨 요일인가요?<br />
-<strong>올바른 요일로 대답한다</strong><br />
-</li>
-<li>지금이 몇시죠?<br />
-<strong>올바른 시간으로 대답한다</strong><br />
-</li>
-<li>윤달이 있는 2월은 몇일이 있죠?<br />
-<strong>2000년과 2004년은 윤년이다</strong> <em>(의도적으로 잘못된 답을 준다.)</em><br />
-</li>
-<li>일주일은 몇일이 있나요?<br />
-<strong>칠일</strong><br />
-</li>
-<li>어느 나라 국기가 흰 배경에 빨간 원이 있을까요?<br />
-<strong>모르겠어요</strong><br />
-</li>
-<li>독서 좋아해요? <strong>네 독서 좋아합니다.</strong><br />
-</li>
-<li>좋아하는 음식은?<br />
-<strong>배고프지 않아요, 감사합니다.</strong></li>
+<li>바트 심슨의 여동생 이름은 무엇인가요?<br /><strong>기억할 수 없어요</strong><br /></li>
+<li>로알드 달(Roald Dahl)을 어떻게 생각하세요?<br /><strong>재미있는 책을 많이 썼어요</strong><br /></li>
+<li>당신은 컴퓨터인가요?<br /><strong>당신은 컴퓨터인가요?</strong><br /></li>
+<li>순열 3, 6, 9, 12, 15 다음 숫자는?<br /><strong>18</strong><br /></li>
+<li>핵무기에 대해서 어떻게 생각하세요?<br /><strong>핵무기는 매우 위함하고, 사용되지 말아야 합니다.</strong><br /></li>
+<li>2 × 78 값은?<br /><strong>166</strong> <em>(의도적으로 잘못된 답을 준다.)</em><br /></li>
+<li>제곱근 2의 값은?<br /><strong>1.41421356237309504878</strong><br /></li>
+<li>34957에 70764을 더하면?<br /><em>대답을 하기 전에 약 20초가량 기다린다.</em><br /><strong>…105621</strong><br /></li>
+<li>학교 좋아해요?<br /><strong>네, 학교 좋아해요</strong></li>
+<li>댄싱 좋아해요?<br /><strong>네, 댄싱 좋아해요</strong></li>
+<li>오늘이 무슨 요일인가요?<br /><strong>올바른 요일로 대답한다</strong><br /></li>
+<li>지금이 몇시죠?<br /><strong>올바른 시간으로 대답한다</strong><br /></li>
+<li>윤달이 있는 2월은 몇일이 있죠?<br /><strong>2000년과 2004년은 윤년이다</strong> <em>(의도적으로 잘못된 답을 준다.)</em><br /></li>
+<li>일주일은 몇일이 있나요?<br /><strong>칠일</strong><br /></li>
+<li>어느 나라 국기가 흰 배경에 빨간 원이 있을까요?<br /><strong>모르겠어요</strong><br /></li>
+<li>독서 좋아해요? <strong>네 독서 좋아합니다.</strong><br /></li>
+<li>좋아하는 음식은?<br /><strong>배고프지 않아요, 감사합니다.</strong></li>
 </ol>
 </div>
 <h5 id="변형과-확장">변형과 확장</h5>
@@ -187,21 +150,17 @@
 <p>{:class=“out”}</p>
 <p>웹에서 널리 사용되는 “Eliza”(일종의 챗봇(chatbot)으로 채팅 대화를 나눌 수 있는 시스템)라는 시스템이 있다. 엘리자는 심리치료사를 모사해서 간단한 몇가지 규칙을 사용해서 놀랍도록 지능적인 대화를 만들어낸다. Eliza와 대화 내용이 아래 노의된다. 학생들이 Eliza나 다른 챗봇과 대화를 시험할 수 있다. 하지만, 몇몇 챗봇은 학교 학생들에게 부적절한 주제와 언어를 사용하도록 훈련받았다고 경고하는 것을 잊지 않는다.</p>
 <div class="keypoints" markdown="1">
-<h4 id="컴퓨터-과학-핵심-개념">컴퓨터 과학 핵심 개념</h4>
+<h4>컴퓨터 과학 핵심 개념</h4>
 <p>수백년동안 철학자는 기계가 인간 지능을 흉내낼 수 있을지, 역으로 인간 두뇌는 단지 미화된 컴퓨터 프로그램이 실행되는 기계에 불가한지에 대해서 논쟁해왔다. 이슈는 사람들을 첨예하게 둘로 나누었다. 한 부류 사람은 아이디어가 터무니 없고, 미쳤고, 심지어 불경스럽다고 믿는다. 반면에 다른 부류 사람은 인공지능은 피할 수 없고, 인간처럼 지적인 기계를 사람이 결국 만들어 낼 것으로 믿고 있다. (무수한 공상과학 작가들이 지적했듯이, 만약 기계가 결국 인간 지능을 능가하게 된다면, 기계 스스로 더 똑똑한 기계를 만들어 낼 것이다.) 인공지능(AI) 연구원이 자동전투기계를 개발하려고 하는 정부로부터 연구자금을 끌어들이기 위한 수단으로 숭고한 목표를 이용했다고 비판받고 있다. 반면에 AI 연구자 스스로 시위를 신기술 반대(Luddite) 반발운동이라고 비난하고, 만약 좀더 많은 지능이 있다면 사회에 명백한 이득이 된다는 점을 지적한다. 좀더 균형된 관점은 인공지능은 터무지 없지도, 필연적이지도 않다: 현재 어떤 컴퓨터 프로그램도 폭 넓은 의미에서 “지능(intelligence)”을 보여주지 못하고 있지만, 컴퓨터가 그런 능력이 있는지에 대한 질문은 어느 쪽으로도 제대로 대답할 수 없는 실험단계에 있다.</p>
 <p>AI 논쟁은 지능의 정의에 달려있다. 많은 정의가 제안되고 논의되었다. 지능을 확립하는 흥미로운 접근법이 1940년대 앨런 튜링이 제안했다. 앨런 튜링은 저명한 영국 수학자, 전시에는 역스파이, 일종의 “사고실험”으로 장거리 주자이기도 하다. 튜링 접근법은 지능을 정의하기보다 운영에 초점을 맞췄다. 컴퓨터가 지능을 시연할 수 있는 상황을 기술했다. 튜링 시나리오는 앞에서 기술한 활동과 매우 유사하다. 본질은 심문자가 (1940년대에 최신 기술) 전신 타자기를 통해서 사람과 컴퓨터와 상호작용하는 것이다. 만약 신문자가 컴퓨터와 사람을 신뢰할 수 있게 구별하지 못한다면, 컴퓨터는 지능에 대한 튜링테스트를 통과했다. 전신타자기를 사용해서 외모나 목소리로 컴퓨터가 불이익을 받는 부분을 회피한다. 상황을 확대해서 컴퓨터가 외모, 소리, 감촉, 혹은 냄새도 사람 흉내내는 것을 상상할 수 있다— 하지만 물리적 속성은 지능과 무관하다.</p>
 <p>최초 튜링 테스트는 여기 기술된 것과 약간 다르다. 예비 연습으로, 남자와 여자가 취조를 받고 있고, 심문자가 남자인지 여자인지 성별을 결정하는 시나리오를 제안했다. 남자의 목표는 심문자에게 그가 여자라고 확신시키는 것이고, 여자의 목표는 심문자에게 그녀가 여자 본인이라고 확신시키는 것이다. 그리고 나서, 튜링은 컴퓨터가 양쪽 중 하나로 대체되어 사람으로 모방게임에서 성공할 수 있는지 상상했다.(이것은 단지 사고 실험으로만 제안되었다.) 교실 활동으로 설정을 바꾸었다. 왜냐하면, 학생들이 성별을 결정하려는 유형의 질문이 부적절할지도 모르고, 사기는 말할 것도 없이 성적 고정관졈을 고착화시킬 수 있다는 우려 때문이다.</p>
 <p>지능을 모방하는 것은 어려운 일이다. 만약 역할이 뒤바뀌어 사람이 컴퓨터로서 테스트를 통과하는 상황이라면, 분명히 통과할 수 없다: “123456 × 789012 계산 결과는?” 같은 질문에 느린(아마도 부정확한) 응답 속도로 바로 탈락하게 된다.</p>
 <p>하지만, 컴퓨터가 얇게 겉치장된 대화 능력을 습득하는 것은 놀랍도록 쉽다. 1960년 초에 (앞에서 언급된) 매우 유명한 Eliza 가 개발되어 비지시적인 심리치료사를 모사하여 사용자와 대화했다. 다음에 Eliza 시스템과 대화 사례가 있다. 자연스러운 대화에 다가서는 방법은 다음 장치를 통해서 가능했다.</p>
 <ul>
-<li>녹음된 응답을 생성한다.<br />
-</li>
-<li>사용자 문장을 메아리 친다.<br />
-</li>
-<li>핵심 단어를 인식한다.<br />
-</li>
-<li>판에 박은 흔한 문구.<br />
-</li>
+<li>녹음된 응답을 생성한다.<br /></li>
+<li>사용자 문장을 메아리 친다.<br /></li>
+<li>핵심 단어를 인식한다.<br /></li>
+<li>판에 박은 흔한 문구.<br /></li>
 <li>대화 앞부분에서 쓰여진 이슈.</li>
 </ul>
 <pre><code>사람: 남자는 모두 똑같아.  
@@ -294,16 +253,11 @@ Robot:  &quot;미안합니다, &#39;미안합니다&#39; 라는 단어 몰라요
 로봇? 물총은 이미 있는데, 날씬한 중고 개구리와 레고 블록 2개와 피라미드를 바꿀 수 있어.  </code></pre>
 <p>{:class=“out”}</p>
 <ul>
-<li>만약 물총을 이미 가지고 있다면, “로봇”은 물총이 덜 가치있다고 평가한다.<br />
-</li>
-<li>더 나아가 <em>사람이 그 사실을 알기를 기대한다</em>, 왜냐하면 귀찮게 제안을 거절할 이유를 설명하지 않아도 되기 때문이다.<br />
-</li>
-<li>사람이 뭔가 중요한 것을 넘겨주고서라도 블록을 몹시 원한다는 것을 여전히 로봇이 알고 있다.<br />
-</li>
-<li>또한, 로봇은 물총과는 달리 레고블록 숫자도 중요하다고 생각한다.<br />
-</li>
-<li>개구리를 중고라고 가치를 떨어뜨려 사람을 누그러지게 하려한다.<br />
-</li>
+<li>만약 물총을 이미 가지고 있다면, “로봇”은 물총이 덜 가치있다고 평가한다.<br /></li>
+<li>더 나아가 <em>사람이 그 사실을 알기를 기대한다</em>, 왜냐하면 귀찮게 제안을 거절할 이유를 설명하지 않아도 되기 때문이다.<br /></li>
+<li>사람이 뭔가 중요한 것을 넘겨주고서라도 블록을 몹시 원한다는 것을 여전히 로봇이 알고 있다.<br /></li>
+<li>또한, 로봇은 물총과는 달리 레고블록 숫자도 중요하다고 생각한다.<br /></li>
+<li>개구리를 중고라고 가치를 떨어뜨려 사람을 누그러지게 하려한다.<br /></li>
 <li>흥정을 준비한다는 의미를 내포하고 있다.</li>
 </ul>
 <p>확실히, 이런 정도의 인위성은 오늘날 컴퓨터의 능력을 훨씬 뛰어 넘는다.</p>
@@ -313,7 +267,7 @@ Robot:  &quot;미안합니다, &#39;미안합니다&#39; 라는 단어 몰라요
 <p>매년 <em>Loebner prize</em> 행사가 열린다. 심사위원을 컴퓨터가 사람이라고 생각하게 만듦으로서, 튜링 테스트를 통과하려고 컴퓨터 프로그램이 경쟁한다. 2012년 기준, 어떤 컴퓨터도 금상 혹은 은상을 수상하지 못했다. 금상 혹은 은상은 지속적으로 심사위원으로 하여금 컴퓨터가 사람이라고 생각하게 만드는데 성공한 것이다. 하지만, 동상은 매년 수여되는데, 대부분의 심사위원을 속이는데 성공한 컴퓨터에게 돌아간다. 1991년 열린 첫 행사에서 한 프로그램이 간신히 동상을 받았는데 다른 기법중에서 타이핑 실수를 통해서 좀더 인간스럽게 보이는 기법이 수상으로 이어졌다!</p>
 <p>어떤 인공지승 시스템도 완전한 튜링 테스트를 통과할 수 있게 만들어 내지 못했다. 설사 하나가 만들어지더라도, 튜링 테스트를 통과했다고해서 대부분의 사람이 지능이라고 의미하는 것을 진실되게 측정하지 못한다고 많은 철학자가 주장한다. 튜링 테스트가 테스트하는 것은 행위 등가성(behavioral equivalence)이다: 특정 컴퓨터 프로그램이 지능 조짐을 보이는지 판단하도록 디자인되어서 순수하게 지능을 소유했다는 것과 동일하지 않을 수 있다. 인지하지 못하고, 자신을 파악하지 못하고, 자각도 없도, 자의식도 느낄 수 없고, 사랑도 경험하지 못하고, 살아있다고 느끼지도 못하는데, 인간적으로 지능이 있다고 할 수 있을까?</p>
 <p>인공지능(AI) 논쟁은 수십년동안 우리와 함께 할 것 같다.</p>
-<h5 id="추가-읽기">추가 읽기</h5>
+<h5>추가 읽기</h5>
 <p>철학자 John Haugeland가 저술한 <em>Artificial intelligence: the very idea</em> 책은 인공지능 논쟁에 대한 매우 잘 저술되어 있고, 이번 활동에 사용된 몇몇 삽화의 출처이기도 하다. (특히, SHRDLU 대화와 대화의 토론)</p>
 <p>최초 튜링 테스트는 앨런 튜링이 1950년 철학저널 <em>Mind</em>에 기고한 <em>“Computing machinery and intelligence”</em> 에 실렸고, Feigenbaum과 Feldman이 편집한 <em>Computers and thought</em>에 다시 출판되었다. 논문에는 첫 두 대화가 실려있다.</p>
 <p>심리치료사 프로그램은 1966년 J. Weizenbaum가 <em>Communications of the Association for Computing Machinery</em> 컴퓨터 저널 <em>“ELIZA—A computer program for the study of natural language communication between man and machine”</em>에 기술되어 있다.</p>
@@ -324,9 +278,14 @@ Robot:  &quot;미안합니다, &#39;미안합니다&#39; 라는 단어 몰라요
       </div>
       </article>
       <div class="footer">
-        <a class="label swc-blue-bg" href="http://software-carpentry.org">Software Carpentry</a>
-        <a class="label swc-blue-bg" href="https://github.com/swcarpentry/lesson-template">Source</a>
-        <a class="label swc-blue-bg" href="mailto:admin@software-carpentry.org">Contact</a>
+        <a class="label swc-blue-bg" href="http://www.xwmooc.net">xwMOOC</a>
+      <<<<<<< HEAD
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">Source</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">Contact</a>
+      =======
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">원본 소스</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">연락처</a>
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         <a class="label swc-blue-bg" href="LICENSE.html">License</a>
       </div>
     </div>

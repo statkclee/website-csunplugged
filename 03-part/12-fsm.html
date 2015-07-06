@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="generator" content="pandoc">
-    <title>Software Carpentry: 보물 찾기 — 유한상태 오토마타</title>
+    <title>xwMOOC: 보물 찾기 — 유한상태 오토마타</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://statkclee.github.io/website-csunplugged/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <<<<<<< HEAD
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="http://statkclee.github.io/website-csunplugged/css/swc.css" />
+    <!-- <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/> -->
+    =======
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/bootstrap/bootstrap-theme.css" />
     <link rel="stylesheet" type="text/css" href="https://statkclee.github.io/website-csunplugged/css/swc.css" />
     <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/>
+    >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
     <meta charset="UTF-8" />
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -19,8 +26,13 @@
   <body class="lesson">
     <div class="container card">
       <div class="banner">
-        <a href="http://software-carpentry.org" title="Software Carpentry">
-          <img alt="Software Carpentry banner" src="https://statkclee.github.io/website-csunplugged/img/software-carpentry-banner.png" />
+      <<<<<<< HEAD
+        <a href="http://www.xwmooc.net" title="xwMOOC">
+          <img alt="xwMOOC banner" src="http://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      =======
+        <a href="http://www.xwmooc.net" title="xwMOOC 한글 컴퓨터 과학 언플러그드">
+          <img alt="xwMOOC banner" src="https://statkclee.github.io/website-csunplugged/img/xwMOOC-logo.png" />
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         </a>
       </div>
       <article>
@@ -28,38 +40,30 @@
         <div class="col-md-10 col-md-offset-1">
                     <h1 class="title">보물 찾기 — 유한상태 오토마타</h1>
           <div class="objectives" markdown="1">
-<h4 id="개요">개요</h4>
+<h4>개요</h4>
 <p>컴퓨터 프로그램이 문서안에서 문자나 단어, 혹은 다른 컴퓨터 프로그램의 텍스트 같은 기호 순서(sequence)를 종종 처리할 필요가 있다. 컴퓨터 과학자는 이런 작업을 처리하기 위해서 유한상태 오토마타를 사용합니다. “기호는 문서 안의 문자나 단어 또는 프로그램 문장”, “정수는 0~ 9까지 숫자가 늘어선 것”, “실수는 일정 숫자 순서 뒤에 소수점이 1개 있고 다시 숫자가 늘어선 것” 같이 단어나 기호 문자열을 컴퓨터가 인식해야 합니다. 유한상태 오토마타는 명령어 집합을 따라서 컴퓨터가 단어나 기호 문자열을 인식하는지 확인합니다. 유한상태 오토마타에 상응하는 보물지도를 사용하여 활동을 수행합니다.</p>
-<h4 id="교과학습-연계">교과학습 연계</h4>
+<h4>교과학습 연계</h4>
 <ul>
 <li>수학 : 논리와 추론 개발하기 — 패턴을 기술하고 이어가는 단어나 기호 사용하기</li>
 <li>사회 연구</li>
 <li>영어/국어</li>
 </ul>
-<h4 id="기술">기술</h4>
+<h4>기술</h4>
 <ul>
 <li>간단한 독도법(지도 읽기)</li>
 <li>패턴 인식</li>
 <li>논리</li>
 <li>명령 이해하기</li>
 </ul>
-<h4 id="나이">나이</h4>
+<h4>나이</h4>
 <ul>
 <li>9세 이상</li>
 </ul>
-<h4 id="학습-교재">학습 교재</h4>
+<h4>학습 교재</h4>
 <ul>
-<li>선생님이 필요한 것<br />
-– 섬 카드 한 세트 (지도를 그리려는 아이들에게 지침이 노출되지 않도록 주의하세요.)<br />
- 복사 마스터: 섬 카드 복사해서 자르기 (97페이지부터)<br />
- 점선을 따라 접고 카드의 앞면에는 섬의 이름이 뒷면에는 명령이 되도록 풀칠한다.</li>
-<li>아아마다 필요한 것<br />
-– 워크시트 활동: 보물섬에 보물로 가는 길을 찾으세요. (96페이지)<br />
-– 펜 또는 연필<br />
-</li>
-<li>선택적으로 발전학습을 위해, 아이마다 필요한 것<br />
-– 워크시트 활동: 보물섬 (102페이지)<br />
-– 워크시트 활동: 수수께끼 동전 게임 (103 페이지)</li>
+<li>선생님이 필요한 것<br />– 섬 카드 한 세트 (지도를 그리려는 아이들에게 지침이 노출되지 않도록 주의하세요.)<br /> 복사 마스터: 섬 카드 복사해서 자르기 (97페이지부터)<br /> 점선을 따라 접고 카드의 앞면에는 섬의 이름이 뒷면에는 명령이 되도록 풀칠한다.</li>
+<li>아아마다 필요한 것<br />– 워크시트 활동: 보물섬에 보물로 가는 길을 찾으세요. (96페이지)<br />– 펜 또는 연필<br /></li>
+<li>선택적으로 발전학습을 위해, 아이마다 필요한 것<br />– 워크시트 활동: 보물섬 (102페이지)<br />– 워크시트 활동: 수수께끼 동전 게임 (103 페이지)</li>
 </ul>
 </div>
 <h3 id="보물섬">보물섬</h3>
@@ -98,26 +102,22 @@
 <p>최종지도는 다음과 같습니다:</p>
 <p><img src="img/ch11-fsm/11-fsm-01-three-islands-demo.png" alt="three islands demo" /></p>
 <div class="challenge" markdown="1">
-<h4 id="시연-활동을-위한-카드">시연 활동을 위한 카드</h4>
+<h4>시연 활동을 위한 카드</h4>
 <p><img src="img/ch11-fsm/11-fsm-01-three-islands-cards.png" alt="three islands cards" /></p>
-<h5 id="활동">활동</h5>
+<h5>활동</h5>
 <p>섬 역할을 수행할 아이 7명을 선택합니다. 아이들은 뒷면에 비밀 명령이 있는 섬 카드를 지니고 있습니다. 교실 내부나 실외에서 적절한 공간에 무작위로 아이들을 배치하세요. 나머지 아이들은 공백 지도를 가지고 해적섬에서 보물섬으로 가는 항로를 지도에 표시하면서 항해할 것입니다. (보물섬에 갈 아이는 한 번에 한 명만 한정하여 미리 목적지를 듣고 못하도록 하는 것이 좋습니다.)</p>
 <p>빨리 끝난 아이: 다른 경로를 찾아보세요.</p>
 <p>완성된 지도는 아래와 같을 것입니다.</p>
 <p><img src="img/ch11-fsm/11-fsm-02-treasury-map.png" alt="treasury map" /></p>
-<h5 id="후속-토론">후속 토론</h5>
-<p>가장 빠른 항로는 무엇입니까?<br />
-매우 느린 항로는 무엇입니까?<br />
-몇몇 항로는 반복(loop)을 포함한 항로도 있습니다.<br />
-반복을 포함한 항로의 예를 보여줄 수 있습니까?<br />
-보물섬에 도착하는 항로의 예를 보여줄 수 있나요? (예를 들어, 항로 <strong>BBBABAB</strong>과 <strong>BBBABBABAB</strong> 모두 보물섬에 도착합니다)</p>
+<h5>후속 토론</h5>
+<p>가장 빠른 항로는 무엇입니까?<br />매우 느린 항로는 무엇입니까?<br />몇몇 항로는 반복(loop)을 포함한 항로도 있습니다.<br />반복을 포함한 항로의 예를 보여줄 수 있습니까?<br />보물섬에 도착하는 항로의 예를 보여줄 수 있나요? (예를 들어, 항로 <strong>BBBABAB</strong>과 <strong>BBBABBABAB</strong> 모두 보물섬에 도착합니다)</p>
 </div>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-보물섬의-보물까지-가는-길을-찾아라.">워크시트 활동: 보물섬의 보물까지 가는 길을 찾아라.</h4>
+<h4>워크시트 활동: 보물섬의 보물까지 가는 길을 찾아라.</h4>
 <p><img src="img/ch11-fsm/11-fsm-03-treasury-map-blank.png" alt="blank treasury map" /></p>
 </div>
 <div class="challenge" markdown="1">
-<h4 id="복사-마스터-섬-카드">복사 마스터: 섬 카드</h4>
+<h4>복사 마스터: 섬 카드</h4>
 <p><img src="img/ch11-fsm/11-fsm-04-treasury-map-card01.png" alt="treasury map one" /></p>
 <p><img src="img/ch11-fsm/11-fsm-04-treasury-map-card02.png" alt="treasury map two" /></p>
 </div>
@@ -129,7 +129,7 @@
 <p>지도 (b)는 A와 B가 교대로 나타나는 경우에만 이중 원 (섬 1)에 도달할 수 있습니다.Bs (AB, ABAB, ABABAB, …)</p>
 <p>지도 (c)는 이동 순서(sequence)에 적어도 하나의 B가 포함되어야 합니다. (B를 포함하지 않은 A, AA, AAA, AAAA, … 은 이중 원(섬 2)에 도달할 수 없습니다.)</p>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-보물섬">워크시트 활동: 보물섬</h4>
+<h4>워크시트 활동: 보물섬</h4>
 <p>보물을 잘 숨기셨는지요? 보물을 찾기 얼마나 힘들게 할 수 있을까요? 이제 자신만의 보물지도를 만들어 보세요.</p>
 <ol style="list-style-type: decimal">
 <li>동일한 아이디어를 지도로 표현하는 좀더 복잡한 방식이 다음에 있다. 이 지도는 앞에서 연습한 것과 동일하다. 컴퓨터 과학자는 이러한 빠르고 쉬운 방식을 사용하여 패턴에 대한 경로를 설계한다.</li>
@@ -147,7 +147,7 @@
 <p>이제 동일한 개념을 이용하여 새로운 작문 게임을 만들어봅시다. 혹시, 재미있는 코믹 이야기를 만들 수도 있습니다.</p>
 </div>
 <div class="challenge" markdown="1">
-<h4 id="워크시트-활동-수수께끼-동전-게임">워크시트 활동: 수수께끼 동전 게임</h4>
+<h4>워크시트 활동: 수수께끼 동전 게임</h4>
 <p>한 친구가 인터넷에서 게임을 다운로드 했습니다. 로봇이 동전을 던지면, 앞면이 나올지 뒷면이 나올지를 맞추는 게임이었습니다. 처음에 무척이나 간단해 보였고, 적어도 50대50 가능성이 있다고 생각했습니다. 하지만, 잠시 뒤에 의심스러운 생각이 들었습니다. 동전 던지기에 특정한 패턴이 있는 것처럼 보였습니다. 인간이 게임을 이길 수 없게 게임이 조작되었나? 분명 아닙니다. 게임을 조사하기로 마음먹고, 조(Joe)는 게임에서 동전 던지기 결과를 적기 시작했고, 다음이 동전던지기 결과 찾아낸 것입니다. (h = heads 앞면, t=tails 뒷면)</p>
 <pre><code>h h t h h t h h h t t h h h h t t h t t t h h h h h t h h h t t t h h h t t t h h h h h h t t h t t t t t h t t h t t t h h h t t h h h t h h h h h h h h h t t h h h t t t t h h h h h t t t t t t t</code></pre>
 <p>{:class=“in”}</p>
@@ -155,7 +155,7 @@
 <p>동전던지기 규칙을 나타내는 아주 간단한 지도가 있습니다. 여러분이 해결할 수 있는지 확인해 보세요. (<strong>힌트</strong>: 단지 4개의 ‘섬’밖에 없습니다.)</p>
 </div>
 <div class="keypoints" markdown="1">
-<h4 id="컴퓨터-과학-핵심-개념">컴퓨터 과학 핵심 개념</h4>
+<h4>컴퓨터 과학 핵심 개념</h4>
 <p>컴퓨터 과학에서 컴퓨터가 문자나 이벤트 순서(sequence)를 처리하려고 유한상태 오토마타(finite-state automata)를 사용합니다.</p>
 <p>가장 간단 사례로 전화 자동응답 서비스가 있습니다. 전화를 걸면 자동응답 시스템에서 “무슨 서비스를 원한다면… 1번, 다른 무언가를 원한다면 … 2번, 상담원과 직접 통화를 원하시면 3번 버튼을 누르십시오”라는 메시지를 들을 수 있습니다. 전화 숫자 버튼을 누르는 것은 전화 저편에 있는 컴퓨터 유한상태 오토마타에 입력을 주는 것입니다. 컴퓨터와 대화는 간단할 수도, 매우 복잡할 수도 있습니다. 유한상태 오토마타에는 특유의 무한반복이 존재하기 때문에, 계속해서 동일한 대화를 반복하게 됩니다. 만약 이런 일이 발생한다면, 분명한 시스템 설계에 오류가 있으며, 전화를 거신 여러분은 분명 매우 당황스러울 것입니다.</p>
 <p>또 다른 사례는 현금 자동인출기계에서 현금을 인출하는 경우입니다. 현금 자동인출기계 프로그램은 여러분들로 하여금 이벤트 순서를 발생시킬 것입니다. 프로그램 내부에, 모든 가능한 순서가 유한-상태 오토마타로 표현되어 있습니다. 사용자가 키를 누를 때마다 다음 상태로 자동적으로 이동하게 됩니다. 몇몇 상태는 컴퓨터에 지시사항을 담고 있습니다. 예를 들어, “현금 만원을 지불하세요”, “명세표를 출력하세요”, “현금카드를 꺼내세요”.</p>
@@ -164,8 +164,8 @@
 <p><img src="img/ch11-fsm/11-fsm-07-pirate.png" alt="pirate" /></p>
 </div>
 <div class="challenge" markdown="1">
-<h4 id="해답과-힌트">해답과 힌트</h4>
-<h5 id="수수께끼-동전-게임-103페이지">수수께끼 동전 게임 (103페이지)</h5>
+<h4>해답과 힌트</h4>
+<h5>수수께끼 동전 게임 (103페이지)</h5>
 <p>수수께끼 동전 게임은 동전을 던질 때마다 다음 지도를 사용합니다.</p>
 <p><img src="img/ch11-fsm/11-fsm-08-coin-toss.png" alt="coin toss" /></p>
 <p>이 지도를 따라가면, 동전을 세번 던질 때마다 처음 두번은 필히 같은 면을 가지는 것을 알 수 있다.</p>
@@ -174,9 +174,14 @@
       </div>
       </article>
       <div class="footer">
-        <a class="label swc-blue-bg" href="http://software-carpentry.org">Software Carpentry</a>
-        <a class="label swc-blue-bg" href="https://github.com/swcarpentry/lesson-template">Source</a>
-        <a class="label swc-blue-bg" href="mailto:admin@software-carpentry.org">Contact</a>
+        <a class="label swc-blue-bg" href="http://www.xwmooc.net">xwMOOC</a>
+      <<<<<<< HEAD
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">Source</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">Contact</a>
+      =======
+        <a class="label swc-blue-bg" href="https://github.com/statkclee/website-csunplugged">원본 소스</a>
+        <a class="label swc-blue-bg" href="mailto:i@xwmooc.net">연락처</a>
+      >>>>>>> 722731416fb95215e4a675729e9c853076e87a5d
         <a class="label swc-blue-bg" href="LICENSE.html">License</a>
       </div>
     </div>
