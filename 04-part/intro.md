@@ -1,6 +1,5 @@
 ---
-layout: lesson
-root: ../..
+layout: page
 title: 제 4 부
 ---
 
@@ -10,7 +9,6 @@ title: 제 4 부
    -  [여행자 도시(Tourist town) &mdash; 지배 집합(Dominating Sets)](15-dominating-sets.html)  
    -  [얼음길(Ice roads) &mdash; 스타이너 나무(Steiner Trees)](16-Steiner trees.html)  
 
-<div class="objectives" markdown="1">
 
 #### 다루기 힘듦(Intractability)
 
@@ -29,7 +27,6 @@ title: 제 4 부
 제4부에 대한 기술명칭은 "난해성(intractability)"인데 해결하기 어려운 문제가 난해하다고(intractable) 불리기 때문이다. 당기다 끌다는 의미를 가지는 라틴어 tractare 에서 유래해서 현재는 다루기 쉬운(tractable), 휘기 수운, 유순한 이라는 의미로 사용된다. 난해한 문제(intractable problem)는 쉽게 다룰 수 없는데 이유는 답을 가져오기까지 너무나 오래 걸린다. 
 비밀스럽게 드릴지 모르지만, 난해성은 일상에서 매우 중요한다. 왜냐하면, 이 분야에서 돌파구가 마련되면 많은 다른 연구분야에 엄청난 파생결과가 발생한다. 예를 들어, 대부분의 암호화 코드는 어떤 문제의 난해성에 기반한다. 그래서 효율적인 해결책을 발견한 범죄자가 신나서 암호를 풀어 상업적으로 판매를 하거나 혹은 좀더 단순하게 거짓 운행 거래를 생성할 수 있다. 제5부에서 암호기법(cryptograph)에서 살펴볼 것이다.
 
-</div>
 
 
 
