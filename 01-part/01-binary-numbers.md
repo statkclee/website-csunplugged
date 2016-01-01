@@ -33,9 +33,9 @@ subtitle: 이진수 (Binary Number)
 
 
 > ### 언플러그드 활동 동영상  {.prereq}
-> | 한글 동영상 | 영어 동영상 |
-> :---------------------------------: | :-------------:|
-> | <iframe width="350" height="260" src="https://www.youtube.com/embed/Jf033A_lBbA" frameborder="0" allowfullscreen></iframe>  | <iframe width="350" height="260" src="https://www.youtube.com/embed/b6vHZ95XDwU" frameborder="0" allowfullscreen></iframe>  |
+> | EBS 링크 동영상 | 언플러드그 동영상 |
+> |:------------------------------------------------------------------:|:------------------------------------------------------------------:|
+> | <iframe width="350" height="260" src="https://www.youtube.com/embed/swwwQPeNLvg" frameborder="0" allowfullscreen></iframe> | <iframe width="350" height="260" src="https://www.youtube.com/embed/Jf033A_lBbA" frameborder="0" allowfullscreen></iframe> |
 
 
 
