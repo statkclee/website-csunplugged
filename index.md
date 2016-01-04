@@ -25,8 +25,8 @@ title: 컴퓨터 과학 언플러그드
 
 > ### 한글 컴퓨터 과학 언플러그드 버젼 {.callout}
 > 
-> - ~ 현재 : 공동 컴퓨터 과학 언플러그드 작업을 위한 플랫폼 개선 작업 (7월 완료 예정)
->     - 진남초 문찬규 교사님 코드닷오알지 내용 바탕 언플러그드 동영상 매핑 작업
+> - 2015년 12월 : EBS 링크, 소프트웨어 세상 제작 동영상
+>     - 네이버 소프트웨어야 놀자 동영상 연결
 > - 2015년 05월: 컴퓨터 과학 언플러그드 3.1 버젼 한글 번역 완료 HTML/PDF/E-PUB 무료 전자책 배포
 >     - 인터넷에 대한 신규 활동 추가, 로고 변경
 >     - 버젼 3.0에서 Part I, Part II로 양분되었던 교재(MS 워드)가 하나로 합쳐짐.
@@ -36,6 +36,12 @@ title: 컴퓨터 과학 언플러그드
 > - 2015년 02월: 컴퓨터 과학 언플러그드 3.0 버젼 삽화 한국화 작업
 > - 2015년 01월: 컴퓨터 과학 언플러그드 3.0 버젼 Part IV,V,VI 번역 (MS 워드)
 > - 2014년 08월: 컴퓨터 과학 언플러그드 3.0 버젼 Part I,II,III 번역 (MS 워드)
+
+> ### 소프트웨어 기초 동영상  {.prereq}
+> 
+> | 컴퓨터 원리 | 논리식 | 자료구조 |
+> |:----------------------:|:----------------------:|:----------------------:|
+> | <iframe width="200" src="https://www.youtube.com/embed/K5khQ6yzMsU" frameborder="0" allowfullscreen></iframe> | <iframe width="200" src="https://www.youtube.com/embed/NS-R91557Ds" frameborder="0" allowfullscreen></iframe> | <iframe width="200" src="https://www.youtube.com/embed/VX1CIZhQVZk" frameborder="0" allowfullscreen></iframe> |
 
 ### 목차 
 

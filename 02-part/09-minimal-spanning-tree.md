@@ -23,6 +23,15 @@ subtitle: 최소생성나무(Minimal Spanning Trees)
 >     - 워크시트 활동: 진흙도시 문제 (page 83)  
 >     - 판지를 작은 사각형으로 자른 것 (대략 아이당 40개)
 
+> ### 언플러그드 활동 동영상  {.prereq}
+> | EBS 링크 동영상 | 언플러드그 동영상 |
+> :---------------------------------: | :-------------:|
+> | <iframe width="300" src="https://www.youtube.com/embed/tZu4x5825LI" frameborder="0" allowfullscreen></iframe> |  |
+
+
+
+
+
 
 > ### 진흙 도시 {.objectives}
 > 

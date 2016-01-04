@@ -30,9 +30,10 @@ subtitle: 정렬 알고리즘
 >     - 워크시트 활동 : 나누어서 해결하기 (71페이지)  
 
 > ### 언플러그드 활동 동영상  {.prereq}
-> | 한글 동영상 | 영어 동영상 |
+> | EBS 링크 동영상 | 언플러드그 동영상 |
 > :---------------------------------: | :-------------:|
-> | 애타게 찾고 있습니다. | <iframe width="350" height="260" src="https://www.youtube.com/embed/cVMKXKoGu_Y" frameborder="0" allowfullscreen> </iframe> |
+> | <iframe width="560" height="315" src="https://www.youtube.com/embed/L4U2i462Ozo" frameborder="0" allowfullscreen></iframe> | <iframe width="350" height="260" src="https://www.youtube.com/embed/cVMKXKoGu_Y" frameborder="0" allowfullscreen> </iframe> |
+
 
 
 > ### 가장 가벼운 것과 가장 무거운 것 {.objectives}

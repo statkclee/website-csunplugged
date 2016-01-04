@@ -29,9 +29,10 @@ subtitle: 검색 알고리즘
 
 
 > ### 언플러그드 활동 동영상  {.prereq}
-> | 한글 동영상 | 영어 동영상 |
+> | EBS 링크 동영상 | 언플러드그 동영상 |
 > :---------------------------------: | :-------------:|
-> | 애타게 찾고 있습니다. | <iframe width="350" height="260" src="https://www.youtube.com/embed/iDVH3oCTc2c" frameborder="0" allowfullscreen> </iframe> |
+> | <iframe width="350" src="https://www.youtube.com/embed/25ziZW8ns80" frameborder="0" allowfullscreen></iframe>
+ | <iframe width="350" height="260" src="https://www.youtube.com/embed/iDVH3oCTc2c" frameborder="0" allowfullscreen> </iframe> |
 
 
 
