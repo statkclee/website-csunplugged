@@ -25,8 +25,8 @@ title: 컴퓨터 과학 언플러그드
 
 > ### 한글 컴퓨터 과학 언플러그드 버젼 {.callout}
 > 
-> - 2015년 12월 : EBS 링크, 소프트웨어 세상 제작 동영상
->     - 네이버 소프트웨어야 놀자 동영상 연결
+> - 2016년 1월 : EBS 링크, 소프트웨어 세상 제작 동영상
+>     -  [링크, 소프트웨어 세상](http://bit.ly/1Vx98an)
 > - 2015년 05월: 컴퓨터 과학 언플러그드 3.1 버젼 한글 번역 완료 HTML/PDF/E-PUB 무료 전자책 배포
 >     - 인터넷에 대한 신규 활동 추가, 로고 변경
 >     - 버젼 3.0에서 Part I, Part II로 양분되었던 교재(MS 워드)가 하나로 합쳐짐.
@@ -35,13 +35,14 @@ title: 컴퓨터 과학 언플러그드
 > - 2015년 03월: 컴퓨터 과학 언플러그드 3.0 버젼 MS 워드 기반에서 마크다운 공개 소프트웨어 플랫폼 변환(GitHub)
 > - 2015년 02월: 컴퓨터 과학 언플러그드 3.0 버젼 삽화 한국화 작업
 > - 2015년 01월: 컴퓨터 과학 언플러그드 3.0 버젼 Part IV,V,VI 번역 (MS 워드)
-> - 2014년 08월: 컴퓨터 과학 언플러그드 3.0 버젼 Part I,II,III 번역 (MS 워드)
+> - 2014년 08월: 컴퓨터 과학 언플러그드 3.0 버젼 Part I,II,III 번역 (MS 워드) 
 
 > ### 소프트웨어 기초 동영상  {.prereq}
 > 
 > | 컴퓨터 원리 | 논리식 | 자료구조 |
 > |:----------------------:|:----------------------:|:----------------------:|
-> | <iframe width="200" src="https://www.youtube.com/embed/K5khQ6yzMsU" frameborder="0" allowfullscreen></iframe> | <iframe width="200" src="https://www.youtube.com/embed/NS-R91557Ds" frameborder="0" allowfullscreen></iframe> | <iframe width="200" src="https://www.youtube.com/embed/VX1CIZhQVZk" frameborder="0" allowfullscreen></iframe> |
+> |[<img src="code/ibm_inside.jpg" width="70%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363387) |[<img src="code/boolean.jpg" width="70%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363384) | [<img src="code/stack.jpg" width="70%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363388)|
+
 
 ### 목차 
 
