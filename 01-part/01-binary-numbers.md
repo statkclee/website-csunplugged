@@ -35,8 +35,7 @@ subtitle: 이진수 (Binary Number)
 > ### 언플러그드 활동 동영상  {.prereq}
 > | EBS 링크 동영상 | 언플러드그 동영상 |
 > |:------------------------------------------------------------------:|:------------------------------------------------------------------:|
-> | [<img src="code/bit.jpg" width="70%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363383)
- | <iframe width="350" height="260" src="https://www.youtube.com/embed/Jf033A_lBbA" frameborder="0" allowfullscreen></iframe> |
+> | [<img src="../code/bit.jpg" width="100%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363383) | <iframe width="350" height="260" src="https://www.youtube.com/embed/Jf033A_lBbA" frameborder="0" allowfullscreen></iframe> |
 
 
 
