@@ -15,6 +15,17 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-59802572-5', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
   </head>
   <body class="lesson">
     <div class="container card">
@@ -31,43 +42,44 @@
           <h2 class="subtitle">텍스트 압축</h2>
           <section class="getready panel panel-warning">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-check"></span>개요</h4>
+<h4 id="개요"><span class="glyphicon glyphicon-check"></span>개요</h4>
 </div>
 <div class="panel-body">
 <p>컴퓨터가 정보를 저장하기 위한 공간에는 한계가 있어서, 가능하면 효율적으로 정보를 표현할 필요가 있다. 이 방법을 “압축”(compression)이라고 한다. 저장하기 전에 데이터를 부호화(coding)하고 정보를 끌어낼 때는 복호화(decoding)해서, 컴퓨터에 더 많은 데이터를 저장하고 인터넷을 통해서 더 빨리 보낼 수 있게 한다.</p>
-<h4>교과학습 연계</h4>
+<h4 id="교과학습-연계">교과학습 연계</h4>
 <ul>
 <li>영어: 단어와 텍스트 패턴 인식</li>
 <li>기술: 기술 지식과 이해. 컴퓨터 작동원리</li>
 </ul>
-<h4>기술</h4>
+<h4 id="기술">기술</h4>
 <p>글로 쓴 텍스트 복사</p>
-<h4>나이</h4>
+<h4 id="나이">나이</h4>
 <ul>
 <li>9세 이상</li>
 </ul>
-<h4>학습 교재</h4>
+<h4 id="학습-교재">학습 교재</h4>
 <ul>
 <li>OHP 마스터에서 복사한 OHP 시트: 다시 말할 수 있어요!</li>
-<li>아이마다 필요한 것<br />– 워크시트 활동: 다시 말하기! – 워크시트 활동: 심화 문제 – 워크시트 활동: 짧고 간결하게 – 워크시트 활동: 심화 문제 (상급자)</li>
+<li>아이마다 필요한 것<br />
+– 워크시트 활동: 다시 말하기! – 워크시트 활동: 심화 문제 – 워크시트 활동: 짧고 간결하게 – 워크시트 활동: 심화 문제 (상급자)</li>
 </ul>
 </div>
 </section>
 <section class="prereq panel panel-warning">
 <div class="panel-heading">
-<h3><span class="glyphicon glyphicon-education"></span>언플러그드 활동 동영상</h3>
+<h3 id="언플러그드-활동-동영상"><span class="glyphicon glyphicon-education"></span>언플러그드 활동 동영상</h3>
 </div>
 <div class="panel-body">
 <table>
 <thead>
 <tr class="header">
-<th align="center">한글 동영상</th>
+<th align="center">EBS 링크 동영상</th>
 <th align="center">영어 동영상</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="center">애타게 찾고 있습니다.</td>
+<td align="center"><a href="http://www.ebs.co.kr/tv/show?prodId=6785&amp;lectId=10363436"><img src="../code/compress.jpg" width="100%" /></a></td>
 <td align="center"><iframe width="350" height="260" src="https://www.youtube.com/embed/VsjpPs146d8?list=PLG2oQ9v7R96GBkux2Sl_5Lje9KjSgmtPU" frameborder="0" allowfullscreen> </iframe></td>
 </tr>
 </tbody>
@@ -76,19 +88,19 @@
 </section>
 <section class="objectives panel panel-warning">
 <div class="panel-heading">
-<h3><span class="glyphicon glyphicon-certificate"></span>다시 말할 수 있어요!</h3>
+<h3 id="다시-말할-수-있어요"><span class="glyphicon glyphicon-certificate"></span>다시 말할 수 있어요!</h3>
 </div>
 <div class="panel-body">
-<h5>들어가며</h5>
+<h5 id="들어가며">들어가며</h5>
 <p>컴퓨터는 많은 데이터를 저장하고 전송해야 합니다. 그래서 너무 많은 저장 공간을 사용하거나, 네트워크를 통해 정보를 보내는데 시간이 오래 걸리면 안돼서, 텍스트를 다음과 같이 압축합니다.</p>
-<h5>시연 및 토론</h5>
+<h5 id="시연-및-토론">시연 및 토론</h5>
 <p>“비(rain)” OHP 로 보여주세요. 다음 시(poem)에서 문자 패턴을 찾아보세요. 반복되는 2 개 이상의 문자, 단어, 문구를 찾을 수 있나요? (아래 도식에서처럼 박스를 채워넣으세요, <em>참고</em>. pitter patter 타닥타닥 소리)</p>
 <p><img src="img/ch03-text/03-text-01-pitter-platter.png" alt="Pitter patter" width="50%"/></p>
 </div>
 </section>
 <aside class="callout panel panel-info">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-pushpin"></span>복사 마스터: 다시 말할 수 있어요!</h4>
+<h4 id="복사-마스터-다시-말할-수-있어요"><span class="glyphicon glyphicon-pushpin"></span>복사 마스터: 다시 말할 수 있어요!</h4>
 </div>
 <div class="panel-body">
 <p><img src="img/ch03-text/03-text-02-the-rain.png" alt="The Rain" width="50%" /></p>
@@ -102,14 +114,14 @@
 </aside>
 <aside class="callout panel panel-info">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-pushpin"></span>복사 마스터: 다시 말할 수 있어요!</h4>
+<h4 id="복사-마스터-다시-말할-수-있어요-1"><span class="glyphicon glyphicon-pushpin"></span>복사 마스터: 다시 말할 수 있어요!</h4>
 </div>
 <div class="panel-body">
 <p>다음 시에서 많은 단어와 글자가 빠져있습니다. 여러분이 빠진 단어와 글자를 채워 넣어 온전한 시가 될 수 있도록 만들어 주세요. 화살표가 가리키는 박스에서 채워 넣을 단어와 글자를 찾을 수 있습니다.</p>
 <p><img src="img/ch03-text/03-text-03-peas.png" alt="The Rain" width="50%" /></p>
 <p>이제 간단한 시나 동요를 골라서 여러분 자신만의 퍼즐을 만들어보세요. 여러분이 만든 화살표가 항상 이전 텍스트 부분을 가리키는지를 꼭 확인하세요. 우리가 읽는 동일한 방식으로 여러분의 시는 왼쪽에서 오른쪽으로 위에서 아래로 복호화할 수 있어야 합니다.</p>
 <blockquote>
-<h5>도전문제 : 여러분이 얼마나 적은 단어를 필요로 하는지 살펴보세요.</h5>
+<h5 id="도전문제-여러분이-얼마나-적은-단어를-필요로-하는지-살펴보세요.">도전문제 : 여러분이 얼마나 적은 단어를 필요로 하는지 살펴보세요.</h5>
 <p><strong>제안</strong>: “Three Blind Mice”, “Mary Mary Quite Contrary”, “Hickory Dickory Dock” 혹은 Dr Seuss 책도 시도해 보세요.</p>
 <p><strong>힌트</strong>: 너무나 많은 화살표를 피하세요. 글을 써가면서, 글자와 단어 주변에 많은 공백을 둬서 박스 내부와 이를 가리키는 화살표 사이에 박스를 위한 공간을 확보하세요.</p>
 <p>시를 먼저 쓰고 나서 박스를 어디에 위치할지를 결정한다면 퍼즐 설계가 훨씬 쉬워요.</p>
@@ -118,7 +130,7 @@
 </aside>
 <aside class="callout panel panel-info">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-pushpin"></span>워크시트 활동: 심화 문제</h4>
+<h4 id="워크시트-활동-심화-문제"><span class="glyphicon glyphicon-pushpin"></span>워크시트 활동: 심화 문제</h4>
 </div>
 <div class="panel-body">
 <p>이 퍼즐을 어떻게 풀 수 있나요?</p>
@@ -162,10 +174,10 @@ Ban<u>a</u>na
 </aside>
 <aside class="callout panel panel-info">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-pushpin"></span>워크시트 활동: 짧고 간결하게</h4>
+<h4 id="워크시트-활동-짧고-간결하게"><span class="glyphicon glyphicon-pushpin"></span>워크시트 활동: 짧고 간결하게</h4>
 </div>
 <div class="panel-body">
-<h5>여러분은 여기에서 얼마나 많은 단어를 필요로 하나요?</h5>
+<h5 id="여러분은-여기에서-얼마나-많은-단어를-필요로-하나요">여러분은 여기에서 얼마나 많은 단어를 필요로 하나요?</h5>
 <p>여러분 자신을 가능한 많은 정보를 디스크에 저장하려고 하는 컴퓨터라고 가정해봅시다. 이미 앞에서 나온 두개 이상의 문자 그룹을 선을 그어 지우세요. 포인터로 대체될테니 이들은 더 이상 필요하지 않아요. 목적은 가능한 많은 문자를 줄을 그어 지우는 것입니다.</p>
 <dl>
 <h3>
@@ -176,10 +188,10 @@ I know an old lady who swallowed a bird <br> How absurd! She swallowed a bird! <
 </aside>
 <aside class="callout panel panel-info">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-pushpin"></span>워크시트 활동: 심화 문제 (상급자)</h4>
+<h4 id="워크시트-활동-심화-문제-상급자"><span class="glyphicon glyphicon-pushpin"></span>워크시트 활동: 심화 문제 (상급자)</h4>
 </div>
 <div class="panel-body">
-<h5>정말로 어려운 압축에 도전할 준비가 되셨나요?</h5>
+<h5 id="정말로-어려운-압축에-도전할-준비가-되셨나요">정말로 어려운 압축에 도전할 준비가 되셨나요?</h5>
 <p>아래 이야기에 대해 컴퓨터 프로그램을 실행하여 1,633 문자가 줄을 그어 지워질 수 있다는 것을 확인했다. 여러분은 얼마나 많이 찾아 지울 수 있나요? 단지, 두개 이상의 반복되는 문자만을 줄을 그어 제거할 수 있다는 것을 기억하세요. 행운을 빕니다.</p>
 <p>Once upon a time, long, long ago, three little pigs set out to make their fortunes. The first little pig wasn’t very clever, and decided to build his house out &gt; of straw, because it was cheap. The second little pig wasn’t very clever either, and decided to build his house out of sticks, for the “natural” look that was &gt; so very much in fashion, even in those days. The third little pig was much smarter than his two brothers, and bought a load of bricks in a nearby town, with which &gt; to construct a sturdy but comfortable country home.</p>
 <p>Not long after his housewarming party, the first little pig was curled up in a chair reading a book, when there came a knock at the door. It was the big bad wolf, &gt; naturally.</p>
@@ -196,7 +208,7 @@ I know an old lady who swallowed a bird <br> How absurd! She swallowed a bird! <
 </aside>
 <section class="challenge panel panel-success">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-pencil"></span>컴퓨터 과학 핵심 개념</h4>
+<h4 id="컴퓨터-과학-핵심-개념"><span class="glyphicon glyphicon-pencil"></span>컴퓨터 과학 핵심 개념</h4>
 </div>
 <div class="panel-body">
 <p>컴퓨터 저장용량은 믿기 힘든 속도로 빠르게 늘어나고 있다. 지난 25년간 일반인들이 사용하는 컴퓨터 저장용량은 백만 배 늘어났다. 하지만, 컴퓨터에 저장할 더 많은 것이 있다. 컴퓨터는 책 전체를 저장할 수 있고, 심지어 도서관의 모든 책, 음악, 영화도 저장공간만 허락된다면 저장할 수 있다. 큰 파일은 다운로드 하는데 긴 시간이 걸려서 인터넷에서도 골치거리다. 또한, 컴퓨터를 점점 더 소형화 하여 스마트폰과 스마트워치에 좀더 많은 정보가 저장되길 기대한다.</p>
@@ -207,14 +219,20 @@ I know an old lady who swallowed a bird <br> How absurd! She swallowed a bird! <
 </section>
 <section class="challenge panel panel-success">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-pencil"></span>해답과 힌트</h4>
+<h4 id="해답과-힌트"><span class="glyphicon glyphicon-pencil"></span>해답과 힌트</h4>
 </div>
 <div class="panel-body">
-<h5>다시 말할 수 있어요! (복사 마스터)</h5>
+<h5 id="다시-말할-수-있어요-복사-마스터">다시 말할 수 있어요! (복사 마스터)</h5>
 <p><img src="img/ch03-text/03-text-05-ohp.png" alt="The Rain OHP" width="50%"/></p>
-<h5>다시 말할 수 있어요!</h5>
-<p>Pease porridge hot,<br />Pease porridge cold,<br />Pease porridge in the pot,<br />Nine days old.</p>
-<p>Some like it hot,<br />Some like it cold,<br />Some like it in the pot,<br />Nine days old.</p>
+<h5 id="다시-말할-수-있어요-1">다시 말할 수 있어요!</h5>
+<p>Pease porridge hot,<br />
+Pease porridge cold,<br />
+Pease porridge in the pot,<br />
+Nine days old.</p>
+<p>Some like it hot,<br />
+Some like it cold,<br />
+Some like it in the pot,<br />
+Nine days old.</p>
 </div>
 </section>
         </div>

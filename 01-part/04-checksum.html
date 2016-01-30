@@ -15,6 +15,17 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-59802572-5', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
   </head>
   <body class="lesson">
     <div class="container card">
@@ -31,47 +42,48 @@
           <h2 class="subtitle">오류 탐지 및 수정</h2>
           <section class="getready panel panel-warning">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-check"></span>개요</h4>
+<h4 id="개요"><span class="glyphicon glyphicon-check"></span>개요</h4>
 </div>
 <div class="panel-body">
 <p>데이터가 컴퓨터 디스크에 저장되거나 A 컴퓨터에서 B 컴퓨터로 데이터가 전송될 때, 보통 데이터처리할 때 변경될 것이라고 생각하지는 않는다. 하지만 때때로 데이터에 오류가 발생하고, 우연히 데이터 변경이 일어나기도 한다. 이번 활동은 마술을 사용해서 손상된 데이터를 어떻게 탐지하고 오류난 데이터를 어떻게 교정하는지 익힐 것입니다.</p>
-<h4>교과학습 연계</h4>
+<h4 id="교과학습-연계">교과학습 연계</h4>
 <ul>
 <li>수학: 정수론 레벨 3 이상. 연산과 추정 탐색</li>
 <li>대수 레벨 3 이상. 패턴과 관계 탐색</li>
 </ul>
-<h4>기술</h4>
+<h4 id="기술">기술</h4>
 <ul>
 <li>계수 (counting)</li>
 <li>짝수와 홀수 인식</li>
 </ul>
-<h4>나이</h4>
+<h4 id="나이">나이</h4>
 <ul>
 <li>9세 이상</li>
 </ul>
-<h4>학습 교재</h4>
+<h4 id="학습-교재">학습 교재</h4>
 <ul>
 <li>한쪽 면만 색칠된 냉장고 자석 36개 한 벌</li>
-<li>시연을 위해서 자석이 붙을 수 있는 금속판 (화이트보드 추천)<br />아이 한 쌍이 필요한 것</li>
+<li>시연을 위해서 자석이 붙을 수 있는 금속판 (화이트보드 추천)<br />
+아이 한 쌍이 필요한 것</li>
 <li>한쪽 면만 색칠된 똑같은 카드 36개</li>
 </ul>
 </div>
 </section>
 <section class="prereq panel panel-warning">
 <div class="panel-heading">
-<h3><span class="glyphicon glyphicon-education"></span>언플러그드 활동 동영상</h3>
+<h3 id="언플러그드-활동-동영상"><span class="glyphicon glyphicon-education"></span>언플러그드 활동 동영상</h3>
 </div>
 <div class="panel-body">
 <table>
 <thead>
 <tr class="header">
-<th align="center">한글 동영상</th>
+<th align="center">EBS 링크 동영상</th>
 <th align="center">영어 동영상</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="center"><iframe width="350" height="260" src="https://www.youtube.com/embed/W5shajbax9o" frameborder="0" allowfullscreen></iframe></td>
+<td align="center"><a href="http://www.ebs.co.kr/tv/show?prodId=6785&amp;lectId=10363437"><img src="../code/error.jpg" width="100%" /></a></td>
 <td align="center"><iframe width="350" height="260" src="https://www.youtube.com/embed/-35-sPTYPJg" frameborder="0" allowfullscreen></iframe></td>
 </tr>
 </tbody>
@@ -80,10 +92,10 @@
 </section>
 <section class="objectives panel panel-warning">
 <div class="panel-heading">
-<h3><span class="glyphicon glyphicon-certificate"></span>마술</h3>
+<h3 id="마술"><span class="glyphicon glyphicon-certificate"></span>마술</h3>
 </div>
 <div class="panel-body">
-<h5>시연</h5>
+<h5 id="시연">시연</h5>
 <p>마술사가 될 기회가 있어요.</p>
 <p>동일한 양면 카드가 필요합니다. (한쪽 면만 색칠된 커다란 종이를 자르세요) 한쪽 면만 색칠된 평평한 냉장고 자석 카드를 사용하기가 시연 목적으로 좋습니다.</p>
 <ol style="list-style-type: decimal">
@@ -97,27 +109,35 @@
 <li>선생님이 눈을 감고 있는 동안 아이에게 카드 하나를 뒤집게 합니다. 바뀐 카드를 가진 행과 열은 이제 홀수개의 색깔 카드를 가지게 되어서 바뀐 카드를 쉽게 찾을 수 &gt; 있습니다.</li>
 </ol>
 <p>묘기가 어떻게 수행되었는지 아이들이 추론할 수 있을까요?</p>
-<h5>아이들에게 묘기 설명하기:</h5>
+<h5 id="아이들에게-묘기-설명하기">아이들에게 묘기 설명하기:</h5>
 <ol style="list-style-type: decimal">
-<li>둘이 짝이 되어서, 어린이들이 5 × 5 카드를 자리에 놓습니다.<br /></li>
-<li>각 행과 열에는 얼마나 많은 색칠된 카드가 있나요? 짝수인가요, 홀수인가요? 기억하세요 0은 짝수입니다.<br /></li>
-<li>이제 각 행에 6번째 카드를 추가하는데, 색칠 카드가 항상 짝수가 되도록 합니다. 이 추가 카드를 패리터(parity) 카드라고 합니다.<br /></li>
-<li>아래쪽을 따라서 6번째 카드 행을 추가하는데, 각 열의 색칠 카드의 수가 짝수가 되도록 합니다.<br /></li>
-<li>이제 카드를 한 장 뒤집습니다. 행과 열에서 무엇을 눈치채셨습니까? (색칠 카드의 수가 홀수가 됩니다.) 패리티 카드는 언제 오류가 발생했는지를 보여주기 위해 &gt; 사용됩니다.<br /></li>
+<li>둘이 짝이 되어서, 어린이들이 5 × 5 카드를 자리에 놓습니다.<br />
+</li>
+<li>각 행과 열에는 얼마나 많은 색칠된 카드가 있나요? 짝수인가요, 홀수인가요? 기억하세요 0은 짝수입니다.<br />
+</li>
+<li>이제 각 행에 6번째 카드를 추가하는데, 색칠 카드가 항상 짝수가 되도록 합니다. 이 추가 카드를 패리터(parity) 카드라고 합니다.<br />
+</li>
+<li>아래쪽을 따라서 6번째 카드 행을 추가하는데, 각 열의 색칠 카드의 수가 짝수가 되도록 합니다.<br />
+</li>
+<li>이제 카드를 한 장 뒤집습니다. 행과 열에서 무엇을 눈치채셨습니까? (색칠 카드의 수가 홀수가 됩니다.) 패리티 카드는 언제 오류가 발생했는지를 보여주기 위해 &gt; 사용됩니다.<br />
+</li>
 <li>이제 순서를 바꿔서 ‘묘기’를 부려봅시다.</li>
 </ol>
-<h6>확장 활동</h6>
+<h6 id="확장-활동">확장 활동</h6>
 <ol style="list-style-type: decimal">
-<li>다른 물체를 사용해 봅시다. 두 개의 상태를 가진 어떤 것도 무방합니다. 예를 들어, 가지고 노는 카드, 동전(앞뒷면), 이진수 체계와 연관되도록 과 0과 1로 인쇄된 &gt; 카드도 됩니다.<br /></li>
-<li>만약 두개 혹은 그 이상의 카드가 뒤집어진다면 무슨 일이 생길까요? (어떤 것이 변경되었다는 것을 말할 수 있지만, 정확하게 어느 두 장의 카드가 뒤집혔는지를 꼭 &gt; 집어서 말하는 것은 항상 가능하지는 않습니다. 통상 두 짝의 카드 중에 하나로 범위를 좁힐 수 있습니다. 4장이 뒤집히는 경우, 나중의 모든 패리티 비트가 정상일 수 &gt; 있어서 오류가 탐지되지 않고 그냥 지나칠 수 있습니다.)<br /></li>
-<li>다른 흥미로운 카드놀이 연습은 오른쪽 아래 카드를 생각해 보는 것이다. 위쪽 열에 대해서 올바른 것을 고른다면, 왼쪽 행에 대해서도 그럴까요? (답은 항상 그렇다 &gt; 입니다.)<br /></li>
+<li>다른 물체를 사용해 봅시다. 두 개의 상태를 가진 어떤 것도 무방합니다. 예를 들어, 가지고 노는 카드, 동전(앞뒷면), 이진수 체계와 연관되도록 과 0과 1로 인쇄된 &gt; 카드도 됩니다.<br />
+</li>
+<li>만약 두개 혹은 그 이상의 카드가 뒤집어진다면 무슨 일이 생길까요? (어떤 것이 변경되었다는 것을 말할 수 있지만, 정확하게 어느 두 장의 카드가 뒤집혔는지를 꼭 &gt; 집어서 말하는 것은 항상 가능하지는 않습니다. 통상 두 짝의 카드 중에 하나로 범위를 좁힐 수 있습니다. 4장이 뒤집히는 경우, 나중의 모든 패리티 비트가 정상일 수 &gt; 있어서 오류가 탐지되지 않고 그냥 지나칠 수 있습니다.)<br />
+</li>
+<li>다른 흥미로운 카드놀이 연습은 오른쪽 아래 카드를 생각해 보는 것이다. 위쪽 열에 대해서 올바른 것을 고른다면, 왼쪽 행에 대해서도 그럴까요? (답은 항상 그렇다 &gt; 입니다.)<br />
+</li>
 <li>이 카드놀이 연습에서는 짝수 색칠 카드를 사용하여 짝수 패리티(even parity)를 사용했다. 홀수 패리티(odd parity)로도 할 수 있을까? (가능하지만, 만약 행과 열의 &gt; 숫자가 모두 짝수이거나 홀수이면, 오른쪽 아래 카드는 행과 열에 대해서 같다. 예를 들어, 5 × 9 나 4 × 6 배치는 작동하지만, 3 × 4 배치는 작동하지 않는다.)</li>
 </ol>
 </div>
 </section>
 <aside class="callout panel panel-info">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-pushpin"></span>오류 검사의 실사례 — ISBN 코드</h4>
+<h4 id="오류-검사의-실사례-isbn-코드"><span class="glyphicon glyphicon-pushpin"></span>오류 검사의 실사례 — ISBN 코드</h4>
 </div>
 <div class="panel-body">
 <p>동일한 검증 기법이 책코드에도 사용된다. 출판된 책은 책 뒷면에 10 자리 코드가 있다. 10 번째 자릿수는 검증 자리수로 카드놀이 연습에서 살펴본 패리티 비트(parity bit) 같은 것이다.</p>
@@ -142,7 +162,7 @@
 </aside>
 <aside class="callout panel panel-info">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-pushpin"></span>항상 체크썸은 맞을까?</h4>
+<h4 id="항상-체크썸은-맞을까"><span class="glyphicon glyphicon-pushpin"></span>항상 체크썸은 맞을까?</h4>
 </div>
 <div class="panel-body">
 <p><img src="img/ch04-checksum/04-checksum-03-detective.png" alt="Detective" width="70%"/></p>
@@ -160,7 +180,7 @@
 </aside>
 <section class="challenge panel panel-success">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-pencil"></span>컴퓨터 과학 핵심 개념</h4>
+<h4 id="컴퓨터-과학-핵심-개념"><span class="glyphicon glyphicon-pencil"></span>컴퓨터 과학 핵심 개념</h4>
 </div>
 <div class="panel-body">
 <p>10 달러 현찰을 은행에 예금한다고 가정해 봅시다. 은행 창구 직원이 예치금을 컴퓨터에 타이핑하면 입력된 정보는 중앙 컴퓨터로 전송됩니다. 하지만, 예치금이 전송되는 동안에 회선에 장애가 발생했서 10 달러에 대한 코드값이 1,000 달러로 바뀌었다고 생각해 봅시다. 고객인 여러분의 입장에서는 문제가 아니지만, &gt; 분명 은행에게는 심각한 문제입니다.</p>
@@ -169,14 +189,16 @@
 <p>“카드 뒤집기”에 사용된 동일한 기법이 컴퓨터에도 적용됩니다. 비트를 가상의 행과 열에 놓아, 패리티 비트를 각 행과 열에 추가함으써, 오류가 발생했는지 여부와 <em>어디</em>에서 발생했는지도 탐지할 수 있습니다. 문제 비트는 다시 되돌려, 오류 수정을 수행합니다.</p>
 <p>물론, 컴퓨터는 복수의 오류를 탐지 수정할 수 있는 좀더 복잡한 오류 통제시스템을 사용합니다. 컴퓨터 하드디스크는 오류 수정 목적으로 할당된 무척이나 넓은 저장공간을 가지고 있어서 디스크의 일부분이 고장 나더라도 잘 작동될 수 있습니다. 이러한 목적으로 사용되는 시스템은 패리티 방식과 밀접한 관련이 있습니다.</p>
 <blockquote>
-<p>이 활동을 끝난 후에 조크 하나.<br />Q: “Pieces of nine, pieces of nine”(아홉 조각, 아홉 조각)을 무엇이라 할까요?<br />A: 앵무새 오류 (parroty error)</p>
+<p>이 활동을 끝난 후에 조크 하나.<br />
+Q: “Pieces of nine, pieces of nine”(아홉 조각, 아홉 조각)을 무엇이라 할까요?<br />
+A: 앵무새 오류 (parroty error)</p>
 </blockquote>
 <p><img src="img/ch04-checksum/04-checksum-04-parrot.png" alt="Hmm Parrot" width="50%"/></p>
 </div>
 </section>
 <section class="challenge panel panel-success">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-pencil"></span>해답과 힌트</h4>
+<h4 id="해답과-힌트"><span class="glyphicon glyphicon-pencil"></span>해답과 힌트</h4>
 </div>
 <div class="panel-body">
 <p>1 개 숫자 값이 증가하고, 1 개 숫자 값이 줄어드는 경우에는 총합이 동일하기 때문에 오류가 탐지되지 않습니다.</p>

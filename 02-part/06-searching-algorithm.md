@@ -31,8 +31,7 @@ subtitle: 검색 알고리즘
 > ### 언플러그드 활동 동영상  {.prereq}
 > | EBS 링크 동영상 (검색) | EBS 링크 동영상 (순위) |
 > :---------------------------------: | :-------------:|
-> | [<img src="../code/search.jpg" width="100%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363391)
- | [<img src="../code/ranking.jpg" width="100%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363414) |
+> | [<img src="../code/search.jpg" width="100%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363391) | [<img src="../code/ranking.jpg" width="100%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363414) |
 
 
 

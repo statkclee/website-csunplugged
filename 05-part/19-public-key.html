@@ -15,6 +15,17 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-59802572-5', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
   </head>
   <body class="lesson">
     <div class="container card">
@@ -31,35 +42,39 @@
           <h2 class="subtitle">공개키 암호화(Public-key encryption)</h2>
           <section class="getready panel panel-warning">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-check"></span>개요</h4>
+<h4 id="개요"><span class="glyphicon glyphicon-check"></span>개요</h4>
 </div>
 <div class="panel-body">
 <p>암호화는 정보 보안에 열쇠이다. 현대 암호화의 열쇠는 공개 정보만 사용하여 발시자가 메시지를 잠그고, 받는 수신자가 메시지를 (물론 개인적으로) 푸는 것이다.</p>
 <p>마치 사람들이 맹꽁이자물쇠를 구매하고, 자물쇠 위에 이름을 적고, 다른 사람도 사용하는 동일한 탁자위에 올려 놓는 것과 같다. 물론 열쇠는 별도로 보관한다— 맹꽁이자물쇠는 클릭해서 잠그는 유형의 것이 된다. 만약 비밀 메시지를 내가 상대방에게 보내려고 한다면, 메시지를 상자에 담고, 맹꽁이자물쇠를 집어들고, 상자와 채결하여 참그고, 상대방에게 전송한다. 설사 잘못된 사람에게 전달되더라도, 그 누구도 풀 수 없다. 이 기법을 사용해서, 사전 통신으로 비밀 코드를 정렬할 필요는 없다.</p>
 <p>이번 활동을 통해서 디지털로 어떻게 이러한 것이 가능한지 확인한다. 그리고 맹꽁이 자물쇠를 사용하는 대신에, 디지털 세상에서는 자물쇠를 복사하고, 사용하고, 탁자위에 원래 자물쇠를 놓는다. 만약 물리적인 맹꽁이 자물쇠 사본을 만들려고 하면, 분해해서 사본을 만들 수 있다. 분해해서 복제본을 만드는 과정을 통해서 불가피하게 동작하는 메커니즘을 파악하게 된다. 하지만, 디지털 세상에서는 열쇠를 찾지 못하게 하고서 자물쇠를 복사하게 할 수 있다.</p>
 <p>불가능하게 들리나요? 읽어 보세요.</p>
-<h4>교과학습 연계</h4>
+<h4 id="교과학습-연계">교과학습 연계</h4>
 <ul>
-<li>기술 레벨 3: 기술 시스템.<br />기호 언어 도구를 사용하여 기술 시스템을 표현하는 것을 이해한다. 기술 시스템에서 블랙박스의 역할을 이해한다.</li>
+<li>기술 레벨 3: 기술 시스템.<br />
+기호 언어 도구를 사용하여 기술 시스템을 표현하는 것을 이해한다. 기술 시스템에서 블랙박스의 역할을 이해한다.</li>
 </ul>
-<h4>기술</h4>
+<h4 id="기술">기술</h4>
 <ul>
-<li>퍼즐 풀기 (Puzzle solving).<br /></li>
+<li>퍼즐 풀기 (Puzzle solving).<br />
+</li>
 <li>비밀 번호 (Secret codes).</li>
 </ul>
-<h4>나이</h4>
+<h4 id="나이">나이</h4>
 <ul>
 <li>11세 이상</li>
 </ul>
-<h4>학습 교재</h4>
+<h4 id="학습-교재">학습 교재</h4>
 <ul>
 <li>학생은 4명이 한 조가 되는 그룹을 만든다. 각 그룹안에 두개의 소그룹을 만든다. 각 소그룹에 <em>키드 크립토 지도</em> 워크시트 사본지도 두장을 나눠준다. 그래서, 각 그룹 학생들이 필요한 것:
 <ul>
-<li><em>키드 크립토 지도</em> 사본 2장.<br /></li>
+<li><em>키드 크립토 지도</em> 사본 2장.<br />
+</li>
 </ul></li>
 <li>선생님이 필요한 것:
 <ul>
-<li>키드 크립토 인코딩 빔 프로젝트 슬라이드.<br /></li>
+<li>키드 크립토 인코딩 빔 프로젝트 슬라이드.<br />
+</li>
 <li>다이어그램에 주석 다는 방법.</li>
 </ul></li>
 </ul>
@@ -67,19 +82,19 @@
 </section>
 <section class="prereq panel panel-warning">
 <div class="panel-heading">
-<h3><span class="glyphicon glyphicon-education"></span>언플러그드 활동 동영상</h3>
+<h3 id="언플러그드-활동-동영상"><span class="glyphicon glyphicon-education"></span>언플러그드 활동 동영상</h3>
 </div>
 <div class="panel-body">
 <table>
 <thead>
 <tr class="header">
-<th align="center">한글 동영상</th>
-<th align="center">영어 동영상</th>
+<th align="center">EBS 링크 동영상</th>
+<th align="center">언플러드그 동영상</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="center">애타게 찾고 있습니다.</td>
+<td align="center"><a href="http://www.ebs.co.kr/tv/show?prodId=6785&amp;lectId=10363435"><img src="../code/crypto.jpg" width="100%" /></a></td>
 <td align="center"><iframe width="350" height="260" src="https://www.youtube.com/embed/jJrICB_HvuI" frameborder="0" allowfullscreen> </iframe></td>
 </tr>
 </tbody>
@@ -88,15 +103,15 @@
 </section>
 <section class="objectives panel panel-warning">
 <div class="panel-heading">
-<h3><span class="glyphicon glyphicon-certificate"></span>키드 크립토 (Kid Krypto)</h3>
+<h3 id="키드-크립토-kid-krypto"><span class="glyphicon glyphicon-certificate"></span>키드 크립토 (Kid Krypto)</h3>
 </div>
 <div class="panel-body">
 <p><img src="img/ch19-public-key/19-public-key-01-kid-crypto.png" alt="kid crypto" width="80%" /></p>
-<h5>들어가며</h5>
+<h5 id="들어가며">들어가며</h5>
 <p>이 책에서 이번 활동이 기술적으로 가장 도전적인 활동이다. 보람이 있지만, 꼼꼼함과 더불어 성공적으로 완수하기 위해서 지속적인 집중이 요구된다. 관광 마을 학습 14 에서 일방향 함수를 이미 학생들이 공부했다. 만약 다른 활동 (비밀 공유 활동 16, 페루 동전 던지기 활동 17) 들을 완료했다면 도움이 된다. 또한 활동 1 이진수 세기, 활동 5 질문 20개에서 다룬 아이디어도 사용된다.</p>
 <p>애미(Amy)는 빌(Bill)에게 비밀 메시지를 보내려고 계획중이다. 일반적으로 비밀 메시지를 문장 혹은 문단으로 생각한다. 하지만, 다음 예제에서, 애미는 단지 한 문자만 전송한다— 사실 문자를 나타내는 숫자 하나만 전송한다. 단순한 메시지같아 보이지만, 문장을 구성할 수 있는 “메시지” 전체 문자열을 전송할 수 있다는 것을 명심하라. 실무에서는 컴퓨터가 작업을 수행한다. 종종 작은 메시지조차도 중요하다— 폴 리비어가 전달한 역사상 가장 유명한 메시지도 단지 가능한 두 값만 있다. 빌의 공개 자물쇠를 이용하여, 애미가 암호화된 메시지에 숫자를 내장한 방법을 살펴볼 것이다. 그래서, 만약 누군가 메시지를 가로채도 메시지를 해독할 수 없을 것이다. 단지 빌만 해독할 수 있는데 이유는 자물쇠에 열쇠를 빌만 가지고 있기 때문이다.</p>
 <p><em>지도</em>를 사용해서 메시지를 잠근다. X가 보물의 위치를 표시하는 보물섬 지도와 달리, 선은 도로를 점은 교차점을 나타내는 활동 14 관광 마을에서 사용된 도로지도와 유사하다. 각 지도는 공개 버젼(자물쇠)과 개인버젼(열쇠)로 되어있다.</p>
-<h5>토론</h5>
+<h5 id="토론">토론</h5>
 <p><em>키드 크립토 인코딩</em> 워크쉬트에 빌의 공개지도가 있다. 공개지도는 비밀이 아니다: 빌은 누구나 볼 수 있게 탁자 위에 (혹은 웹상에) 지도를 놓거나, 메시지를 보낼 사람에게 전달한다. 애미에게 사본이 있듯이 누구나 사본을 가질 수 있다. 다음은 빌의 개인 지도다. 빌의 공개지도와 동일하지만, 몇몇 교차점은 크게 확대 표시되어 있다. 개인지도 버젼을 잘 간직한다.</p>
 <p><img src="img/ch19-public-key/19-public-key-02-kid-worksheet.png" alt="worksheet" width="80%" /></p>
 <p>최소한 시작은 한 학급 활동으로 진행하는 게 좋다. 왜냐하면, 작업량이 상당하기 때문이다. 어렵지는 않지만, 정확하게 수행되어야 한다. 왜냐하면 오류가 많은 문제를 불러 일으키기 때문이다. 이런 유형의 암호화 작업을 수행하는게 얼마나 놀라운 것인지(불가능하게 보이지만, 그렇지 않다) 학생들이 깨닫게 하는게 중요하다. 왜냐하면, 끝까지 진행하려면 노력이 들고 동기가 필요하기 때문이다. 학교 학생들에게 동기 부여가 되는 한가지는 이 방법을 사용하면 수업시간에 비밀 노트를 학생들 사이에 주고받을 수 있다는 것이다. 설사 선생님이 비밀 노트가 어떻게 암호화되었는지 파악하더라도, 해독을 할 수 없이다.</p>
@@ -132,7 +147,7 @@
 </section>
 <aside class="callout panel panel-info">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-pushpin"></span>워크시트 활동: 키드 크립토 지도 (Kid Krypto Maps)</h4>
+<h4 id="워크시트-활동-키드-크립토-지도-kid-krypto-maps"><span class="glyphicon glyphicon-pushpin"></span>워크시트 활동: 키드 크립토 지도 (Kid Krypto Maps)</h4>
 </div>
 <div class="panel-body">
 <p><img src="img/ch19-public-key/19-public-key-05-kid-krypto-map.png" alt="kid krypto map" width="60%" /></p>
@@ -141,7 +156,7 @@
 </aside>
 <aside class="callout panel panel-info">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-pushpin"></span>워크시트 활동: 키드 크립토 인코딩 (Kid Krypto Encoding)</h4>
+<h4 id="워크시트-활동-키드-크립토-인코딩-kid-krypto-encoding"><span class="glyphicon glyphicon-pushpin"></span>워크시트 활동: 키드 크립토 인코딩 (Kid Krypto Encoding)</h4>
 </div>
 <div class="panel-body">
 <p>지도를 학급에 보여주고, 메시지를 인코딩하는 것을 시연하는데 다음 그림을 사용하세요.</p>
@@ -150,7 +165,7 @@
 </aside>
 <section class="challenge panel panel-success">
 <div class="panel-heading">
-<h4><span class="glyphicon glyphicon-pencil"></span>컴퓨터 과학 핵심 개념</h4>
+<h4 id="컴퓨터-과학-핵심-개념"><span class="glyphicon glyphicon-pencil"></span>컴퓨터 과학 핵심 개념</h4>
 </div>
 <div class="panel-body">
 <p>컴퓨터 네트워크를 통해서 수신자만 제외하고 아무리 똑똑하고 열심히 노력하더라도 관계없이 그 누구도 해독할 수 없는 비밀 메시지를 보내려는 이유가 명확해졌다. 물론 <em>만약</em> 보내는 사람과 받는 사람이 비밀코드를 공유한다면 메시지를 교환할 수 있는 다양한 유형의 방법이 있다. 하지만, 공개키 암호화의 좀더 똑똑한 부문은 애미가 빌에게 비밀 메시지를 사전에 어떠한 비밀 약속도 없이 보낼 수 있다는 것이다. 단지 웹 페이지 같은 공공장소에서 자물쇠를 고르면 된다.</p>
@@ -172,7 +187,7 @@
 <p>소수에 기반한 시스템은 얼마나 안전할까? 글쎄요, 큰 숫자를 인수분해하는 것은 수세기 동안 세상에서 가장 저명한 수학자의 관심을 끌어온 문제다. 모든 가능한 소인수를 시도하는 무작위 방법보다 훨씬 더 나은 방식이 발견되었지만, 아무도 정말 빠른 (즉, 다항시간) 알고리즘을 제시하고 있지는 못하다. (어느 누구도 아직 그런 알고리즘은 불가능하다는 것도 증명하지 못했다.) 그래서 기법이 학교학생-보안 뿐만 아니라 수학자-보안처럼 보인다. 하지만 주의하라: 우리 모두 조심해야 한다. 관광 마을 문제를 풀지 않고 빌의 암호를 해독하는 방식이 있듯이, 큰 숫자를 인수분해하지 않고도 소수 암호를 해킹할 수 있는 방법이 있는지도 모른다. 사람들이 이 문제에 대해서 주의깊이 점검했다. 괜찮아(OK) 보인다.</p>
 <p>또다른 걱정이 만약 단지 몇개 가능한 메시지만 있다면, 침입자가 공개키를 사용해서 메시지를 순차적으로 암호화하고, 실제 메시지와 모든 경우의 수를 비교할 수 있다. 애미의 방법은 이것을 피할 수 있는데, 왜냐하면 무슨 숫자를 골라 코드 값을 더하는지에 따라 동일한 메시지를 암호화하는 방법이 많기 때문이다. 매우 빠른 컴퓨터의 도움을 받아도 시도해 보기에 너무나도 많은 메시지가 있도록 실무에서 사용되는 암호시스템은 설계된다.</p>
 <p>소수 인수분해 문제를 푸는 빠른 방법이 존재하는지 알려져 있지 않다. 어느 누구도 방법을 고안하지도 못했지만, 빠른 방법이 불가능하다고 증명도 되지 않았다. 만약 이 문제에 대한 빠른 알고리즘이 발견된다면, 현재 사용되는 많은 암호화 시스템이 안전하지 않게 될 것이다. 제4부에서 NP-완전 문제를 토론했다. 함께 흥하고 함께 망한다: 만약 문제 중에 하나가 효율적으로 풀 수 있다면 다른 문제도 마찬가지로 풀 수 있어야 한다. 이 문제에 대한 빠른 알고리즘을 찾는데 너무나 많은 (성공하지 못한) 노력이 투여되었기 때문에, 안전한 암호화 시스템을 설계하는데 사용할 훌륭한 후보자처럼 보이다. 슬프게도, 이 계획에는 어려운 점이 있다. 지금까지 암호시스템 설계자는 사실 NP-완전 문제보다 풀기 쉬울 수 있는 (소인수 분해 같은), 어쩌면 훨씬 더 쉬운, 문제에 의지할 수 밖에 없었다. 지금까지 제기된 문제에 대한 해답은 산업계에 수십억원의 가치가 있고, 국가 안보에 극히 중요한 것으로 간주된다. 현재 암호화는 컴퓨터 과학에서 매우 역동적인 연구분야다.&gt;</p>
-<h5>추가 읽기</h5>
+<h5 id="추가-읽기">추가 읽기</h5>
 <p>Harel이 저술한 <em>Algorithmics</em> 책에서 공개키 암호화를 논의한다; 어떻게 매우 큰 소수를 사용해서 안전한 공개키 시스템을 만들어 내는지 설명한다. 암호화에 대한 표준 컴퓨터 과학 교과서는 Dorothy Denning이 저술한 <em>Cryptography and data security</em>이다. 반면에 좀더 실무적인 책은 Bruce Schneier가 저술한 <em>Applied cryptography</em>다. Dewdney가 저술한 <em>Turing Omnibus</em>에는 공개키 암호화하는 또다른 시스템을 기술하고 있다.</p>
 </div>
 </section>
