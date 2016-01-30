@@ -27,7 +27,7 @@ subtitle: 튜링 테스트(Turing test)
 > ### 언플러그드 활동 동영상  {.prereq}
 > | EBS 링크 동영상 | 언플러드그 동영상 |
 > :---------------------------------: | :-------------:|
-> | <iframe width="560" height="315" src="https://www.youtube.com/embed/P9bdAzejEWE" frameborder="0" allowfullscreen></iframe> |  |
+> | [<img src="../code/turing.jpg" width="100%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363385) | 찾고 있음 |
 
 
 > ### 컴퓨터와 대화하기  {.objectives}

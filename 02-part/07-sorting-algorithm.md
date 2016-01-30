@@ -32,7 +32,7 @@ subtitle: 정렬 알고리즘
 > ### 언플러그드 활동 동영상  {.prereq}
 > | EBS 링크 동영상 | 언플러드그 동영상 |
 > :---------------------------------: | :-------------:|
-> | <iframe width="560" height="315" src="https://www.youtube.com/embed/L4U2i462Ozo" frameborder="0" allowfullscreen></iframe> | <iframe width="350" height="260" src="https://www.youtube.com/embed/cVMKXKoGu_Y" frameborder="0" allowfullscreen> </iframe> |
+> | [<img src="../code/sorting.jpg" width="100%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363390) | <iframe width="350" height="260" src="https://www.youtube.com/embed/cVMKXKoGu_Y" frameborder="0" allowfullscreen> </iframe> |
 
 
 

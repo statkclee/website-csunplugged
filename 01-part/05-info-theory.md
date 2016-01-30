@@ -36,9 +36,8 @@ subtitle: 정보 이론
 
 > ### 언플러그드 활동 동영상  {.prereq}
 > | EBS 링크 동영상 | 언플러드그 동영상 |
-> |:------------------------------------------------------------------:|:------------------------------------------------------------------:|
-> | <iframe width="350" src="https://www.youtube.com/embed/2LWknQ-FkGI" frameborder="0" allowfullscreen></iframe>
- |  |
+> :---------------------------------: | :-------------:|
+> | [<img src="../code/info.jpg" width="100%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363386) | 찾고 있음 |
 
 
 > ### 질문 20개 {.objectives}

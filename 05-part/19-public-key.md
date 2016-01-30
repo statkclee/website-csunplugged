@@ -34,9 +34,9 @@ subtitle: 공개키 암호화(Public-key encryption)
 >     - 다이어그램에 주석 다는 방법.  
 
 > ### 언플러그드 활동 동영상  {.prereq}
-> | 한글 동영상 | 영어 동영상 |
+> | EBS 링크 동영상 | 언플러드그 동영상 |
 > :---------------------------------: | :-------------:|
-> | 애타게 찾고 있습니다. | <iframe width="350" height="260" src="https://www.youtube.com/embed/jJrICB_HvuI" frameborder="0" allowfullscreen> </iframe> |
+> | [<img src="../code/crypto.jpg" width="100%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363435) | <iframe width="350" height="260" src="https://www.youtube.com/embed/jJrICB_HvuI" frameborder="0" allowfullscreen> </iframe> |
 
 
 > ### 키드 크립토 (Kid Krypto)  {.objectives}

@@ -30,9 +30,9 @@ subtitle: 텍스트 압축
 > -- 워크시트 활동: 심화 문제 (상급자) 
 
 > ### 언플러그드 활동 동영상  {.prereq}
-> | 한글 동영상 | 영어 동영상 |
+> | EBS 링크 동영상 | 영어 동영상 |
 > :---------------------------------: | :-------------:|
-> | 애타게 찾고 있습니다. | <iframe width="350" height="260" src="https://www.youtube.com/embed/VsjpPs146d8?list=PLG2oQ9v7R96GBkux2Sl_5Lje9KjSgmtPU" frameborder="0" allowfullscreen> </iframe>|
+> | [<img src="../code/compress.jpg" width="100%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363436) | <iframe width="350" height="260" src="https://www.youtube.com/embed/VsjpPs146d8?list=PLG2oQ9v7R96GBkux2Sl_5Lje9KjSgmtPU" frameborder="0" allowfullscreen> </iframe>|
 
 
 > ### 다시 말할 수 있어요!  {.objectives}

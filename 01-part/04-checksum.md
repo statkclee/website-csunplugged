@@ -29,9 +29,9 @@ subtitle: 오류 탐지 및 수정
 > - 한쪽 면만 색칠된 똑같은 카드 36개
 
 > ### 언플러그드 활동 동영상  {.prereq}
-> | 한글 동영상 | 영어 동영상 |
+> | EBS 링크 동영상 | 영어 동영상 |
 > :---------------------------------: | :-------------:|
-> | <iframe width="350" height="260" src="https://www.youtube.com/embed/W5shajbax9o" frameborder="0" allowfullscreen></iframe> | <iframe width="350" height="260" src="https://www.youtube.com/embed/-35-sPTYPJg" frameborder="0" allowfullscreen></iframe>|
+> | [<img src="../code/error.jpg" width="100%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363437) | <iframe width="350" height="260" src="https://www.youtube.com/embed/-35-sPTYPJg" frameborder="0" allowfullscreen></iframe>|
 
 
 > ### 마술 {.objectives}

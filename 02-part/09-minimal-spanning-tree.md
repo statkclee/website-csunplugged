@@ -26,7 +26,7 @@ subtitle: 최소생성나무(Minimal Spanning Trees)
 > ### 언플러그드 활동 동영상  {.prereq}
 > | EBS 링크 동영상 | 언플러드그 동영상 |
 > :---------------------------------: | :-------------:|
-> | <iframe width="300" src="https://www.youtube.com/embed/tZu4x5825LI" frameborder="0" allowfullscreen></iframe> |  |
+> | [<img src="../code/spanning.jpg" width="100%" />](http://www.ebs.co.kr/tv/show?prodId=6785&lectId=10363413) | 찾고 있음 |
 
 
 
